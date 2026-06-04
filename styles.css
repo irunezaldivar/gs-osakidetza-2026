@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; }
+.option { display:block; margin:8px 0; padding:10px; border:1px solid #ddd; cursor:pointer; border-radius:8px; }
+.correct { background:#e6ffed; border-color:#16a34a; }
+.wrong { background:#ffeaea; border-color:#dc2626; }
+#explanation { margin-top:12px; }
+#footer { margin-top:20px; display:flex; gap:12px; align-items:center; }
