@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Test de práctica</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; }
+    .option { display:block; margin:8px 0; padding:10px; border:1px solid #ddd; cursor:pointer; border-radius:8px; }
+    .correct { background:#e6ffed; border-color:#16a34a; }
+    .wrong { background:#ffeaea; border-color:#dc2626; }
+    #explanation { margin-top:12px; }
+    #footer { margin-top:20px; display:flex; gap:12px; align-items:center; }
+  </style>
+</head>
+<body>
+  <h1>Test de práctica</h1>
+  <div id="score"></div>
+  <h2 id="question"></h2>
+  <div id="options"></div>
+  <div id="explanation"></div>
+  <div id="footer">
+    <button id="next">Siguiente</button>
+    <label><input type="checkbox" id="shuffle"> Aleatorio</label>
+  </div>
+
+  <script>
+    let questions = [];
+    let idx = 0, correctCount = 0, answered = false;
+
+    async function load() {
+		questions = [
+			{
+				text: "De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
+				options: [
+					"El PC Wozniak.",
+					"IBM PC.",
+					"Motorola PC 68K.",
+					"Zilog Z c80"],
+				correct: "B",
+				explanation: "El IBM PC (modelo 5150), lanzado en 1981, se convirtió en el estándar de la industria de la computación personal y logró un éxito comercial masivo que definió el mercado arquitectónico de los ordenadores actuales (arquitectura x86). Las otras opciones mezclan componentes o procesadores sueltos (como el Zilog Z80 o arquitecturas Motorola) que no se corresponden con esos nombres de ordenadores comerciales exitosos."
+			},
+			{
+				text: "¿Qué material se emplea para fabricar un microprocesador?",
+				options: [
+					"Aluminio.",
+					"Galenio.",
+					"Silicio.",
+					"Todas las anteriores son correctas."],
+				correct: "C",
+				explanation: "El silicio es el material semiconductor por excelencia utilizado para fabricar los transistores que componen los microprocesadores en los circuitos integrados. El aluminio se ha usado para las pistas de interconexión interna, pero el material base y fundamental de fabricación del chip es el silicio."
+			},
+			{
+				text: "¿Qué son FPM y BEDO?",
+				options: [
+					"Tipos de memoria RAM.",
+					"Tipos de zócalo para microprocesador.",
+					"Ranuras de memoria.",
+					"Tipos de disco duro."],
+				correct: "A",
+				explanation: "FPM (Fast Page Mode) y BEDO (Burst Extended Data Output) son tecnologías antiguas de memoria RAM de tipo dinámico (DRAM) que se utilizaban a mediados de la década de los 90 (principalmente en la época de los procesadores Intel 486 y los primeros Pentium)."
+			},
+			{
+				text: "Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
+				options: [
+					"Tipos de firmware que están incorporados en un chip de la placa base.",
+					"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
+					"Ofrecen una interfaz gráfica para configurar parámetros básicos.",
+					"Todas las anteriores son correctas."],
+				correct: "D",
+				explanation: "Las tres afirmaciones son verdaderas: tanto la BIOS como la UEFI van integradas en un chip de memoria no volátil (Flash) en la placa base (a), realizan las funciones de arranque (POST) y el control básico de entrada/salida (b), y las versiones modernas (especialmente UEFI) destacan por ofrecer interfaces gráficas de usuario configurables (c)."
+			},
+			{
+				text: "¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
+				options: [
+					"La CPU.",
+					"La GPU.",
+					"La TFPU.",
+					"NINGUNA de las anteriores es correcta."],
+				correct: "B",
+				explanation: "La GPU (Graphics Processing Unit o Unidad de Procesamiento Gráfico) es un coprocesador dedicado específicamente al procesamiento de gráficos y funciones de coma flotante para aligerar la carga de trabajo de la CPU central en tareas visuales y de pantalla."
+			}
+		];
+      if (document.getElementById('shuffle').checked) shuffle(questions);
+      idx = 0; correctCount = 0;
+      render();
+    }
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+
+    function render() {
+      answered = false;
+      const q = questions[idx];
+      document.getElementById('score').textContent = `Puntuación: ${correctCount}/${idx}`;
+      document.getElementById('question').textContent = q.text;
+      const optionsDiv = document.getElementById('options');
+      optionsDiv.innerHTML = '';
+      const letters = ['A','B','C','D'];
+      const opts = q.options.map((t,i)=>({ key: letters[i], text: t }));
+      // Opcional: aleatorizar opciones
+      // shuffle(opts);
+      opts.forEach(o=>{
+        const btn = document.createElement('button');
+        btn.className = 'option';
+        btn.textContent = `${o.key}. ${o.text}`;
+        btn.onclick = () => select(o.key, q.correct, q.explanation, btn);
+        optionsDiv.appendChild(btn);
+      });
+      document.getElementById('explanation').textContent = '';
+    }
+
+    function select(choice, correct, explanation, btn) {
+      if (answered) return;
+      answered = true;
+      const buttons = document.querySelectorAll('.option');
+      buttons.forEach(b => b.disabled = true);
+      if (choice === correct) {
+        btn.classList.add('correct');
+        correctCount++;
+      } else {
+        btn.classList.add('wrong');
+        // marca también la correcta
+        buttons.forEach(b => {
+          if (b.textContent.startsWith(correct + '.')) b.classList.add('correct');
+        });
+      }
+      document.getElementById('explanation').textContent = explanation || '';
+      document.getElementById('score').textContent = `Puntuación: ${correctCount}/${idx+1}`;
+    }
+
+    document.getElementById('next').onclick = () => {
+      idx = (idx + 1) % questions.length;
+      render();
+    };
+    document.getElementById('shuffle').onchange = load;
+
+    load();
+  </script>
+</body>
+</html>
