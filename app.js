@@ -78,7 +78,9 @@ function render() {
 	const ramaTexto =
 		ramaSeleccionada === "informatica"
 			? "Informática"
-			: "Trabajo Social";
+			: ramaSeleccionada === "trabajosocial"
+				? "Trabajo Social"
+				: "Cocina";
 
 	const temarioTexto =
 		temarioSeleccionado === "general"
@@ -183,6 +185,12 @@ document.getElementById('btn-informatica').onclick = () => {
 document.getElementById('btn-trabajosocial').onclick = () => {
 
     ramaSeleccionada = "trabajosocial";
+    mostrarPantalla('screen-temario');
+};
+
+document.getElementById('btn-cocina').onclick = () => {
+
+    ramaSeleccionada = "cocina";
     mostrarPantalla('screen-temario');
 };
 
