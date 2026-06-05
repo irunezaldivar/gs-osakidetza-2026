@@ -8,13 +8,47 @@ let idx = 0;
 let correctCount = 0;
 let answered = false;
 
-let questions = [];
-let idx = 0, correctCount = 0, answered = false;
+const screens = [
+    'screen-rama',
+    'screen-temario',
+    'screen-test'
+];
+
+function mostrarPantalla(nombre) {
+
+    screens.forEach(id => {
+        document.getElementById(id).style.display = 'none';
+    });
+
+    if (nombre === 'screen-test') {
+        document.getElementById(nombre).style.display = 'block';
+    }
+	else {
+        document.getElementById(nombre).style.display = 'flex';
+    }
+}
 
 async function load() {
-	
-	const response = await fetch('questions.json');
-	allQuestions = await response.json();
+
+    try {
+
+        const response = await fetch('questions.json');
+
+		if (!response.ok) {
+			throw new Error(`HTTP ${response.status}`);
+		}
+
+		allQuestions = await response.json();
+        document.getElementById('loading').style.display = 'none';
+        mostrarPantalla('screen-rama');
+    }
+	catch(error) {
+
+        console.error(error);
+
+        document.getElementById('loading').innerHTML =
+            '<h2>Error cargando questions.json</h2>';
+    }
 }
 
 function shuffle(arr) {
@@ -39,9 +73,21 @@ function render() {
 	
 	const progress = ((idx + 1) / questions.length) * 100;
 	document.getElementById("progress-bar").style.width = `${progress}%`;
+	document.getElementById('score').textContent = `Puntuación: ${correctCount}/${idx + 1}`;
 	
-	document.getElementById('score').textContent = `Puntuación: ${correctCount}/${idx}`;
-	document.getElementById('info').textContent = `${ramaSeleccionada} - ${temarioSeleccionado} | Pregunta ${idx + 1} de ${questions.length}`;
+	const ramaTexto =
+		ramaSeleccionada === "informatica"
+			? "Informática"
+			: "Trabajo Social";
+
+	const temarioTexto =
+		temarioSeleccionado === "general"
+			? "General"
+			: temarioSeleccionado === "especifico"
+				? "Específico"
+				: "Completo";
+
+	document.getElementById('info').textContent = `${ramaTexto} · ${temarioTexto} · Pregunta ${idx + 1} de ${questions.length}`;
 	document.getElementById('question').textContent = q.text;
 	
 	const optionsDiv = document.getElementById('options');
@@ -49,18 +95,16 @@ function render() {
 	const letters = ['A','B','C','D'];
 	const opts = q.options.map((t,i)=>({ key: letters[i], text: t }));
 	
-	// Opcional: aleatorizar opciones
-	// shuffle(opts);
-	
 	opts.forEach(o => {
 		const btn = document.createElement('button');
 		
-		btn.className = 'w-full text-left p-4 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 transition';
+		btn.className = 'option w-full text-left p-4 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 transition';
 		btn.textContent = `${o.key}. ${o.text}`;
 		btn.onclick = () => select(o.key, q.correct, q.explanation, btn);
 		
 		optionsDiv.appendChild(btn);
 	});
+	
 	document.getElementById('explanation').textContent = '';
 }
 
@@ -84,19 +128,30 @@ function select(choice, correct, explanation, btn) {
 		// marca también la correcta
 		buttons.forEach(b => {
 			
-			if (b.textContent.startsWith(correct + '.')) b.classList.add('correct');
+			if (b.textContent.startsWith(correct + '.'))
+				b.classList.add('bg-green-100', 'border-green-600');
 		});
 	}
+	
 	document.getElementById('explanation').textContent = explanation || '';
 	document.getElementById('score').textContent = `Puntuación: ${correctCount}/${idx+1}`;
 }
 
-document.getElementById('next').onclick = () => 
-{
-	idx = (idx + 1) % questions.length;
-	render();
+document.getElementById('next').onclick = () => {
+
+    if (idx >= questions.length - 1) {
+
+        alert(
+            `Test finalizado\n\nAciertos: ${correctCount}/${questions.length}`
+        );
+
+        return;
+    }
+
+    idx++;
+
+    render();
 };
-document.getElementById('shuffle').onchange = load;
 
 load();
 
@@ -114,8 +169,7 @@ function startTest() {
     idx = 0;
     correctCount = 0;
 
-    document.getElementById('screen-temario').style.display = 'none';
-    document.getElementById('screen-test').style.display = 'block';
+    mostrarPantalla('screen-test');
 
     render();
 }
@@ -123,17 +177,13 @@ function startTest() {
 document.getElementById('btn-informatica').onclick = () => {
 
     ramaSeleccionada = "informatica";
-
-    document.getElementById('screen-rama').style.display = 'none';
-    document.getElementById('screen-temario').style.display = 'block';
+    mostrarPantalla('screen-temario');
 };
 
 document.getElementById('btn-trabajosocial').onclick = () => {
 
     ramaSeleccionada = "trabajosocial";
-
-    document.getElementById('screen-rama').style.display = 'none';
-    document.getElementById('screen-temario').style.display = 'block';
+    mostrarPantalla('screen-temario');
 };
 
 document.getElementById('btn-general').onclick = () => {
@@ -152,4 +202,28 @@ document.getElementById('btn-completo').onclick = () => {
 
     temarioSeleccionado = "completo";
     startTest();
+};
+
+document.getElementById('btn-volver-rama').onclick = () => {
+
+    mostrarPantalla('screen-rama');
+};
+
+document.getElementById('btn-volver-menu').onclick = () => {
+
+    if (confirm("¿Quieres abandonar el test actual?")) {
+
+		questions = [];
+
+		idx = 0;
+		correctCount = 0;
+
+		document.getElementById('options').innerHTML = '';
+		document.getElementById('question').textContent = '';
+		document.getElementById('score').textContent = '';
+		document.getElementById('info').textContent = '';
+		document.getElementById('explanation').textContent = '';
+
+		mostrarPantalla('screen-rama');
+	}
 };

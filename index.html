@@ -9,7 +9,21 @@
 	</head>
 	<body>
 	
-		<div id="screen-rama" class="min-h-screen flex items-center justify-center bg-slate-100 p-4">
+		<div id="loading" class="min-h-screen flex items-center justify-center bg-slate-100">
+			<div class="bg-white rounded-2xl shadow-md p-8">
+				<div class="flex flex-col items-center gap-4">
+
+					<div class="animate-spin rounded-full h-10 w-10 border-4 border-slate-300 border-t-slate-900"></div>
+
+					<h2 class="text-xl font-semibold">
+						Cargando preguntas...
+					</h2>
+
+				</div>
+			</div>
+		</div>
+	
+		<div id="screen-rama" style="display:none;" class="min-h-screen flex items-center justify-center bg-slate-100 p-4">
 			<div class="bg-white rounded-2xl shadow-md p-8 w-full max-w-md">
 
 				<h1 class="text-2xl font-bold mb-6 text-center">
@@ -30,18 +44,40 @@
 
 			</div>
 		</div>
-
-		<div id="screen-temario" style="display:none;">
 		
-			<h1>Selecciona temario</h1>
+		<div id="screen-temario" style="display:none;" class="min-h-screen flex items-center justify-center bg-slate-100 p-4">
+			<div class="bg-white rounded-2xl shadow-md p-8 w-full max-w-md">
 
-			<button id="btn-general">Temario General</button>
-			<button id="btn-especifico">Temario Específico</button>
-			<button id="btn-completo">Temario Completo</button>
-			
+				<h1 class="text-2xl font-bold mb-6 text-center">
+					Selecciona temario
+				</h1>
+
+				<div class="space-y-4">
+
+					<button id="btn-general" class="w-full p-4 rounded-xl bg-slate-700 text-white">
+						Temario General
+					</button>
+
+					<button id="btn-especifico" class="w-full p-4 rounded-xl bg-slate-900 text-white">
+						Temario Específico
+					</button>
+
+					<button id="btn-completo" class="w-full p-4 rounded-xl border border-slate-300">
+						Temario Completo
+					</button>
+					
+					<div class="mt-6">
+						<button id="btn-volver-rama" class="w-full p-4 rounded-xl border border-slate-300">
+							Volver
+						</button>
+					</div>
+
+				</div>
+
+			</div>
 		</div>
 
-		<div id="screen-test" class="hidden min-h-screen bg-slate-100 p-4">
+		<div id="screen-test" style="display:none;" class="min-h-screen bg-slate-100 p-4">
 			<div class="max-w-3xl mx-auto">
 				<div class="bg-white rounded-2xl shadow-md p-6">
 
@@ -56,12 +92,20 @@
 					<div id="options" class="space-y-3"></div>
 					<div id="explanation" class="mt-6 p-4 rounded-xl bg-slate-50 text-slate-700"></div>
 
-					<div class="mt-6">
-						<button id="next" class="w-full md:w-auto px-6 py-3 rounded-xl bg-slate-900 text-white">
+					<div class="mt-6 flex gap-3">
+
+						<button id="btn-volver-menu"
+								class="px-6 py-3 rounded-xl border border-slate-300">
+							Menú principal
+						</button>
+
+						<button id="next"
+								class="flex-1 px-6 py-3 rounded-xl bg-slate-900 text-white">
 							Siguiente
 						</button>
-					</div>
 
+					</div>
+					
 				</div>
 			</div>
 		</div>
