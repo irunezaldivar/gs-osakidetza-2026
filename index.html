@@ -1,20 +1,72 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <title>Test de práctica</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>Test de práctica</h1>
-  <div id="score"></div>
-  <h2 id="question"></h2>
-  <div id="options"></div>
-  <div id="explanation"></div>
-  <div id="footer">
-    <button id="next">Siguiente</button>
-    <label><input type="checkbox" id="shuffle"> Aleatorio</label>
-  </div>
-  <script src="app.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<title>Test de práctica</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	
+		<div id="screen-rama" class="min-h-screen flex items-center justify-center bg-slate-100 p-4">
+			<div class="bg-white rounded-2xl shadow-md p-8 w-full max-w-md">
+
+				<h1 class="text-2xl font-bold mb-6 text-center">
+					¿Qué quieres estudiar?
+				</h1>
+
+				<div class="space-y-4">
+
+					<button id="btn-informatica" class="w-full p-4 rounded-xl bg-slate-900 text-white">
+						Informática
+					</button>
+
+					<button id="btn-trabajosocial" class="w-full p-4 rounded-xl bg-slate-700 text-white">
+						Trabajo Social
+					</button>
+
+				</div>
+
+			</div>
+		</div>
+
+		<div id="screen-temario" style="display:none;">
+		
+			<h1>Selecciona temario</h1>
+
+			<button id="btn-general">Temario General</button>
+			<button id="btn-especifico">Temario Específico</button>
+			<button id="btn-completo">Temario Completo</button>
+			
+		</div>
+
+		<div id="screen-test" class="hidden min-h-screen bg-slate-100 p-4">
+			<div class="max-w-3xl mx-auto">
+				<div class="bg-white rounded-2xl shadow-md p-6">
+
+					<div id="score" class="text-sm text-slate-500 mb-2"></div>
+					<div id="info" class="text-sm font-medium text-slate-600 mb-6"></div>
+				
+					<div class="w-full bg-slate-200 rounded-full h-3 mb-6">
+						<div id="progress-bar" class="bg-slate-900 h-3 rounded-full" style="width:0%"></div>
+					</div>
+					
+					<h2 id="question" class="text-xl md:text-2xl font-semibold mb-6"></h2>
+					<div id="options" class="space-y-3"></div>
+					<div id="explanation" class="mt-6 p-4 rounded-xl bg-slate-50 text-slate-700"></div>
+
+					<div class="mt-6">
+						<button id="next" class="w-full md:w-auto px-6 py-3 rounded-xl bg-slate-900 text-white">
+							Siguiente
+						</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+		
+	</body>
 </html>
