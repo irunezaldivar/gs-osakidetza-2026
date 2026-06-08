@@ -87,6 +87,10 @@ async function load() {
 				return q.temario === temarioSeleccionado;
 			});
 
+			if (idx >= questions.length) {
+				idx = 0;
+			}
+
 			mostrarPantalla('screen-test');
 			render();
 			return;
@@ -126,14 +130,18 @@ function render() {
 				? "TRABAJADOR/A SOCIAL"
 				: ramaSeleccionada === "cocina"
 					? "COCINERO/A"
-					: "TÉCNICO/A SUPERIOR NORMALIZACIÓN DE EUSKERA";
+					: ramaSeleccionada === "normalizacion"
+						? "TÉCNICO/A SUPERIOR NORMALIZACIÓN DE EUSKERA"
+						: "REPASO DE FALLADAS";
 
 	const temarioTexto =
 		temarioSeleccionado === "general"
 			? "GENERAL"
 			: temarioSeleccionado === "especifico"
 				? "ESPECÍFICO"
-				: "COMPLETO";
+				: temarioSeleccionado === "completo"
+					? "COMPLETO"
+					: "FALLADAS";
 
 	document.getElementById('info').textContent = `${ramaTexto} · ${temarioTexto} · Pregunta ${idx + 1} de ${questions.length}`;
 	document.getElementById('question').textContent = q.text;
@@ -149,7 +157,7 @@ function render() {
 		
 		btn.className = 'option w-full text-left p-4 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 transition';
 		btn.textContent = `${o.key}. ${o.text}`;
-		btn.onclick = () => select(o.key, q.correct, q.explanation, btn);
+		btn.onclick = () => select(o.key, q.correct, q.explanation, btn, q.id);
 		
 		optionsDiv.appendChild(btn);
 	});
@@ -157,7 +165,7 @@ function render() {
 	document.getElementById('explanation').textContent = '';
 }
 
-function select(choice, correct, explanation, btn) {
+function select(choice, correct, explanation, btn, questionId) {
 	
 	if (answered) return;
 	answered = true;
@@ -171,8 +179,12 @@ function select(choice, correct, explanation, btn) {
 		correctCount++;
 	} 
 	else {
+
 		wrongCount++;
-		wrongQuestions.push(q.id);
+
+		if (!wrongQuestions.includes(questionId)) {
+			wrongQuestions.push(questionId);
+		}
 
 		btn.classList.add('bg-red-100', 'border-red-600');
 		
@@ -198,9 +210,16 @@ document.getElementById('next').onclick = () => {
     }
 
     if (idx >= questions.length - 1) {
-        alert(`Test finalizado\n\nAciertos: ${correctCount}/${questions.length}`);
-        return;
-    }
+
+		alert(
+			`Test finalizado\n\nAciertos: ${correctCount}/${questions.length}`
+		);
+
+    	localStorage.removeItem('oposiciones');
+
+		mostrarPantalla('screen-rama');
+		return;
+	}
 
 	saveProgress();
 
@@ -229,6 +248,7 @@ function startTest() {
     idx = 0;
     correctCount = 0;
 	wrongCount = 0;
+	answered = false;
 
 	if (questions.length === 0) {
         alert("No hay preguntas para esta selección");
@@ -294,6 +314,7 @@ document.getElementById('btn-volver-menu').onclick = () => {
 		document.getElementById('info').textContent = '';
 		document.getElementById('explanation').textContent = '';
 
+		localStorage.removeItem('oposiciones');
 		mostrarPantalla('screen-rama');
 	}
 };
@@ -315,6 +336,11 @@ document.getElementById('btn-falladas').onclick = () => {
     correctCount = 0;
     wrongCount = 0;
 
+	ramaSeleccionada = "repaso";
+	temarioSeleccionado = "falladas";
+
     mostrarPantalla('screen-test');
     render();
+
+	saveProgress();
 };
