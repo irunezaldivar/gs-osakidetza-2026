@@ -1,11 +1,13 @@
 let allQuestions = [];
 let questions = [];
+let wrongQuestions = [];
 
 let ramaSeleccionada = "";
 let temarioSeleccionado = "";
 
 let idx = 0;
 let correctCount = 0;
+let wrongCount = 0;
 let answered = false;
 
 const screens = ['screen-rama', 'screen-temario', 'screen-test'];
@@ -108,11 +110,14 @@ function select(choice, correct, explanation, btn) {
 	buttons.forEach(b => b.disabled = true);
 	
 	if (choice === correct) {
-		
+
 		btn.classList.add('bg-green-100', 'border-green-600');
 		correctCount++;
 	} 
 	else {
+		wrongCount++;
+		wrongQuestions.push(q.id);
+
 		btn.classList.add('bg-red-100', 'border-red-600');
 		
 		// marca también la correcta
@@ -124,7 +129,7 @@ function select(choice, correct, explanation, btn) {
 	}
 
 	document.getElementById('explanation').textContent = explanation || '';
-	document.getElementById('score').textContent = `Puntuación: ${correctCount}/${idx+1}`;
+	document.getElementById('score').textContent = `✔️ ${correctCount} · ❌ ${wrongCount}`;
 }
 
 document.getElementById('next').onclick = () => {
@@ -163,6 +168,7 @@ function startTest() {
 
     idx = 0;
     correctCount = 0;
+	wrongCount = 0;
 
 	if (questions.length === 0) {
         alert("No hay preguntas para esta selección");
@@ -228,4 +234,25 @@ document.getElementById('btn-volver-menu').onclick = () => {
 
 		mostrarPantalla('screen-rama');
 	}
+};
+
+document.getElementById('btn-falladas').onclick = () => {
+
+    questions = allQuestions.filter(q =>
+        wrongQuestions.includes(q.id)
+    );
+
+    if (questions.length === 0) {
+        alert("Todavía no tienes preguntas falladas");
+        return;
+    }
+
+    shuffle(questions);
+
+    idx = 0;
+    correctCount = 0;
+    wrongCount = 0;
+
+    mostrarPantalla('screen-test');
+    render();
 };
