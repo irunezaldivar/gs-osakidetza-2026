@@ -26,6 +26,42 @@ function mostrarPantalla(nombre) {
     }
 }
 
+function saveProgress() {
+
+    localStorage.setItem('oposiciones', JSON.stringify({
+
+            ramaSeleccionada,
+            temarioSeleccionado,
+
+            idx,
+
+            correctCount,
+            wrongCount,
+
+            wrongQuestions
+        })
+    );
+}
+
+function loadProgress() {
+
+    const saved = localStorage.getItem('oposiciones');
+
+    if (!saved) return;
+
+    const data = JSON.parse(saved);
+
+    ramaSeleccionada = data.ramaSeleccionada;
+    temarioSeleccionado = data.temarioSeleccionado;
+
+    idx = data.idx || 0;
+
+    correctCount = data.correctCount || 0;
+    wrongCount = data.wrongCount || 0;
+
+    wrongQuestions = data.wrongQuestions || [];
+}
+
 async function load() {
 
     try {
@@ -36,6 +72,26 @@ async function load() {
 		}
 
 		allQuestions = await response.json();
+		loadProgress();
+
+		if (ramaSeleccionada && temarioSeleccionado) {
+
+			questions = allQuestions.filter(q => {
+
+				if (!q.rama.includes(ramaSeleccionada))
+					return false;
+
+				if (temarioSeleccionado === "completo")
+					return true;
+
+				return q.temario === temarioSeleccionado;
+			});
+
+			mostrarPantalla('screen-test');
+			render();
+			return;
+		}
+
         document.getElementById('loading').style.display = 'none';
         mostrarPantalla('screen-rama');
     }
@@ -130,6 +186,8 @@ function select(choice, correct, explanation, btn) {
 
 	document.getElementById('explanation').textContent = explanation || '';
 	document.getElementById('score').textContent = `✔️ ${correctCount} · ❌ ${wrongCount}`;
+
+	saveProgress();
 }
 
 document.getElementById('next').onclick = () => {
@@ -143,6 +201,8 @@ document.getElementById('next').onclick = () => {
         alert(`Test finalizado\n\nAciertos: ${correctCount}/${questions.length}`);
         return;
     }
+
+	saveProgress();
 
     idx++;
     render();
@@ -177,6 +237,8 @@ function startTest() {
 
     mostrarPantalla('screen-test');
     render();
+
+	saveProgress();
 }
 
 document.getElementById('btn-normalizacion').onclick = () => {
