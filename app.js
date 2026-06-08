@@ -77,17 +77,19 @@ function render() {
 	
 	const ramaTexto =
 		ramaSeleccionada === "informatica"
-			? "Informática"
+			? "TÉCNICO/A ESPECIALISTA INFORMÁTICA"
 			: ramaSeleccionada === "trabajosocial"
-				? "Trabajo Social"
-				: "Cocina";
+				? "TRABAJADOR/A SOCIAL"
+				: ramaSeleccionada === "cocina"
+					? "COCINERO/A"
+					: "TÉCNICO/A SUPERIOR NORMALIZACIÓN DE EUSKERA";
 
 	const temarioTexto =
 		temarioSeleccionado === "general"
-			? "General"
+			? "GENERAL"
 			: temarioSeleccionado === "especifico"
-				? "Específico"
-				: "Completo";
+				? "ESPECÍFICO"
+				: "COMPLETO";
 
 	document.getElementById('info').textContent = `${ramaTexto} · ${temarioTexto} · Pregunta ${idx + 1} de ${questions.length}`;
 	document.getElementById('question').textContent = q.text;
@@ -161,7 +163,7 @@ function startTest() {
 
     questions = allQuestions.filter(q => {
 
-        if (q.rama !== ramaSeleccionada) return false;
+        if (!q.rama.includes(ramaSeleccionada)) return false;
         if (temarioSeleccionado === "completo") return true;
         return q.temario === temarioSeleccionado;
     });
@@ -176,9 +178,9 @@ function startTest() {
     render();
 }
 
-document.getElementById('btn-informatica').onclick = () => {
+document.getElementById('btn-normalizacion').onclick = () => {
 
-    ramaSeleccionada = "informatica";
+    ramaSeleccionada = "normalizacion";
     mostrarPantalla('screen-temario');
 };
 
@@ -191,6 +193,12 @@ document.getElementById('btn-trabajosocial').onclick = () => {
 document.getElementById('btn-cocina').onclick = () => {
 
     ramaSeleccionada = "cocina";
+    mostrarPantalla('screen-temario');
+};
+
+document.getElementById('btn-informatica').onclick = () => {
+
+    ramaSeleccionada = "informatica";
     mostrarPantalla('screen-temario');
 };
 

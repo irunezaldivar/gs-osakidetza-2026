@@ -1,9 +1,9 @@
 [
 	{
 		"id": 101001,
-		"rama": "informatica",
+		"rama": ["normalizacion", "trabajosocial"],
 		"temario": "general",
-		"text": "IG De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
+		"text": "1G De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
 		"options": [
 			"El PC Wozniak.",
 			"IBM PC.",
@@ -14,9 +14,9 @@
 	},
 	{
 		"id": 101002,
-		"rama": "informatica",
+		"rama": ["normalizacion", "trabajosocial"],
 		"temario": "general",
-		"text": "IG ¿Qué material se emplea para fabricar un microprocesador?",
+		"text": "1G ¿Qué material se emplea para fabricar un microprocesador?",
 		"options": [
 			"Aluminio.",
 			"Galenio.",
@@ -27,9 +27,9 @@
 	},
 	{
 		"id": 101003,
-		"rama": "informatica",
+		"rama": ["normalizacion", "trabajosocial"],
 		"temario": "general",
-		"text": "IG ¿Qué son FPM y BEDO?",
+		"text": "1G ¿Qué son FPM y BEDO?",
 		"options": [
 			"Tipos de memoria RAM.",
 			"Tipos de zócalo para microprocesador.",
@@ -40,9 +40,9 @@
 	},
 	{
 		"id": 101004,
-		"rama": "informatica",
+		"rama": ["normalizacion", "trabajosocial"],
 		"temario": "general",
-		"text": "IG Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
+		"text": "1G Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
 		"options": [
 			"Tipos de firmware que están incorporados en un chip de la placa base.",
 			"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
@@ -53,9 +53,9 @@
 	},
 	{
 		"id": 101005,
-		"rama": "informatica",
+		"rama": ["normalizacion", "trabajosocial"],
 		"temario": "general",
-		"text": "IG ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
+		"text": "1G ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
 		"options": [
 			"La CPU.",
 			"La GPU.",
@@ -66,9 +66,9 @@
 	},
 	{
 		"id": 102001,
-		"rama": "informatica",
-		"temario": "especifico",
-		"text": "De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
+		"rama": ["informatica", "cocina"],
+		"temario": "general",
+		"text": "2G De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
 		"options": [
 			"El PC Wozniak.",
 			"IBM PC.",
@@ -79,9 +79,9 @@
 	},
 	{
 		"id": 102002,
-		"rama": "informatica",
-		"temario": "especifico",
-		"text": "¿Qué material se emplea para fabricar un microprocesador?",
+		"rama": ["informatica", "cocina"],
+		"temario": "general",
+		"text": "2G ¿Qué material se emplea para fabricar un microprocesador?",
 		"options": [
 			"Aluminio.",
 			"Galenio.",
@@ -92,9 +92,9 @@
 	},
 	{
 		"id": 102003,
-		"rama": "informatica",
-		"temario": "especifico",
-		"text": "¿Qué son FPM y BEDO?",
+		"rama": ["informatica", "cocina"],
+		"temario": "general",
+		"text": "2G ¿Qué son FPM y BEDO?",
 		"options": [
 			"Tipos de memoria RAM.",
 			"Tipos de zócalo para microprocesador.",
@@ -105,9 +105,9 @@
 	},
 	{
 		"id": 102004,
-		"rama": "informatica",
-		"temario": "especifico",
-		"text": "Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
+		"rama": ["informatica", "cocina"],
+		"temario": "general",
+		"text": "2G Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
 		"options": [
 			"Tipos de firmware que están incorporados en un chip de la placa base.",
 			"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
@@ -118,9 +118,9 @@
 	},
 	{
 		"id": 102005,
-		"rama": "informatica",
-		"temario": "especifico",
-		"text": "¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
+		"rama": ["informatica", "cocina"],
+		"temario": "general",
+		"text": "2G ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
 		"options": [
 			"La CPU.",
 			"La GPU.",
@@ -131,9 +131,9 @@
 	},
 	{
 		"id": 201001,
-		"rama": "trabajosocial",
-		"temario": "general",
-		"text": "TG De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
+		"rama": "normalizacion",
+		"temario": "especifico",
+		"text": "NE De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
 		"options": [
 			"El PC Wozniak.",
 			"IBM PC.",
@@ -144,9 +144,9 @@
 	},
 	{
 		"id": 201002,
-		"rama": "trabajosocial",
-		"temario": "general",
-		"text": "TG ¿Qué material se emplea para fabricar un microprocesador?",
+		"rama": "normalizacion",
+		"temario": "especifico",
+		"text": "NE ¿Qué material se emplea para fabricar un microprocesador?",
 		"options": [
 			"Aluminio.",
 			"Galenio.",
@@ -157,9 +157,9 @@
 	},
 	{
 		"id": 201003,
-		"rama": "trabajosocial",
-		"temario": "general",
-		"text": "TG ¿Qué son FPM y BEDO?",
+		"rama": "normalizacion",
+		"temario": "especifico",
+		"text": "NE ¿Qué son FPM y BEDO?",
 		"options": [
 			"Tipos de memoria RAM.",
 			"Tipos de zócalo para microprocesador.",
@@ -170,9 +170,9 @@
 	},
 	{
 		"id": 201004,
-		"rama": "trabajosocial",
-		"temario": "general",
-		"text": "TG Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
+		"rama": "normalizacion",
+		"temario": "especifico",
+		"text": "NE Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
 		"options": [
 			"Tipos de firmware que están incorporados en un chip de la placa base.",
 			"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
@@ -183,9 +183,9 @@
 	},
 	{
 		"id": 201005,
-		"rama": "trabajosocial",
-		"temario": "general",
-		"text": "TG ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
+		"rama": "normalizacion",
+		"temario": "especifico",
+		"text": "NE ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
 		"options": [
 			"La CPU.",
 			"La GPU.",
@@ -260,72 +260,7 @@
 		"explanation": "La GPU (Graphics Processing Unit o Unidad de Procesamiento Gráfico) es un coprocesador dedicado específicamente al procesamiento de gráficos y funciones de coma flotante para aligerar la carga de trabajo de la CPU central en tareas visuales y de pantalla."
 	},
 	{
-		"id": 301001,
-		"rama": "cocina",
-		"temario": "general",
-		"text": "CG De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
-		"options": [
-			"El PC Wozniak.",
-			"IBM PC.",
-			"Motorola PC 68K.",
-			"Zilog Z c80"],
-		"correct": "B",
-		"explanation": "El IBM PC (modelo 5150), lanzado en 1981, se convirtió en el estándar de la industria de la computación personal y logró un éxito comercial masivo que definió el mercado arquitectónico de los ordenadores actuales (arquitectura x86). Las otras opciones mezclan componentes o procesadores sueltos (como el Zilog Z80 o arquitecturas Motorola) que no se corresponden con esos nombres de ordenadores comerciales exitosos."
-	},
-	{
-		"id": 301002,
-		"rama": "cocina",
-		"temario": "general",
-		"text": "CG ¿Qué material se emplea para fabricar un microprocesador?",
-		"options": [
-			"Aluminio.",
-			"Galenio.",
-			"Silicio.",
-			"Todas las anteriores son correctas."],
-		"correct": "C",
-		"explanation": "El silicio es el material semiconductor por excelencia utilizado para fabricar los transistores que componen los microprocesadores en los circuitos integrados. El aluminio se ha usado para las pistas de interconexión interna, pero el material base y fundamental de fabricación del chip es el silicio."
-	},
-	{
-		"id": 301003,
-		"rama": "cocina",
-		"temario": "general",
-		"text": "CG ¿Qué son FPM y BEDO?",
-		"options": [
-			"Tipos de memoria RAM.",
-			"Tipos de zócalo para microprocesador.",
-			"Ranuras de memoria.",
-			"Tipos de disco duro."],
-		"correct": "A",
-		"explanation": "FPM (Fast Page Mode) y BEDO (Burst Extended Data Output) son tecnologías antiguas de memoria RAM de tipo dinámico (DRAM) que se utilizaban a mediados de la década de los 90 (principalmente en la época de los procesadores Intel 486 y los primeros Pentium)."
-	},
-	{
-		"id": 301004,
-		"rama": "cocina",
-		"temario": "general",
-		"text": "CG Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
-		"options": [
-			"Tipos de firmware que están incorporados en un chip de la placa base.",
-			"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
-			"Ofrecen una interfaz gráfica para configurar parámetros básicos.",
-			"Todas las anteriores son correctas."],
-		"correct": "D",
-		"explanation": "Las tres afirmaciones son verdaderas: tanto la BIOS como la UEFI van integradas en un chip de memoria no volátil (Flash) en la placa base (a), realizan las funciones de arranque (POST) y el control básico de entrada/salida (b), y las versiones modernas (especialmente UEFI) destacan por ofrecer interfaces gráficas de usuario configurables (c)."
-	},
-	{
-		"id": 301005,
-		"rama": "cocina",
-		"temario": "general",
-		"text": "CG ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
-		"options": [
-			"La CPU.",
-			"La GPU.",
-			"La TFPU.",
-			"NINGUNA de las anteriores es correcta."],
-		"correct": "B",
-		"explanation": "La GPU (Graphics Processing Unit o Unidad de Procesamiento Gráfico) es un coprocesador dedicado específicamente al procesamiento de gráficos y funciones de coma flotante para aligerar la carga de trabajo de la CPU central en tareas visuales y de pantalla."
-	},
-	{
-		"id": 302001,
+		"id": 203001,
 		"rama": "cocina",
 		"temario": "especifico",
 		"text": "CE De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
@@ -338,7 +273,7 @@
 		"explanation": "El IBM PC (modelo 5150), lanzado en 1981, se convirtió en el estándar de la industria de la computación personal y logró un éxito comercial masivo que definió el mercado arquitectónico de los ordenadores actuales (arquitectura x86). Las otras opciones mezclan componentes o procesadores sueltos (como el Zilog Z80 o arquitecturas Motorola) que no se corresponden con esos nombres de ordenadores comerciales exitosos."
 	},
 	{
-		"id": 302002,
+		"id": 203002,
 		"rama": "cocina",
 		"temario": "especifico",
 		"text": "CE ¿Qué material se emplea para fabricar un microprocesador?",
@@ -351,7 +286,7 @@
 		"explanation": "El silicio es el material semiconductor por excelencia utilizado para fabricar los transistores que componen los microprocesadores en los circuitos integrados. El aluminio se ha usado para las pistas de interconexión interna, pero el material base y fundamental de fabricación del chip es el silicio."
 	},
 	{
-		"id": 302003,
+		"id": 203003,
 		"rama": "cocina",
 		"temario": "especifico",
 		"text": "CE ¿Qué son FPM y BEDO?",
@@ -364,7 +299,7 @@
 		"explanation": "FPM (Fast Page Mode) y BEDO (Burst Extended Data Output) son tecnologías antiguas de memoria RAM de tipo dinámico (DRAM) que se utilizaban a mediados de la década de los 90 (principalmente en la época de los procesadores Intel 486 y los primeros Pentium)."
 	},
 	{
-		"id": 302004,
+		"id": 203004,
 		"rama": "cocina",
 		"temario": "especifico",
 		"text": "CE Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
@@ -377,10 +312,75 @@
 		"explanation": "Las tres afirmaciones son verdaderas: tanto la BIOS como la UEFI van integradas en un chip de memoria no volátil (Flash) en la placa base (a), realizan las funciones de arranque (POST) y el control básico de entrada/salida (b), y las versiones modernas (especialmente UEFI) destacan por ofrecer interfaces gráficas de usuario configurables (c)."
 	},
 	{
-		"id": 302005,
+		"id": 203005,
 		"rama": "cocina",
 		"temario": "especifico",
 		"text": "CE ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
+		"options": [
+			"La CPU.",
+			"La GPU.",
+			"La TFPU.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "B",
+		"explanation": "La GPU (Graphics Processing Unit o Unidad de Procesamiento Gráfico) es un coprocesador dedicado específicamente al procesamiento de gráficos y funciones de coma flotante para aligerar la carga de trabajo de la CPU central en tareas visuales y de pantalla."
+	},
+	{
+		"id": 204001,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "IE De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
+		"options": [
+			"El PC Wozniak.",
+			"IBM PC.",
+			"Motorola PC 68K.",
+			"Zilog Z c80"],
+		"correct": "B",
+		"explanation": "El IBM PC (modelo 5150), lanzado en 1981, se convirtió en el estándar de la industria de la computación personal y logró un éxito comercial masivo que definió el mercado arquitectónico de los ordenadores actuales (arquitectura x86). Las otras opciones mezclan componentes o procesadores sueltos (como el Zilog Z80 o arquitecturas Motorola) que no se corresponden con esos nombres de ordenadores comerciales exitosos."
+	},
+	{
+		"id": 204002,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "IE ¿Qué material se emplea para fabricar un microprocesador?",
+		"options": [
+			"Aluminio.",
+			"Galenio.",
+			"Silicio.",
+			"Todas las anteriores son correctas."],
+		"correct": "C",
+		"explanation": "El silicio es el material semiconductor por excelencia utilizado para fabricar los transistores que componen los microprocesadores en los circuitos integrados. El aluminio se ha usado para las pistas de interconexión interna, pero el material base y fundamental de fabricación del chip es el silicio."
+	},
+	{
+		"id": 204003,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "IE ¿Qué son FPM y BEDO?",
+		"options": [
+			"Tipos de memoria RAM.",
+			"Tipos de zócalo para microprocesador.",
+			"Ranuras de memoria.",
+			"Tipos de disco duro."],
+		"correct": "A",
+		"explanation": "FPM (Fast Page Mode) y BEDO (Burst Extended Data Output) son tecnologías antiguas de memoria RAM de tipo dinámico (DRAM) que se utilizaban a mediados de la década de los 90 (principalmente en la época de los procesadores Intel 486 y los primeros Pentium)."
+	},
+	{
+		"id": 204004,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "IE Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
+		"options": [
+			"Tipos de firmware que están incorporados en un chip de la placa base.",
+			"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
+			"Ofrecen una interfaz gráfica para configurar parámetros básicos.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "Las tres afirmaciones son verdaderas: tanto la BIOS como la UEFI van integradas en un chip de memoria no volátil (Flash) en la placa base (a), realizan las funciones de arranque (POST) y el control básico de entrada/salida (b), y las versiones modernas (especialmente UEFI) destacan por ofrecer interfaces gráficas de usuario configurables (c)."
+	},
+	{
+		"id": 204005,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "IE ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
 		"options": [
 			"La CPU.",
 			"La GPU.",
