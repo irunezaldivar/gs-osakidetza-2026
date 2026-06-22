@@ -328,7 +328,7 @@
 		"id": 204001,
 		"rama": "informatica",
 		"temario": "especifico",
-		"text": "IE De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
+		"text": "De los siguientes ordenadores personales, ¿cuál fue el que logró un éxito realmente notable en el mercado?",
 		"options": [
 			"El PC Wozniak.",
 			"IBM PC.",
@@ -341,7 +341,7 @@
 		"id": 204002,
 		"rama": "informatica",
 		"temario": "especifico",
-		"text": "IE ¿Qué material se emplea para fabricar un microprocesador?",
+		"text": "¿Qué material se emplea para fabricar un microprocesador?",
 		"options": [
 			"Aluminio.",
 			"Galenio.",
@@ -354,7 +354,7 @@
 		"id": 204003,
 		"rama": "informatica",
 		"temario": "especifico",
-		"text": "IE ¿Qué son FPM y BEDO?",
+		"text": "¿Qué son FPM y BEDO?",
 		"options": [
 			"Tipos de memoria RAM.",
 			"Tipos de zócalo para microprocesador.",
@@ -367,7 +367,7 @@
 		"id": 204004,
 		"rama": "informatica",
 		"temario": "especifico",
-		"text": "IE Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
+		"text": "Seleccione la afirmación correcta acerca de los sistemas de firmware BIOS y UEFI utilizados en las placas base modernas:",
 		"options": [
 			"Tipos de firmware que están incorporados en un chip de la placa base.",
 			"Se encargan de arrancar el PC y de dar soporte para manejar ciertos dispositivos de entrada/salida.",
@@ -380,7 +380,7 @@
 		"id": 204005,
 		"rama": "informatica",
 		"temario": "especifico",
-		"text": "IE ¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
+		"text": "¿Qué dispositivo del ordenador realiza el procesamiento necesario para representar gráficos en pantalla?",
 		"options": [
 			"La CPU.",
 			"La GPU.",
@@ -388,5 +388,2539 @@
 			"NINGUNA de las anteriores es correcta."],
 		"correct": "B",
 		"explanation": "La GPU (Graphics Processing Unit o Unidad de Procesamiento Gráfico) es un coprocesador dedicado específicamente al procesamiento de gráficos y funciones de coma flotante para aligerar la carga de trabajo de la CPU central en tareas visuales y de pantalla."
+	},
+	{
+		"id": 204006,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué se entiende por “resolución” de una pantalla?",
+		"options": [
+			"La relación entre el tamaño horizontal y el tamaño vertical de la pantalla.",
+			"El número de pulgadas que hay en la diagonal de la pantalla.",
+			"El número de puntos individuales (pixel) que puede representar el monitor en forma de puntos horizontales por puntos verticales.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "C",
+		"explanation": "La resolución de pantalla se define como el número total de píxeles o puntos individuales de luz que un monitor es capaz de desplegar, organizados en una matriz de filas (puntos horizontales) por columnas (puntos verticales). Las opciones A y B describen la relación de aspecto y el tamaño físico de la diagonal, respectivamente."
+	},
+	{
+		"id": 204007,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué son SATA, SAS y PCIe?",
+		"options": [
+			"Conectores de discos duros.",
+			"Interfaces de almacenamiento internas.",
+			"Ranuras de extensión para los discos duros.",
+			"Buses de datos."],
+		"correct": "B",
+		"explanation": "SATA (Serial ATA), SAS (Serial Attached SCSI) y PCIe (PCI Express, utilizado en las unidades NVMe) son protocolos e interfaces lógicas y físicas de almacenamiento interno diseñadas para la transferencia de datos entre la placa base y los dispositivos de almacenamiento masivo como discos duros o SSDs."
+	},
+	{
+		"id": 204008,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué tecnología realiza una grabación magnética asistida por calor?",
+		"options": [
+			"HAMR.",
+			"SMR.",
+			"PMR.",
+			"HGST."],
+		"correct": "A",
+		"explanation": "HAMR corresponde a las siglas en inglés de Heat-Assisted Magnetic Recording (Grabación Magnética Asistida por Calor). Es una tecnología avanzada para discos duros mecánicos que utiliza un diodo láser integrado en el cabezal de lectura/escritura para calentar momentáneamente la superficie del plato, permitiendo escribir datos de forma mucho más densa y compacta."
+	},
+	{
+		"id": 204009,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de los siguientes se considera un formato de tarjeta de memoria?",
+		"options": [
+			"SDHC.",
+			"QFast.",
+			"XQD.",
+			"La a) y c) son correctas."],
+		"correct": "D",
+		"explanation": "Tanto SDHC (Secure Digital High Capacity, evolución de las tarjetas SD tradicionales) como XQD (un formato de tarjeta de alta velocidad basado en la interfaz PCI Express, comúnmente usado en cámaras profesionales) son estándares oficiales de tarjetas de memoria de almacenamiento no volátil. QFast no corresponde a ningún formato real."
+	},
+	{
+		"id": 204010,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuáles de estos componentes incluyen los netbooks?",
+		"options": [
+			"Sistemas operativos Chrome OS o Windows 10.",
+			"Microprocesadores sencillos, tipo atom, Celeron o algún ARM, pero mejorados y de hasta 4 núcleos.",
+			"Pantallas de como mínimo 11.6 pulgadas, LED y resolución “HD Ready” al menos.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "Los Netbooks y equipos portátiles ultraligeros de bajo coste modernos suelen ensamblarse bajo estas directrices: sistemas operativos ligeros u optimizados para recursos medidos (como Chrome OS o Windows en modo S/Home), CPUs de muy bajo consumo energético de hasta 4 núcleos comerciales de entrada (Atom, Celeron o SoC basados en ARM) y pantallas compactas típicamente desde las 11.6 pulgadas con resoluciones estándar básicas."
+	},
+	{
+		"id": 204011,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿De qué se encarga la ALU?",
+		"options": [
+			"Se encarga de ejecutar numerosos cálculos, como los realizados sobre números enteros o las operaciones lógicas.",
+			"Se encarga de realizar operaciones con números flotantes, así como de otras operaciones como la división de enteros.",
+			"Es el camino para los datos, que comunican las diversas partes del microprocesador.",
+			"De ella depende el tamaño máximo de memoria que puede manejar el microprocesador."],
+		"correct": "A",
+		"explanation": "La ALU (Arithmetic Logic Unit o Unidad Aritmético Lógica) es el bloque funcional del microprocesador encargado de realizar las operaciones matemáticas elementales (sumas, restas con enteros) y operaciones lógicas binarias (AND, OR, NOT, XOR). Las operaciones de coma flotante suelen delegarse a la FPU (Floating Point Unit)."
+	},
+	{
+		"id": 204012,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué es la velocidad de acceso a memoria (ns)?",
+		"options": [
+			"Es el número que expresa la velocidad de reloj del bus máximo que puede soportar de forma fiable.",
+			"Es el tiempo mínimo para realizar un ciclo mínimo de acceso a la memoria.",
+			"Es el tiempo de latencia, retraso o retardo en el acceso a memoria.",
+			"Es la máxima cantidad de memoria que podría trasladarse por segundo."],
+		"correct": "B",
+		"explanation": "La velocidad de acceso medida en nanosegundos (ns) representa el tiempo mínimo indispensable que transcurre desde que se inicia una solicitud de lectura o escritura hasta que los datos están disponibles o consolidados en el bus de memoria. No debe confundirse con el ancho de banda (opción D) ni puramente con la latencia CAS aislada (opción C)."
+	},
+	{
+		"id": 204013,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuáles son los tipos de ranuras de memoria más comunes hoy en día?",
+		"options": [
+			"FM2+ y LGA.",
+			"DIMM y SO-DIMM.",
+			"DDR2 y DDR3.",
+			"DIMM y DD2."],
+		"correct": "B",
+		"explanation": "DIMM (Dual In-line Memory Module) es el factor de forma estándar para ranuras y módulos de memoria en ordenadores de escritorio y servidores, mientras que SO-DIMM (Small Outline DIMM) es su versión compacta utilizada en ordenadores portátiles y equipos embebidos. Las opciones A describen sockets de CPU y las opciones C tecnologías SDRAM obsoletas."
+	},
+	{
+		"id": 204014,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué es la frecuencia de refresco en pantalla?",
+		"options": [
+			"La memoria dedicada exclusivamente al uso de la GPU.",
+			"El número de colores que pueden representarse.",
+			"El número de veces que puede dibujarse la pantalla por segundo.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "C",
+		"explanation": "La frecuencia o tasa de refresco, medida en hercios (Hz), expresa la cantidad de veces por segundo que el monitor actualiza o redibuja la imagen sobre el panel para mostrar cambios o movimiento de forma fluida."
+	},
+	{
+		"id": 204015,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de estas afirmaciones NO es una ventaja de las pantallas OLED/AMOLED?",
+		"options": [
+			"Excelentes ángulos de visión.",
+			"Bajo consumo.",
+			"Fabricación costosa.",
+			"Elevado refresco y tiempo de respuesta."],
+		"correct": "C",
+		"explanation": "Una fabricación costosa y compleja es una desventaja o inconveniente inherente a la tecnología OLED/AMOLED, no una ventaja. Sus virtudes técnicas reales incluyen el control de píxeles individuales (lo que permite negros puros y bajo consumo), tiempos de respuesta mínimos y ángulos de visión casi perfectos."
+	},
+	{
+		"id": 204016,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Con cuál de estas formas podría implementarse un sistema tipo RAID?",
+		"options": [
+			"RAID software.",
+			"RAID hardware.",
+			"RAID firmware.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "Un sistema RAID para la tolerancia a fallos o rendimiento de almacenamiento puede implementarse mediante software puro (gestionado por el propio Sistema Operativo), mediante hardware dedicado (usando una tarjeta controladora PCI independiente con su propia CPU y caché) o mediante firmware (conocido como FakeRAID o RAID híbrido, integrado habitualmente en las BIOS/UEFI de las placas base de consumo)."
+	},
+	{
+		"id": 204017,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de estas afirmaciones sobre los discos duros SSD es correcta?",
+		"options": [
+			"El nivel de ruido de un disco SSD es muy elevado.",
+			"Un disco SSD tiene alta resistencia a impactos y vibraciones.",
+			"No es resistente a las condiciones climatológicas adversas.",
+			"Si no existe fragmentación los discos duros de alta velocidad de rotaciones son más rápidos que los discos duros SSD."],
+		"correct": "B",
+		"explanation": "Al carecer de piezas mecánicas o móviles en su interior (utilizan memorias Flash NAND), las unidades SSD presentan una resistencia extremadamente alta a los golpes físicos y vibraciones en comparación con los discos duros magnéticos tradicionales (HDD), además de ser totalmente silenciosos."
+	},
+	{
+		"id": 204018,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de estos medios utiliza la tecnología del almacenamiento óptico?",
+		"options": [
+			"MicroSD.",
+			"CD.",
+			"eSATA.",
+			"Disquete."],
+		"correct": "B",
+		"explanation": "El CD (Compact Disc), al igual que el DVD y el Blu-ray, es un medio de almacenamiento óptico porque utiliza un rayo láser para leer o escribir los datos sobre las pistas del disco reflectante. MicroSD es almacenamiento electrónico (Flash), el disquete es magnético y eSATA es una interfaz de conexión externa."
+	},
+	{
+		"id": 204019,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué generación el tipo de sistema operativo era por procesamiento por lotes o batch?",
+		"options": [
+			"2º Generación.",
+			"3º Generación.",
+			"4º Generación.",
+			"5º Generación."],
+		"correct": "A",
+		"explanation": "El procesamiento por lotes (batch) puro se introdujo y popularizó firmemente durante la Segunda Generación de ordenadores (finales de los 50 y principios de los 60, caracterizada por el uso de transistores), optimizando el tiempo de ejecución al agrupar trabajos similares en cintas magnéticas para que la CPU los procesara de forma secuencial sin intervención humana."
+	},
+	{
+		"id": 204020,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de los siguientes sistemas operativos es multiusuario y multitarea?",
+		"options": [
+			"CTSS.",
+			"OS/360.",
+			"UNIX.",
+			"EXEC II."],
+		"correct": "C",
+		"explanation": "UNIX fue diseñado desde sus bases a finales de los años 60 y principios de los 70 para ser un sistema operativo intrínsecamente multiusuario y multitarea, permitiendo que múltiples usuarios ejecuten de forma simultánea e independiente diversos procesos compartiendo los recursos del sistema."
+	},
+	{
+		"id": 204021,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué tipos de sistemas operativos se utiliza la técnica que se conoce como tiempo compartido (time sharing)?",
+		"options": [
+			"Sistemas operativos monousuario.",
+			"Sistemas operativos en tiempo real.",
+			"Sistemas operativos multiprogramación.",
+			"Sistemas operativos interactivos."],
+		"correct": "D",
+		"explanation": "El tiempo compartido (time-sharing) es una extensión de la multiprogramación diseñada específicamente para sistemas interactivos. En ellos, la CPU se conmuta tan rápidamente entre múltiples usuarios mediante ráfagas de tiempo (quanta) que cada uno percibe la sensación de disponer del sistema en exclusiva."
+	},
+	{
+		"id": 204022,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Si en un superordenador se instala un sistema operativo monotarea…",
+		"options": [
+			"Ejecutará m ás de un proceso cada vez.",
+			"Solo ejecutará un proceso cada vez.",
+			"Dividirá en diferentes hebras (threads) el proceso.",
+			"Seleccionará los demás procesos para distribuir el trabajo."],
+		"correct": "B",
+		"explanation": "Por definición estricta, un sistema operativo monotarea (single-tasking) carece de la lógica de planificación necesaria para mantener múltiples contextos de ejecución simultáneos en la CPU. Independientemente de la potencia física del hardware o superordenador, estará limitado a procesar un único proceso a la vez."
+	},
+	{
+		"id": 204023,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué tipos de sistemas el equipo informático NO comparte recursos?",
+		"options": [
+			"En los sistemas centralizados.",
+			"En los sistemas en red.",
+			"En los sistemas distribuidos.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "D",
+		"explanation": "La opción correcta es la D porque en las tres arquitecturas mencionadas (A, B y C) se comparten recursos: los sistemas centralizados comparten los recursos de un nodo central con terminales tontos; los sistemas en red permiten compartir carpetas, periféricos e impresoras; y los sistemas distribuidos unifican recursos de cómputo y almacenamiento de nodos independientes."
+	},
+	{
+		"id": 204024,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En cuántos niveles se dividía el sistema operativo THE (Technische Hogeschool Eindhoven)?",
+		"options": [
+			"En 4 niveles: del 0 al 3.",
+			"En 4 niveles: del 1 al 4.",
+			"En 5 niveles: del 0 al 4.",
+			"En 6 niveles: del 0 al 5."],
+		"correct": "D",
+		"explanation": "El sistema histórico THE, diseñado por Edsger Dijkstra en 1968, fue pionero en la arquitectura jerárquica por niveles. Estaba estructurado exactamente en 6 niveles numerados del 0 al 5: Nivel 0 (Asignación del procesador y multiprogramación), Nivel 1 (Gestión de memoria), Nivel 2 (Consola del operador), Nivel 3 (Dispositivos de E/S), Nivel 4 (Programas de usuario) y Nivel 5 (El operador del sistema)."
+	},
+	{
+		"id": 204025,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué son los procesos de usuario/a?",
+		"options": [
+			"Son los procesos que generalmente se ejecutan al iniciar el sistema.",
+			"Son los procesos que manda ejecutar el/la usuario/a que entre en el sistema.",
+			"Son los procesos que el sistema operativo ejecuta en segundo plano.",
+			"Son los procesos que cada usuario necesita para un correcto funcionamiento del sistema operativo."],
+		"correct": "B",
+		"explanation": "Los procesos de usuario son aquellos que se instancian en el espacio de usuario (user space) a petición explícita o implícita de las acciones del operador del sistema (por ejemplo, abrir un navegador o ejecutar un comando), a diferencia de los procesos del sistema o daemons que se inician automáticamente en el espacio del núcleo."
+	},
+	{
+		"id": 204026,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se ejecutan los procesos en el algoritmo FIFO (first input first output)?",
+		"options": [
+			"Los procesos se ejecutan en orden de llegada. El primero que llega empieza a ejecutar.",
+			"Se ejecuta el proceso más corto de los que están esperando para ejecutar la CPU.",
+			"El proceso se ejecuta en orden de prioridad de cada proceso.",
+			"Este algoritmo va dando tiempo de ejecución a cada proceso que esté en espera."],
+		"correct": "A",
+		"explanation": "El algoritmo FIFO (First-In, First-Out), también denominado FCFS (First-Come, First-Served), es un esquema de planificación no apropiativo muy simple donde la CPU se asigna a los procesos estrictamente en el orden cronológico en el que solicitan su ejecución."
+	},
+	{
+		"id": 204027,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "La técnica de gestión de memoria principal del sistema operativo por particionamiento …",
+		"options": [
+			"Consiste en particionar la memoria en particiones de tamaño fijo o particiones de tamaño variable.",
+			"Solamente se pueden particionar a tamaño fijo.",
+			"Sirve para ejecutar programas que no están cargados totalmente en memoria.",
+			"Protege la zona de memoria asignada a cada proceso."],
+		"correct": "A",
+		"explanation": "La gestión clásica de memoria por particionamiento se divide conceptualmente en dos aproximaciones fundamentales: particionamiento estático (donde la memoria se segmenta en regiones de tamaño fijo preestablecido) y particionamiento dinámico (donde los bloques de memoria se crean con tamaños variables adaptados bajo demanda a los requisitos del proceso)."
+	},
+	{
+		"id": 204028,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué sistema de archivos son soportados por la mayoría de distribuciones de linux?",
+		"options": [
+			"NTFS.",
+			"FAT32.",
+			"EXT2, EXT3, EXT4.",
+			"HFS."],
+		"correct": "C",
+		"explanation": "La familia EXT (Extended File System), con sus versiones moleculares EXT2, EXT3 y la actual estándar EXT4, constituye la arquitectura nativa e históricamente soportada por defecto por el kernel de Linux para sus particiones del sistema."
+	},
+	{
+		"id": 204029,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es la diferencia fundamental entre el modelo OSI y TCP/IP?",
+		"options": [
+			"OSI tiene 4 capas prácticas; TCP/IP tiene 7 teóricas.",
+			"OSI es modelo teórico de referencia con 7 capas; TCP/IP es práctico de implementación con 4 capas.",
+			"TCP/IP define solo 3 capas físicas; OSI define 7 lógicas.",
+			"OSI se usa solo en LAN; TCP/IP en WAN."],
+		"correct": "B",
+		"explanation": "El modelo OSI (Open Systems Interconnection) fue creado por la ISO como un marco conceptual y arquitectónico de referencia estructurado en 7 capas ideales, mientras que la suite TCP/IP es un modelo empírico y práctico nacido de la implementación real de ARPANET que simplifica la pila en 4 niveles operativos."
+	},
+	{
+		"id": 204030,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Analizando las ventajas del uso de redes, la compartición de recursos software y de datos implica un cambio significativo en la gestión administrativa frente a sistemas aislados. ¿Cuál de los siguientes efectos es una consecuencia directa y positiva de esta centralización en un entorno LAN?",
+		"options": [
+			"La eliminación total de la necesidad de realizar copias de seguridad debido a la redundancia del medio.",
+			"La capacidad de administrar centralizadamente los recursos compartidos. Lo que permite mantener la integridad de los datos mediante mecanismos de control de acceso y asegurar la coherencia de versiones de software mediante actualizaciones desplegadas desde el servidor.",
+			"El aumento exponencial del tráfico de red independientemente del número de personas usuarias que accedan al recurso.",
+			"La necesidad de replicar manualmente los archivos de datos en cada estación de trabajo para garantizar su disponibilidad, incrementando la probabilidad de inconsistencias y duplicidad de información."],
+		"correct": "B",
+		"explanation": "La administración centralizada en un entorno de red de área local (LAN) optimiza drásticamente el control operativo de los recursos corporativos, facilitando a los administradores la aplicación coherente de políticas de seguridad, el control de concurrencia y despliegues masivos homogéneos, evitando el caos de datos desincronizados en equipos aislados."
+	},
+	{
+		"id": 204031,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En una red con tecnología de transmisión por difusión (broadcast), ¿qué característica es definitoria?",
+		"options": [
+			"Cada enlace conecta exclusivamente dos nodos punto a punto.",
+			"Un único canal de comunicación es compartido por todos los dispositivos.",
+			"Requiere obligatoriamente conmutación de circuitos.",
+			"Solo permite transmisión en modo full-dúplex."],
+		"correct": "B",
+		"explanation": "En las redes de difusión (broadcast), un solo canal físico o medio de transmisión es compartido por todas las máquinas conectadas. Los paquetes enviados por cualquier máquina son recibidos por todas las demás, y cada nodo verifica la dirección de destino para decidir si procesa o descarta la información."
+	},
+	{
+		"id": 204032,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué topología física de red ofrece mayor tolerancia a fallos en un enlace individual?",
+		"options": [
+			"Topología en bus.",
+			"Topología en estrella.",
+			"Topología en anillo.",
+			"Topología en malla."],
+		"correct": "D",
+		"explanation": "La topología en malla (especialmente la malla completa) proporciona la mayor redundancia y tolerancia a fallos debido a que todos los nodos están interconectados de forma directa entre sí. Si un enlace individual se interrumpe, el tráfico puede redirigirse inmediatamente a través de rutas alternativas sin afectar a ningún nodo."
+	},
+	{
+		"id": 204033,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué estándar IEEE 802 define específicamente la tecnología Ethernet para redes cableadas?",
+		"options": [
+			"IEEE 802.11",
+			"IEEE 802.5",
+			"IEEE 802.3",
+			"IEEE 802.4"],
+		"correct": "C",
+		"explanation": "El estándar IEEE 802.3 define las especificaciones físicas y de la subcapa MAC del enlace de datos para redes cableadas bajo la tecnología conocida universalmente como Ethernet. Por su parte, el 802.11 corresponde a Wi-Fi, el 802.5 a Token Ring y el 802.4 a Token Bus."
+	},
+	{
+		"id": 204034,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En transmisión de datos, ¿qué relación existe entre ancho de banda y velocidad de transmisión?",
+		"options": [
+			"Son conceptos idénticos y completamente sinónimos.",
+			"La velocidad de transmisión determina el ancho de banda disponible.",
+			"No guardan relación directa en medios de transmisión digitales.",
+			"El ancho de banda limita la velocidad máxima teórica de transmisión."],
+		"correct": "D",
+		"explanation": "Según teoremas fundamentales de la comunicación informática (como el teorema de Nyquist y Shannon), el ancho de banda (la capacidad de frecuencias o canales del medio) actúa como el factor limitante para la velocidad máxima teórica a la que se pueden transmitir bits de forma fiable sobre ese canal."
+	},
+	{
+		"id": 204035,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué medio de transmisión ofrece mayor inmunidad a interferencias electromagnéticas y permite mayores distancias sin necesidad de repetidores?",
+		"options": [
+			"Par trenzado UTP Categoría 6.",
+			"Cable coaxial RG-6.",
+			"Fibra óptica monomodo.",
+			"Medio inalámbrico en banda de 5 GHz."],
+		"correct": "C",
+		"explanation": "La fibra óptica monomodo transmite pulsos de luz en lugar de señales eléctricas, lo que le confiere una inmunidad total contra las interferencias electromagnéticas (EMI) y de radiofrecuencia (RFI). Además, ofrece una atenuación de señal ínfima, permitiendo cubrir distancias kilométricas sin repetidores."
+	},
+	{
+		"id": 204036,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué protocolo del nivel de internet en TCP/IP se encarga de la resolución de direcciones IP a direcciones MAC en una red local?",
+		"options": [
+			"ICMP (Internet Control Message Protocol).",
+			"UDP (User Datagram Protocol).",
+			"ARP (Address Resolution Protocol).",
+			"DNS (Domain Name System)."],
+		"correct": "C",
+		"explanation": "ARP (Address Resolution Protocol o Protocolo de Resolución de Direcciones) opera en la intersección de la capa de enlace y red con el fin exclusivo de mapear dinámicamente direcciones IP lógicas de 32 bits a las correspondientes direcciones MAC físicas de 48 bits de las tarjetas de red locales."
+	},
+	{
+		"id": 204037,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es la forma más comprimida posible de la siguiente dirección IPv6? 2001:db8:0:0:0:1:2:3",
+		"options": [
+			"2001:db8::1:2:3",
+			"2001:db8:0::0:1:2:3",
+			"2001:db8:0:0::1:2:3",
+			"2001:db8:::1:2:3"],
+		"correct": "A",
+		"explanation": "Las reglas oficiales de simplificación de IPv6 dictan que se pueden omitir los ceros iniciales de cualquier bloque y que la mayor secuencia continua de bloques con valor exclusivamente cero puede reemplazarse por un único símbolo de doble dos puntos (::). Al aplicar esto a los tres bloques centrales con cero, obtenemos '2001:db8::1:2:3'."
+	},
+	{
+		"id": 204038,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué dispositivo de interconexión opera principalmente en el nivel físico y repite la señal a todos sus puertos sin filtrar tramas?",
+		"options": [
+			"Switch (conmutador).",
+			"Router (encaminador).",
+			"Hub (concentrador).",
+			"Bridge (puente)."],
+		"correct": "C",
+		"explanation": "El Hub o concentrador es un dispositivo de capa 1 (nivel físico). No analiza las tramas MAC ni toma decisiones de conmutación; su único propósito funcional es regenerar eléctricamente la señal entrante por un puerto y retransmitirla por difusión a todos sus demás puertos activos."
+	},
+	{
+		"id": 204039,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Se tiene la dirección IPv4 192.168.10.0/26. ¿Cuál de las siguientes afirmaciones es correcta respecto a esta subred?",
+		"options": [
+			"El rango de hosts va de 192.168.10.0 a 192.168.10.63.",
+			"La dirección de broadcast es 192.168.10.63.",
+			"Se pueden crear 64 subredes a partir de esta máscara.",
+			"Cada subred tiene 128 hosts utilizables."],
+		"correct": "B",
+		"explanation": "Una máscara /26 indica bloques de 64 direcciones totales (2^(32-26) = 64). Para la subred que arranca en 192.168.10.0, la dirección base es la .0, las IPs asignables a hosts van de la .1 a la .62, y la última dirección asignable del bloque de tamaño 64 es la dirección de difusión o broadcast (192.168.10.63)."
+	},
+	{
+		"id": 204040,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Se tiene la dirección IPv4 10.20.30.0/27. ¿Cuál de las siguientes afirmaciones es correcta?",
+		"options": [
+			"Cada subred tiene 32 direcciones totales y 30 hosts utilizables.",
+			"La dirección de broadcast de la primera subred es 10.20.30.32.",
+			"La segunda subred comienza en 10.20.30.33.",
+			"La máscara de subred es 255.255.255.128."],
+		"correct": "A",
+		"explanation": "Una máscara /27 reserva 5 bits para hosts, lo que equivale a un total de 32 direcciones por subred (2^5). Restando las dos direcciones reservadas (identificador de red y broadcast), se obtienen exactamente 30 direcciones utilizables para hosts. El primer bloque va del .0 al .31, por lo que la opción A es la única correcta."
+	},
+	{
+		"id": 204041,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la configuración básica de un router para interconectar redes, ¿qué tabla es esencial para la toma de decisiones de encaminamiento?",
+		"options": [
+			"Tabla ARP (Address Resolution Protocol).",
+			"Tabla de conmutación MAC.",
+			"Tabla de enrutamiento (routing table).",
+			"Tabla de sesiones TCP activas."],
+		"correct": "C",
+		"explanation": "La tabla de enrutamiento (routing table) es el componente esencial de un router en la capa 3. Contiene el conjunto de reglas y rutas hacia las diferentes redes de destino conocidas, permitiendo al dispositivo determinar el siguiente salto (next hop) para enviar cada paquete IP."
+	},
+	{
+		"id": 204042,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es la razón técnica principal por la que Zigbee resulta especialmente adecuado para despliegues IoT con gran número de dispositivos distribuidos?",
+		"options": [
+			"Porque ofrece altas velocidades de transmisión comparables a Wi-Fi.",
+			"Porque combina bajo consumo energético, topologías en malla y buena escalabilidad.",
+			"Porque requiere infraestructuras cableadas dedicadas.",
+			"Porque está diseñado exclusivamente para comunicaciones multimedia."],
+		"correct": "B",
+		"explanation": "Zigbee se basa en el estándar IEEE 802.15.4 y destaca en el entorno IoT gracias a su consumo eléctrico mínimo (permitiendo años de autonomía con baterías pequeñas) y su arquitectura nativa en red de malla (Mesh), la cual dota al sistema de un gran alcance autogestionado y excelente escalabilidad en nodos."
+	},
+	{
+		"id": 204043,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué características comparten los tres tipos de conexiones (M2M, M2P y P2P) que existen entre los elementos IoT?",
+		"options": [
+			"Solo pueden iniciarse desde una máquina.",
+			"Solo pueden iniciarse desde una persona.",
+			"Son unidireccionales.",
+			"Son bidireccionales y cualquiera de los elementos puede iniciar la comunicación."],
+		"correct": "D",
+		"explanation": "En las interconexiones que modelan el Internet de las Cosas (IoT) y la conectividad moderna, los flujos funcionales requieren ser bidireccionales (para el envío de estados y recepción de comandos) y poseer simetría operativa para que cualquiera de los extremos inicie la sesión de transmisión."
+	},
+	{
+		"id": 204044,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué ocurre cuando evoluciona de forma drástica un elemento de una capa del modelo OSI?",
+		"options": [
+			"Todas las demás capas deben modificarse para adaptarse.",
+			"Las capas inferiores dejan de funcionar.",
+			"Las demás capas no necesitan conocer el cambio ni modificar su comportamiento.",
+			"Se altera la estructura completa del modelo."],
+		"correct": "C",
+		"explanation": "Uno de los principios de diseño fundamentales de la arquitectura por capas (como el modelo OSI o TCP/IP) es la independencia de capas. Cada nivel ofrece servicios al inmediato superior usando interfaces estandarizadas; por lo tanto, los cambios internos o tecnológicos de una capa son transparentes para las demás."
+	},
+	{
+		"id": 204045,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué combinación de características explica la creciente adopción de Bluetooth Low Energy (BLE) en aplicaciones IoT?",
+		"options": [
+			"Conexión punto a punto y transmisión de vídeo y audio en tiempo real.",
+			"Incorporación de topologías Broadcast y Mesh junto con mayor distancia de comunicación en la versión 5.",
+			"Uso de cableado estructurado y dependencia de infraestructura física dedicada.",
+			"Mayor velocidad de transferencia que WiFi y compatibilidad exclusiva con redes metropolitanas."],
+		"correct": "B",
+		"explanation": "A partir de Bluetooth 4 y su posterior evolución robusta en Bluetooth 5, BLE rompió la limitación punto a punto clásica del Bluetooth tradicional e introdujo los modos de transmisión por difusión (Broadcast) y redes en malla (Mesh), ampliando significativamente su cobertura geográfica ideal para sensores de bajo consumo."
+	},
+	{
+		"id": 204046,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Un sensor instalado en los neumáticos de un vehículo mide de forma constante la presión y transmite automáticamente ese valor al panel de control del automóvil para su supervisión. ¿Qué tipo de comunicación representa este caso?",
+		"options": [
+			"Comunicación P2P (persona a persona).",
+			"Comunicación M2P (máquina a persona).",
+			"Comunicación M2M (máquina a máquina).",
+			"Comunicación WAN (red de área amplia)."],
+		"correct": "B",
+		"explanation": "Se trata de un flujo M2P (Machine-to-Person / Máquina a Persona), ya que el origen del dato es un dispositivo automatizado (el sensor electrónico del neumático) y el destino final de la información es un sujeto humano encargado de monitorizar el panel del cuadro de instrumentos."
+	},
+	{
+		"id": 204047,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué situación NO es un ejemplo de comunicación P2P (persona a persona)?",
+		"options": [
+			"Telemetría.",
+			"Redes Sociales.",
+			"Servicios de salud.",
+			"Call centers."],
+		"correct": "A",
+		"explanation": "La telemetría consiste en la medición a distancia de magnitudes físicas mediante sensores y el envío automatizado de esos datos hacia sistemas de control centralizados (comunicación puramente M2M o M2P). Las redes sociales, la telemedicina directa o los centros de atención al cliente (call centers) sí centran sus flujos en la comunicación entre personas."
+	},
+	{
+		"id": 204048,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es la diferencia más importante entre las etiquetas RFID activas y pasivas?",
+		"options": [
+			"Las activas requieren que lector y etiqueta se “vean”, mientras que las pasivas NO.",
+			"Las activas NO disponen de fuente de alimentación, mientras que las pasivas SÍ.",
+			"La diferencia más importante es el uso de una fuente de energía.",
+			"Las pasivas permiten mayores distancias de lectura que las activas."],
+		"correct": "C",
+		"explanation": "La distinción clave radica en el suministro energético. Las etiquetas RFID pasivas carecen de batería interna y se energizan por inducción electromagnética gracias a la señal del lector. En cambio, las etiquetas activas integran su propia fuente de alimentación (batería), lo que les permite emitir señales a mayor distancia."
+	},
+	{
+		"id": 204049,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué estándar de Ethernet permite transmisión a 10 Gbps exclusivamente en full dúplex utilizando par trenzado (UTP) (Cat5e, 6 o 7) con una distancia máxima de 100 metros?",
+		"options": [
+			"1000BaseSX.",
+			"10GBaseT.",
+			"10GBaseSR.",
+			"100BaseTX."],
+		"correct": "B",
+		"explanation": "El estándar IEEE 802.3an define 10GBase-T, que permite alcanzar tasas de transferencia de 10 Gbps sobre cable de par trenzado de cobre utilizando conectores RJ45. Los estándares SX y SR hacen referencia a tecnologías de fibra óptica, y el TX es Fast Ethernet tradicional (100 Mbps)."
+	},
+	{
+		"id": 204050,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuáles son los cuatro elementos que permiten que el Internet de todo (Internet of Everything (IoE)) se convierta en una realidad?",
+		"options": [
+			"Dispositivos, redes, protocolos y servicios.",
+			"Objetos, datos, procesos y personas.",
+			"Sensores, actuadores, nube y aplicaciones.",
+			"Hardware, software, conectividad y seguridad."],
+		"correct": "B",
+		"explanation": "El concepto de Internet of Everything (IoE), acuñado extensamente por Cisco, expande el Internet de las Cosas estructurándose bajo cuatro pilares interconectados de forma inteligente: Personas (People), Procesos (Processes), Datos (Data) y Objetos físicos (Things)."
+	},
+	{
+		"id": 204051,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué combinación de características describe correctamente a LoRaWAN?",
+		"options": [
+			"Utiliza frecuencias por debajo de 1 GHz, permite alcances de hasta 20 km y está orientada a bajo consumo energético.",
+			"Opera por encima de 2,4 GHz, ofrece altas tasas de Mbps y está orientada a comunicaciones de corto alcance.",
+			"Funciona exclusivamente en entornos urbanos, con alcances máximos de 2 km y alto consumo de energía.",
+			"Requiere licencia propietaria y ofrece velocidades comparables a WiFi."],
+		"correct": "A",
+		"explanation": "LoRaWAN es un protocolo de red de baja potencia y área amplia (LPWAN). Opera en bandas de radio sub-GHz libres (ISM, como 868 MHz en Europa) para maximizar la penetración en entornos hostiles, logrando coberturas rurales de hasta 15-20 km con un consumo eléctrico mínimo ideal para sensores."
+	},
+	{
+		"id": 204052,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de las siguientes opciones NO corresponde a una necesidad típicamente cubierta por las tecnologías NFC y RFID?",
+		"options": [
+			"Sistemas de prepago con tarjeta en transporte público.",
+			"Control de acceso mediante tarjetas de identificación.",
+			"Logística y transporte.",
+			"Redes de área amplia para comunicaciones de largo alcance."],
+		"correct": "D",
+		"explanation": "Tanto RFID como NFC son tecnologías de comunicación inalámbrica de corto alcance (NFC funciona a menos de 10 cm y RFID de corto a medio alcance). Por lo tanto, no están diseñadas bajo ningún supuesto técnico para desplegar redes de área amplia (WAN) de largo alcance."
+	},
+	{
+		"id": 204053,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Si pensando en el riego automático del césped de un jardín, ¿cuál es la secuencia correcta del flujo de funcionamiento de un sistema IoT?",
+		"options": [
+			"El actuador analiza los datos → el sensor decide la acción → el sistema central ejecuta la orden.",
+			"El actuador mide la humedad → el sensor ejecuta la acción → el sistema central almacena los datos.",
+			"El sistema de predicción meteorológica habilita el actuador para que éste mida la humedad.",
+			"El sensor mide la humedad → los datos se envían a un sistema de control → se activa el actuador si es necesario."],
+		"correct": "D",
+		"explanation": "El flujo canónico de un ecosistema IoT siempre sigue el esquema: Captura de datos del mundo físico mediante transductores de entrada (Sensores) → Transmisión de la información a un núcleo lógico de toma de decisiones (Controlador/Nube) → Ejecución del comando físico a través de un dispositivo de salida (Actuador, como una electroválvula de riego)."
+	},
+	{
+		"id": 204054,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuáles son las fases en el proceso de desarrollo de software?",
+		"options": [
+			"Análisis, diseño, codificación, integración y mantenimiento.",
+			"Análisis, diseño, codificación, pruebas y mantenimiento.",
+			"Análisis, codificación, integración y mantenimiento.",
+			"Diseño, codificación, integración, pruebas y mantenimiento."],
+		"correct": "B",
+		"explanation": "El ciclo de vida tradicional o clásico del desarrollo de software recoge formalmente las siguientes fases secuenciales para garantizar el correcto ciclo constructivo: Análisis (definición de requisitos), Diseño (arquitectura lógica), Codificación (escritura de código fuente), Pruebas (validación y testing) y Mantenimiento (evolución y corrección)."
+	},
+	{
+		"id": 204055,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué consiste la fase de análisis en el ciclo de vida del software?",
+		"options": [
+			"En esta fase se elabora un diseño donde se contemplan los elementos necesarios para que el sistema funcione.",
+			"En esta fase se procede a analizar las necesidades que tienen los/las usuarios/as del futuro sistema y que deben quedar satisfechas mediante el funcionamiento del mismo.",
+			"Esta fase no forma parte del ciclo de desarrollo aunque sí influye en el resto de fases.",
+			"Esta fase permite la optimización de los recursos en la producción del mismo."],
+		"correct": "B",
+		"explanation": "La fase de análisis tiene como objetivo principal descubrir, comprender, documentar y acotar formalmente las necesidades técnicas y funcionales requeridas por los usuarios finales e interesados, sirviendo de base estricta antes de pasar a modelar el diseño del sistema."
+	},
+	{
+		"id": 204056,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En cuántos documentos se describen los trabajos realizados en cada una de las fases del ciclo de vida del software?",
+		"options": [
+			"En 5 documentos: requisitos del software, diseño del software, código fuente, documento de pruebas y documento de cambios.",
+			"En 3 documentos: requisitos del software, diseño del software, documento de cambios.",
+			"En 5 documentos: requisitos del software, diseño del software, código fuente, sistema de software y documento de cambios.",
+			"En 3 documentos: requisitos del software, documento de pruebas, documento de cambios."],
+		"correct": "C",
+		"explanation": "Según la metodología de ingeniería de software clásica en la que se basa esta batería de preguntas, los entregables oficiales de las fases principales se dividen en 5 elementos tangibles de documentación y producto: Requisitos del Software, Diseño del Software, Código Fuente, el propio Sistema de Software empaquetado y el Documento de Cambios/Mantenimiento."
+	},
+	{
+		"id": 204057,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué consiste el ciclo de vida de software en V?",
+		"options": [
+			"Se basa en la secuenciación de las distintas fases de la producción del software que se han descrito.",
+			"Se basa en una secuencia de fases análoga a la del modo en cascada pero se da especial importancia a la visión jerarquizada que se va teniendo de las distintas partes del sistema a medida que se avanza en el desarrollo.",
+			"Se basa en una forma de desarrollo lineal, en la que cada fase tiene una duración limitada en el tiempo.",
+			"Se basa en un sistema auxiliar que permite probar experimentalmente ciertas soluciones parciales a las necesidades de la persona usuaria."],
+		"correct": "B",
+		"explanation": "El ciclo de vida en V es una variante del modelo en cascada que asocia de forma directa cada fase de desarrollo (bajada de la V) con una fase equivalente de pruebas y validación (subida de la V), enfatizando la jerarquía, la verificación temprana de la calidad y el diseño conceptual frente a las pruebas unitarias y de integración."
+	},
+	{
+		"id": 204058,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "La revisión de la fase de codificación en el ciclo de vida en cascada se realiza sobre…",
+		"options": [
+			"El documento de análisis.",
+			"El documento de diseño.",
+			"El código fuente.",
+			"El sistema de explotación."],
+		"correct": "C",
+		"explanation": "En el modelo clásico en cascada, el entregable técnico y el objeto directo sobre el cual se realiza la inspección o revisión al concluir la fase de codificación es el código fuente escrito por el equipo de programadores, asegurando que cumpla con los estándares de sintaxis y arquitectura estipulados."
+	},
+	{
+		"id": 204059,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué elemento distintivo introduce el modelo en espiral respecto a otros modelos de ciclo de vida?",
+		"options": [
+			"El análisis intermedio.",
+			"El análisis de prueba.",
+			"El análisis de riesgo.",
+			"El análisis inicial."],
+		"correct": "C",
+		"explanation": "El modelo en espiral, propuesto originalmente por Barry Boehm en 1986, introduce de forma cíclica y explícita la evaluación y el análisis de riesgos en cada una de sus iteraciones, permitiendo gestionar los factores de incertidumbre técnica antes de comprometer más recursos en el proyecto."
+	},
+	{
+		"id": 204060,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué cuatro valores se basa la Programación Extrema (XP) según Beck?",
+		"options": [
+			"Sencillez, Comunicación, Retroalimentación y Valentía.",
+			"Planificación, Comunicación, Análisis y Evaluación.",
+			"Rapidez, Análisis, Comunicación y Retroalimentación.",
+			"Análisis, Codificación, Comunicación y Retroalimentación."],
+		"correct": "A",
+		"explanation": "En la formulación original de Kent Beck para la metodología ágil Extreme Programming (XP), los cuatro valores fundamentales sobre los que descansa la disciplina son: Comunicación (Communication), Sencillez (Simplicity), Retroalimentación (Feedback) y Valentía o Respeto (Courage)."
+	},
+	{
+		"id": 204061,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de estos aspectos debe contemplar el Plan de Garantía de Calidad de software?",
+		"options": [
+			"Organización de equipos de personas y la dirección y seguimiento del desarrollo.",
+			"Modelo de ciclo de vida a seguir, con detalle de sus fases y actividades.",
+			"Revisiones y auditorías que se llevarán a cabo durante el desarrollo, para garantizar que las actividades y documentos son correctos y aceptables.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "Un Plan de Aseguramiento de la Calidad del Software (SQAP) completo es un documento organizativo y metodológico que debe abarcar de manera integral la estructura del equipo, el ciclo de vida elegido y los mecanismos explícitos de revisión técnica, verificación y auditoría a lo largo de todo el proceso."
+	},
+	{
+		"id": 204062,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué consiste el control de cambios?",
+		"options": [
+			"Consiste en almacenar de forma organizada las sucesivas versiones de cada elemento de la configuración.",
+			"Consiste en garantizar que las diferentes configuraciones del software se componen de elementos compatibles entre sí, y que constituyen un conjunto coherente.",
+			"Consiste en diseñar y almacenar de forma organizada los archivos de registro (.log) correspondientes a las distintas versiones de la configuración.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "D",
+		"explanation": "La opción correcta es la D porque ninguna de las alternativas describe el control de cambios. Las opciones A y B corresponden a funciones de control de versiones y de identificación/auditoría de la configuración dentro de la Gestión de la Configuración del Software (SCM). El control de cambios propiamente dicho se encarga de evaluar, autorizar o denegar, y registrar de forma reglada las solicitudes de modificación que surjan."
+	},
+	{
+		"id": 204063,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de las siguientes NO es una norma estándar del desarrollo del software?",
+		"options": [
+			"DoD.",
+			"ESA.",
+			"ISO.",
+			"IDEE."],
+		"correct": "D",
+		"explanation": "IDEE no corresponde a ningún estándar ni organismo emisor de normas en ingeniería de software (es una confusión con IDE o IEEE). Las otras opciones representan normativas históricas o actuales muy conocidas: DoD (Departamento de Defensa de EE. UU.), ESA (Agencia Espacial Europea) e ISO (Organización Internacional de Normalización)."
+	},
+	{
+		"id": 204064,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según el estándar ISO 12207, de Procesos del Ciclo de vida del software [ISO,IEC,2017] se establece que:",
+		"options": [
+			"El mantenimiento de software es la modificación de un producto software después de haber sido entregado.",
+			"El propósito del proceso de mantenimiento es conservar la capacidad del sistema de proporcionar un servicio.",
+			"La fase de mantenimiento se centra en el cambio que va asociado a la corrección de errores, a las adaptaciones requeridas a medida que evoluciona el entorno del software, y a cambios debidos a las mejoras producidas por los requisitos cambiantes del cliente.",
+			"Hay 4 tipos de mantenimiento del software: correctivo, adaptativo, perfectivo y preventivo."],
+		"correct": "B",
+		"explanation": "En la actualización de la norma ISO/IEC/IEEE 12207:2017, la definición formal orientada a procesos define textualmente que el propósito del proceso de mantenimiento (Maintenance Process) es conservar o retener la capacidad del sistema de proporcionar un servicio de manera continuada y eficiente."
+	},
+	{
+		"id": 204065,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué consiste el mantenimiento perfectivo?",
+		"options": [
+			"El mantenimiento perfectivo incluye cambios en la especificación, normalmente debidos a cambios en los requisitos de un producto software.",
+			"El mantenimiento perfectivo consiste en la modificación del software para mejorar sus propiedades.",
+			"El mantenimiento perfectivo consiste en la modificación de un programa debido a cambios en el entorno.",
+			"El mantenimiento perfectivo consiste en localizar y eliminar posibles defectos de los programas."],
+		"correct": "B",
+		"explanation": "El mantenimiento perfectivo engloba las acciones que se ejecutan sobre el software para mejorar o refactorizar sus propiedades internas o externas (como incrementar el rendimiento, optimizar la legibilidad del código o añadir nuevas funcionalidades demandadas), sin que exista un error previo."
+	},
+	{
+		"id": 204066,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿De qué dos clases pueden ser los cambios en el entorno a los que se refiere el mantenimiento adaptativo?",
+		"options": [
+			"Entorno de los datos y el entorno de la programación.",
+			"Entorno de los procesos y el entorno del sistema operativo.",
+			"Entorno del hardware y el entorno del software.",
+			"Entorno de los datos y el entorno de los procesos."],
+		"correct": "C",
+		"explanation": "El mantenimiento adaptativo se activa cuando es preciso modificar la aplicación debido a cambios estructurales o lógicos en su entorno de ejecución. Técnicamente, este entorno se clasifica en el plano del hardware (por ejemplo, cambiar de CPU o arquitectura de servidores) y en el plano del software (actualizaciones del sistema operativo, motores de bases de datos, etc.)."
+	},
+	{
+		"id": 204067,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de estas afirmaciones sobre el coste del mantenimiento del software es correcta?",
+		"options": [
+			"El mantenimiento es la fase más costosa del ciclo de vida del software.",
+			"Detectar y corregir un error es más barato en las fases iniciales que en las finales.",
+			"El mantenimiento puede costar más del doble que el desarrollo.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "Las tres afirmaciones reflejan verdades empíricas muy estudiadas en la ingeniería de software: el mantenimiento suele absorber entre el 60% y el 80% de los costes totales del software (A y C), y el coste de corregir un defecto crece exponencialmente a medida que avanza el ciclo de vida (B)."
+	},
+	{
+		"id": 204068,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad del Cambio establece que:",
+		"options": [
+			"Que tan pronto como un programa ha sido escrito, está ya desfasado.",
+			"Que cuando hay cambios en un programa la estructura se hace más compleja.",
+			"Que la evolución de un programa es un proceso autorregulado.",
+			"Que a lo largo del tiempo de vida de un programa, la carga que supone el desarrollo del programa es constante."],
+		"correct": "A",
+		"explanation": "La Ley de Continuidad del Cambio (la primera de las famosas leyes de Lehman) postula formalmente que un sistema de tipo E (del mundo real) debe sufrir cambios de forma continua o, de lo contrario, se vuelve progresivamente menos útil hasta quedar completamente obsoleto."
+	},
+	{
+		"id": 204069,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuáles de los siguientes son métodos empleados en el mantenimiento del software?",
+		"options": [
+			"Ingeniería Inversa.",
+			"Modernización.",
+			"Reestructuración.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "El mantenimiento evolutivo y correctivo se apoya en diversas técnicas complejas de reingeniería, entre las que destacan la ingeniería inversa (extraer el modelo conceptual a partir del código fuente), la reestructuración (alterar la estructura del código sin cambiar su funcionalidad) y la modernización completa de plataformas."
+	},
+	{
+		"id": 204070,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según la norma ISO/IEC 12207 ¿Cuáles son las principales actividades que agrupan los procesos de ciclo de vida del software?",
+		"options": [
+			"Procesos de software, procesos de hardware y procesos de colaboración.",
+			"Procesos de colaboración, procesos organizacionales y procesos de gestión técnica.",
+			"Procesos de acuerdo, procesos organizacionales de proyecto, procesos de gestión técnica, y procesos técnicos.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "C",
+		"explanation": "La arquitectura del ciclo de vida bajo la norma ISO/IEC/IEEE 12207 clasifica de forma sistemática los procesos en cuatro grandes grupos principales: Procesos de acuerdo (Agreement), Procesos organizacionales habilitadores de proyectos (Organizational Project-Enabling), Procesos de gestión técnica (Technical Management) y Procesos técnicos (Technical)."
+	},
+	{
+		"id": 204071,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es el propósito del proceso de adquisición?",
+		"options": [
+			"Obtener el producto o servicio de acuerdo a los requisitos de la persona compradora.",
+			"Proveer un producto o servicio a la persona compradora, que cumpla con los requisitos acordados.",
+			"Proveer la infraestructura y los servicios de los proyectos.",
+			"a) y b) son correctas."],
+		"correct": "A",
+		"explanation": "Según los procesos de acuerdo de la ISO 12207, el proceso de adquisición (Acquisition Process) tiene el propósito específico de adjudicar y obtener el producto o servicio informático que cubra estrictamente las necesidades expresadas por el comprador. La opción B define el proceso de suministro (Supply Process)."
+	},
+	{
+		"id": 204072,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de estas tareas pertenece a la fase de implementación del proceso de la estructura de mantenimiento que propone la norma ISO/IEC 14764?",
+		"options": [
+			"Desarrollar, documentar y ejecutar planes y procedimientos para dirigir las actividades y tareas del proceso de mantenimiento.",
+			"Definir procedimiento para recibir, almacenar y controlar los informes de problemas y solicitudes de modificación de las personas usuarias, y proporcionar a éstas retroalimentación.",
+			"Implementar o establecer una interfaz con el proceso de gestión de configuración, para gestionar las modificaciones del sistema existente.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "La norma ISO/IEC 14764 (enfocada específicamente en el proceso de mantenimiento de software) prescribe que en la etapa inicial de implementación del proceso se deben sentar las bases organizativas, lo que incluye diseñar los planes de mantenimiento (A), estructurar el sistema de recepción de incidencias (B) y enlazar las tareas con la gestión de la configuración (C)."
+	},
+	{
+		"id": 204073,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál de las siguientes tareas forma parte del proceso de planificación de proyectos?",
+		"options": [
+			"Proporcionar un marco analítico y estructurado para identificar alternativas.",
+			"Producir y coordinar planes realistas y efectivos.",
+			"Monitorizar de manera continua los riesgos.",
+			"Controlar los elementos y las configuraciones del sistema."],
+		"correct": "B",
+		"explanation": "El propósito primordial y explícito del proceso de planificación de proyectos (Project Planning Process) según los estándares internacionales es estructurar, coordinar y documentar planes de trabajo que sean realistas, factibles y eficaces para guiar el desarrollo."
+	},
+	{
+		"id": 204074,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué actividad se encarga de obtener los recursos necesarios para soportar el sistema de software durante todo su ciclo de vida?",
+		"options": [
+			"Preparación del mantenimiento.",
+			"Ejecución del mantenimiento.",
+			"Soporte logístico.",
+			"Gestión de resultados del mantenimiento."],
+		"correct": "C",
+		"explanation": "El soporte logístico (Logistics Support) dentro del ciclo de vida se encarga de la planificación, adquisición y provisión de todos los recursos e infraestructuras de soporte necesarios para asegurar la operatividad continuada del sistema de software a lo largo de su explotación activa."
+	},
+	{
+		"id": 204075,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuándo se realiza la migración de un software?",
+		"options": [
+			"Cuando el software ha llegado al final de su vida útil.",
+			"Cuando el sistema debe adaptarse para funcionar en un nuevo entorno (hardware, sistema operativo, plataforma, infraestructura…).",
+			"Cuando es necesario analizar el software para decidir si debe retirarse o no.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "B",
+		"explanation": "La migración de software es el proceso técnico que se ejecuta cuando una aplicación o sistema operativo se traslada hacia un nuevo entorno operativo (cambio de plataforma, migración a la nube, cambio de hardware de servidores) manteniendo intactas las funcionalidades del sistema original pero adaptando su código o configuración al nuevo entorno."
+	},
+	{
+		"id": 204076,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿qué característica de Microsoft Edge bloquea sitios maliciosos?",
+		"options": [
+			"Navegación InPrivate.",
+			"Filtro Microsoft Defender SmartScreen.",
+			"Windows Defender Credential Guard.",
+			"Firewall de Windows Defender."],
+		"correct": "B",
+		"explanation": "Microsoft Defender SmartScreen es una tecnología de seguridad integrada de forma nativa en Windows 11 y Microsoft Edge que analiza la reputación de las páginas web visitadas y los archivos descargados para bloquear proactivamente ataques de phishing y sitios de distribución de malware."
+	},
+	{
+		"id": 204077,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En un escenario de migración a Windows 11 a gran escala donde se quiere preservar el perfil de la persona usuaria, ¿qué herramienta recomienda Microsoft?",
+		"options": [
+			"Windows Configuration Designer para exportar e importar perfiles durante el aprovisionamiento.",
+			"User State Migration Tool (USMT) incluida en el Windows Assessment and Deployment Kit.",
+			"Windows Deployment Services (WDS) utilizando imágenes de arranque personalizadas para transferir automáticamente los perfiles.",
+			"Microsoft Deployment Toolkit (MDT) usando una tarea de actualización in-place para migrar los perfiles."],
+		"correct": "B",
+		"explanation": "La Herramienta de migración de estado de usuario (USMT - User State Migration Tool) está integrada en el ADK de Windows y es la utilidad avanzada de línea de comandos recomendada de forma oficial por Microsoft para la migración automatizada a gran escala de cuentas, archivos y configuraciones de usuario."
+	},
+	{
+		"id": 204078,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿cómo se llama el tipo de autenticación en el que la persona usuaria solo introduce una contraseña?",
+		"options": [
+			"Autenticación fuerte.",
+			"Autenticación SSO.",
+			"Autenticación simple.",
+			"Autenticación biométrica."],
+		"correct": "C",
+		"explanation": "La validación mediante un único factor de conocimiento básico convencional, como es la inserción manual de una cadena de caracteres alfanuméricos (contraseña estándar), se clasifica formalmente como autenticación simple o de factor único."
+	},
+	{
+		"id": 204079,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "La contraseña de imagen en Windows 11 se basa en:",
+		"options": [
+			"Una secuencia de números PIN.",
+			"Gestos (círculos, líneas, puntos) sobre una imagen.",
+			"Reconocimiento facial obligatorio.",
+			"Una tarjeta inteligente conectada por USB."],
+		"correct": "B",
+		"explanation": "La característica 'Contraseña de imagen' (Picture Password) de Windows permite elegir una foto o ilustración personalizada y dibujar sobre ella una combinación exacta de tres gestos táctiles o de ratón (líneas rectilíneas, pulsaciones puntuales o círculos) como clave alternativa de inicio de sesión."
+	},
+	{
+		"id": 204080,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿qué característica de WDS permite instalar múltiples equipos simultáneamente?",
+		"options": [
+			"Multidifusión.",
+			"Activación PXE.",
+			"Instalación desatendida.",
+			"Imágenes de inicio."],
+		"correct": "A",
+		"explanation": "La transmisión por multidifusión (Multicast) en Windows Deployment Services (WDS) permite que el servidor envíe los datos de la imagen de Windows una sola vez por la red, optimizando radicalmente el ancho de banda para que decenas de terminales clientes que arrancan por PXE capturen ese mismo flujo de instalación al mismo tiempo."
+	},
+	{
+		"id": 204081,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿qué herramienta generaliza una instalación de referencia eliminando datos específicos del equipo?",
+		"options": [
+			"DISM.",
+			"Sysprep.",
+			"DiskPart.",
+			"BCDBoot."],
+		"correct": "B",
+		"explanation": "Sysprep (System Preparation) es la utilidad oficial de Microsoft diseñada para generalizar imágenes de Windows 11. Su función principal es remover información específica del sistema (como el SID de seguridad, controladores de hardware concretos y el nombre del equipo) dejando el sistema listo para ser clonado e implementado en múltiples ordenadores."
+	},
+	{
+		"id": 204082,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué permite el SideLoading de aplicaciones en Windows 11?",
+		"options": [
+			"Instalar apps de la tienda oficial.",
+			"Crear cuentas empresariales.",
+			"Gestionar actualizaciones de drivers.",
+			"Instalar aplicaciones de prueba sin certificación."],
+		"correct": "D",
+		"explanation": "El Sideloading (carga lateral) es una funcionalidad integrada en Windows 11 que permite la instalación de paquetes de aplicaciones (como archivos .appx, .msix o .appxbundle) directamente desde orígenes externos, omitiendo la necesidad de descargarlas desde la Microsoft Store oficial o requerir una certificación comercial restrictiva."
+	},
+	{
+		"id": 204083,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿cuál es la principal consecuencia de la reorientación de Cortana hacia los servicios de productividad de Microsoft 365?",
+		"options": [
+			"Pierde funciones como la administración de dispositivos conectados y la reproducción de música.",
+			"Gana funcionalidades domóticas.",
+			"Se limita exclusivamente a la traducción de idiomas.",
+			"Requiere licencia Enterprise para cualquier uso."],
+		"correct": "A",
+		"explanation": "Al reenfocar conceptualmente a Cortana como un asistente centrado en la productividad y la suite de Microsoft 365, el software eliminó sus capacidades orientadas al consumo generalista de hogar, tales como el control nativo de reproducción multimedia (Spotify), el soporte para dispositivos IoT del hogar conectado o habilidades lúdicas de terceros."
+	},
+	{
+		"id": 204084,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11 ¿Qué herramienta gestiona el almacén central de controladores?",
+		"options": [
+			"Administrador de dispositivos.",
+			"Almacén central de controladores.",
+			"DISM.",
+			"PnPUtil."],
+		"correct": "D",
+		"explanation": "PnPUtil (Plug and Play Utility) es la herramienta de línea de comandos integrada de manera nativa en Windows que permite a los administradores gestionar directamente el almacén de controladores (Driver Store). Sirve para agregar, eliminar y enumerar paquetes de controladores (.inf) de forma automatizada."
+	},
+	{
+		"id": 204085,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿qué herramienta de línea de comandos permite crear, eliminar y administrar particiones y volúmenes en discos físicos o virtuales?",
+		"options": [
+			"DiskPart.",
+			"Deployment Image Servicing and Management.",
+			"PnPUtil.",
+			"Netsh."],
+		"correct": "A",
+		"explanation": "DiskPart es el potente intérprete de comandos de almacenamiento en Windows que sustituye a la antigua utilidad fdisk. Permite realizar de forma interactiva o mediante scripts cualquier operación sobre la tabla de particiones, formatear sistemas de archivos y configurar discos dinámicos o unidades virtuales VHD/VHDX."
+	},
+	{
+		"id": 204086,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿qué tecnología permite compartir contenido en redes locales sin saturar el ancho de banda?",
+		"options": [
+			"BranchCache.",
+			"DirectAccess.",
+			"RemoteFX.",
+			"Wi-Fi Direct Printing."],
+		"correct": "A",
+		"explanation": "BranchCache es una tecnología de optimización del ancho de banda WAN de Microsoft. Permite que el contenido descargado desde servidores remotos (web o archivos) se almacene en caché localmente en los equipos de una delegación (red LAN), de modo que los ordenadores contiguos obtengan los archivos desde la caché local en vez de saturar el enlace WAN exterior."
+	},
+	{
+		"id": 204087,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué conjunto de herramientas permite administrar servidores en Windows 11?",
+		"options": [
+			"Microsoft Management Console (MMC).",
+			"Windows PowerShell.",
+			"Herramientas de administración RSAT.",
+			"ServerScope."],
+		"correct": "C",
+		"explanation": "RSAT (Remote Server Administration Tools / Herramientas de administración remota del servidor) es el paquete oficial que capacita a un equipo informático de escritorio con Windows 11 para gestionar roles, características y servicios de infraestructura que se ejecuten en controladores y servidores Windows Server remotos."
+	},
+	{
+		"id": 204088,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows 11, ¿qué herramienta controla la ejecución de aplicaciones basándose en reglas?",
+		"options": [
+			"Windows Defender SmartScreen.",
+			"AppLocker.",
+			"Device Guard.",
+			"Credential Guard."],
+		"correct": "B",
+		"explanation": "AppLocker es una tecnología avanzada de control de aplicaciones basada en directivas de grupo de Windows. Permite establecer reglas estrictas sobre qué archivos ejecutables (.exe, .msi, scripts, etc.) tienen permitido o denegado ejecutarse en el sistema según su ruta, hash o certificado digital de editor."
+	},
+	{
+		"id": 204089,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows Server 2022, ¿cuál de las siguientes opciones NO es un rol FSMO de Active Directory?",
+		"options": [
+			"Schema Master.",
+			"RID Master.",
+			"PDC Emulator Master.",
+			"Network Domain Controller."],
+		"correct": "D",
+		"explanation": "Network Domain Controller no existe como concepto técnico o rol operativo en Active Directory. Los 5 roles FSMO (Flexible Single Master Operations) oficiales son: Schema Master, Domain Naming Master (a nivel de bosque), RID Master, PDC Emulator y Infrastructure Master (a nivel de dominio)."
+	},
+	{
+		"id": 204090,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En un escenario de un entorno con Windows Server 2022, en un servidor DHCP, ¿qué representa el ámbito (scope)?",
+		"options": [
+			"Un rango de direcciones IP que el servidor puede asignar.",
+			"El tiempo de concesión de las direcciones.",
+			"Las opciones de configuración del servidor.",
+			"La lista de exclusiones de direcciones."],
+		"correct": "A",
+		"explanation": "En terminología de servicios de red de Windows Server, un ámbito (scope) representa la agrupación administrativa y la configuración del rango continuo de direcciones IPv4 o IPv6 válidas que están disponibles para ser arrendadas dinámicamente a los clientes DHCP en una subred física concreta."
+	},
+	{
+		"id": 204091,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En un entorno con Windows Server 2022, en un servidor DHCP, ¿qué es una reserva?",
+		"options": [
+			"Un rango de direcciones excluidas del ámbito (scope).",
+			"Una configuración de opciones específicas para una persona usuaria del dominio.",
+			"Una dirección IP específica asignada permanentemente a un dispositivo según su MAC.",
+			"Un tiempo de concesión de direcciones extendido."],
+		"correct": "C",
+		"explanation": "Una reserva DHCP consiste en crear un mapeo o emparejamiento estático en la base de datos del servidor DHCP entre una dirección IP única perteneciente al ámbito y la dirección física MAC de una tarjeta de red cliente específica, garantizando que dicho host reciba siempre la misma IP."
+	},
+	{
+		"id": 204092,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En un entorno con Windows Server 2022 y un dominio basado en Active Directory, ¿qué tipo de grupo permite incluir miembros de cualquier dominio del bosque y asignar permisos en cualquier dominio del mismo bosque?",
+		"options": [
+			"Grupo Global.",
+			"Grupo Local de Dominio.",
+			"Grupo Universal.",
+			"Grupo Local."],
+		"correct": "C",
+		"explanation": "Los Grupos Universales en Active Directory tienen el alcance más amplio de anidamiento y delegación, permitiendo consolidar como miembros a cuentas de usuarios, grupos globales u otros grupos universales de cualquier dominio del bosque, y al mismo tiempo pueden recibir asignación de privilegios en listas ACL sobre recursos de cualquier dominio de la infraestructura."
+	},
+	{
+		"id": 204093,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows Server 2022, ¿qué componente es el responsable de mantener el canal seguro (secure channel) entre el equipo cliente y el controlador de dominio?",
+		"options": [
+			"Servicio Kerberos.",
+			"Servicio Netlogon.",
+			"Servicio DNS.",
+			"Servicio Active Directory."],
+		"correct": "B",
+		"explanation": "El servicio Netlogon (Netlogon.dll) es el componente crítico que se encarga de negociar, establecer y mantener operativo el 'canal seguro' (secure channel) que une la cuenta de equipo cliente (o servidores miembro) con un controlador de dominio válido de Active Directory, garantizando el tráfico cifrado de autenticación interna."
+	},
+	{
+		"id": 204094,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows Server 2022, en un dominio de Active Directory, una persona usuaria pertenece a una Unidad Organizativa (OU) llamada “Pediatría”. Existen las siguientes Directivas de Grupo (GPO):\n● Una GPO vinculada al Sitio que configura el fondo de pantalla en azul.\n● Una GPO vinculada al Dominio que configura el fondo de pantalla en verde.\n● Una GPO vinculada a la OU “Pediatría” que configura el fondo de pantalla en rojo.\nNo hay herencia bloqueada ni “Enforced” activado en NINGUNA GPO. ¿Cuál será el color del fondo de pantalla que recibirá la persona usuaria?",
+		"options": [
+			"Depende del controlador de dominio que autentique a la persona usuaria.",
+			"Azul.",
+			"Verde.",
+			"Rojo."],
+		"correct": "D",
+		"explanation": "El orden estándar de procesamiento y precedencia de las Directivas de Grupo (GPOs) en Windows Server obedece a la regla LSDOU: Local, Sitio, Dominio y Unidades Organizativas. Como las políticas aplicadas en último lugar sobrescriben los valores previos, la GPO vinculada de forma directa a la Unidad Organizativa 'Pediatría' prevalece por encima de las del Sitio y del Dominio, aplicando el fondo rojo."
+	},
+	{
+		"id": 204095,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows Server 2022, ¿qué función tiene el rol PDC Emulator en Active Directory?",
+		"options": [
+			"Administrar el esquema de Active Directory.",
+			"Sincronizar la hora del dominio con un servidor de tiempo.",
+			"Asignar identificadores relativos (RID).",
+			"Mantener las referencias entre dominios."],
+		"correct": "B",
+		"explanation": "Entre las múltiples funciones operativas del rol de maestro de operaciones PDC Emulator (Primary Domain Controller Emulator), se incluye la de actuar como la fuente de hora raíz (Root Time Server) autoritativa y fidedigna para todo el dominio, sincronizándose normalmente con un servidor NTP externo de precisión."
+	},
+	{
+		"id": 204096,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows Server 2022, en Active Directory, ¿cuál es la función principal del Catálogo Global?",
+		"options": [
+			"Almacenar copias de seguridad de todos los objetos del dominio.",
+			"Contener información parcial de todos los objetos del bosque para búsquedas rápidas.",
+			"Gestionar las relaciones de confianza entre dominios.",
+			"Replicar completamente todos los objetos entre controladores de dominio."],
+		"correct": "B",
+		"explanation": "El Catálogo Global (Global Catalog) es un controlador de dominio distribuido que almacena una réplica completa de todos los objetos de su propio dominio, combinada con una réplica parcial que engloba los atributos más comúnmente utilizados para búsquedas e indexación de todos los objetos de todos los dominios que forman el bosque."
+	},
+	{
+		"id": 204097,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el modelo de seguridad de Windows Server 2022, ¿cuál de las siguientes afirmaciones describe correctamente la relación entre el token de acceso de una persona usuaria y la DACL de un recurso?",
+		"options": [
+			"La DACL se almacena dentro del token de acceso de la persona usuaria y se genera en el momento del inicio de sesión.",
+			"El token de acceso contiene los SID de la persona usuaria y sus grupos, y se comparan con los de la DACL cuando se intenta acceder a un recurso.",
+			"El token de acceso solo se utiliza para autenticación, mientras que la DACL solo interviene en la auditoría.",
+			"La DACL determina qué grupos aparecerán en el token de acceso durante el inicio de sesión."],
+		"correct": "B",
+		"explanation": "El subsistema de seguridad LSASS compara el token de acceso generado para el usuario (que encapsula su SID único y los SIDs de todos sus grupos de pertenencia) contra la DACL (Discretionary Access Control List) del objeto descriptor de seguridad del recurso. Esta lista contiene las ACEs que otorgan o deniegan permisos específicos basándose en SIDs."
+	},
+	{
+		"id": 204098,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En un dominio con Windows Server 2022, un administrator copia nuevos archivos .admx y .adml al almacén central (Central Store) de directivas de grupo.\n¿Cuál de las siguientes afirmaciones describe correctamente la función y diferencia entre estos archivos?",
+		"options": [
+			"Los archivos .admx contienen la configuración de idioma y los adml definen las políticas aplicables al sistema.",
+			"Los archivos .admx definen la estructura y configuración de las plantillas administrativas, mientras que los adml contienen los recursos específicos de idioma.",
+			"Ambos archivos son idénticos, pero uno se usa para equipos y otro para personas usuarias.",
+			"Los archivos adml solo se utilizan cuando el dominio está en nivel funcional 2022."],
+		"correct": "B",
+		"explanation": "Las plantillas administrativas de GPO modernas se dividen bajo un diseño independiente: los archivos en formato neutro .admx especifican los nodos, la estructura jerárquica y los cambios correspondientes del registro del sistema, mientras que los archivos complementarios con extensión .adml aportan las traducciones y cadenas de texto legibles para cada idioma."
+	},
+	{
+		"id": 204099,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En un dominio de Windows Server 2022, existen las GPO predeterminadas: Default Domain Policy y Default Domain Controllers Policy.\n¿Cuál de las siguientes afirmaciones describe correctamente la diferencia principal entre ellas?",
+		"options": [
+			"Default Domain Policy se aplica únicamente a los controladores de dominio, mientras que Default Domain Controllers Policy se aplica a todas las personas usuarias y equipos del dominio.",
+			"Default Domain Controllers Policy se aplica a nivel de sitio, mientras que Default Domain Policy solo se aplica a OUs específicas.",
+			"Default Domain Policy se aplica a todos los objetos del dominio y generalmente configura directivas de contraseña y bloqueo de cuenta, mientras que Default Domain Controllers Policy se aplica solo a los controladores de dominio y suele configurar directivas de auditoría y de inicio de sesión.",
+			"Ambas políticas son idénticas y se aplican de forma redundante a todos los objetos del dominio."],
+		"correct": "C",
+		"explanation": "La directiva Default Domain Policy se enlaza en la raíz del dominio afectando a todos los equipos y usuarios de la jerarquía (donde se centralizan por seguridad las directivas de contraseñas de cuentas), mientras que la Default Domain Controllers Policy está vinculada en exclusiva a la Unidad Organizativa nativa de Domain Controllers, definiendo sus privilegios específicos de asignación de derechos de usuario y auditoría."
+	},
+	{
+		"id": 204100,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En Windows Server 2022, al configurar RAID, ¿qué característica principal de RAID 5 garantiza la tolerancia a fallos?",
+		"options": [
+			"Duplica todos los datos en otro disco, tolerando fallos de hasta dos discos.",
+			"Requiere solo 2 discos y mantiene rendimiento de escritura igual a lectura.",
+			"Aumenta capacidad sin tolerancia a fallos, como RAID 0.",
+			"Distribuye datos y paridad entre los discos, permitiendo que el sistema siga operativo si falla un disco."],
+		"correct": "D",
+		"explanation": "RAID 5 (conjunto de discos distribuidos con paridad distribuida) requiere un mínimo de 3 unidades de almacenamiento. No centraliza la paridad en una sola unidad física, sino que la entrelaza dinámicamente con los datos por todos los platos del conjunto, logrando mantener el sistema íntegro ante el fallo fortuito de un único disco."
+	},
+	{
+		"id": 204101,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En una organización, la persona administradora gestiona los permisos de acceso a los documentos almacenados en OneDrive para la Empresa. Una persona trabajadora quiere compartir un archivo con algunos/as compañeros/as, pero mantenerlo inaccesible para el resto de la empresa. Según el funcionamiento descrito, ¿cuál de las siguientes afirmaciones refleja correctamente cómo se gestionan estos permisos?",
+		"options": [
+			"Una vez subido un archivo a OneDrive para la Empresa, automáticamente todas las personas de la organización tienen acceso de lectura, sin posibilidad de restricciones individuales.",
+			"El sistema no permite compartir archivos de forma selectiva; únicamente se pueden compartir bibliotecas completas con toda la organización.",
+			"Las personas usuarias pueden guardar sus archivos profesionales y decidir compartirlos o no con sus colaboradores/as, pero los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por el/la administrador/a del sitio SharePoint.",
+			"Las personas usuarias pueden guardar sus archivos profesionales, pero tanto la decisión de poder compartir con otros colaboradores/as como los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por la persona administradora del sitio SharePoint."],
+		"correct": "C",
+		"explanation": "OneDrive para la Empresa funciona sobre la infraestructura técnica de colecciones de sitios de SharePoint. Aunque el usuario tiene autonomía inicial para almacenar sus archivos y elegir de forma selectiva con quién compartirlos dentro o fuera de su equipo, la gobernanza global, las cuotas, los derechos estructurales y las directivas de seguridad de la biblioteca subyacente pertenecen a la administración del sitio de SharePoint."
+	},
+	{
+		"id": 204102,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Al abrir una carpeta en OneDrive para Empresas, la ruta de acceso se representa visualmente en la parte superior de la ventana mostrando la jerarquía completa, por ejemplo: Mis archivos > Documentos > ENI. ¿Cómo se denomina esta forma de representar la ruta de navegación?",
+		"options": [
+			"Se denomina hilo de navegación.",
+			"Se denomina hilo de Ariadna.",
+			"Se denomina árbol de directorios.",
+			"Se denomina ruta de acceso rápido."],
+		"correct": "B",
+		"explanation": "En diseño de interfaces web y plataformas colaborativas de Microsoft, la representación jerárquica lineal de enlaces que muestra la ruta exacta del directorio actual se conoce formalmente como 'hilo de Ariadna' (o popularmente en inglés como breadcrumbs). Permite al usuario ubicar el contexto espacial y retornar ágilmente a los niveles superiores."
+	},
+	{
+		"id": 204103,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De todos los criterios de ordenación disponibles en OneDrive a través de la lista Organizar, alguno de ellos está disponible únicamente en la versión para Empresas. ¿Cuáles son esos criterios exclusivos?",
+		"options": [
+			"La ordenación por tamaño y tipo de archivo.",
+			"La ordenación por modificado por y fecha de modificación.",
+			"La ordenación por tipo de archivos y por nombre de autor.",
+			"La ordenación por tamaño de archivo y fecha de modificación."],
+		"correct": "B",
+		"explanation": "A diferencia de la versión personal o doméstica de OneDrive (donde los archivos pertenecen a un único individuo), la versión para Empresas está orientada a la colaboración multiusuario. Debido a esto, integra metadatos compartidos específicos como 'Modificado por' (el último usuario que editó el archivo) junto con la fecha precisa de dicho cambio."
+	},
+	{
+		"id": 204104,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Una persona responsable de TI de una empresa está evaluando si el Almacén personal de OneDrive puede ser utilizado por los/as empleados/as para guardar documentación sensible corporativa. ¿En qué planes de suscripción está disponible esta funcionalidad?",
+		"options": [
+			"En los planes Microsoft 365 Familia y Personal, no en OneDrive para la Empresa ni en suscripciones para grandes empresas o educativas.",
+			"En todos los planes de Microsoft 365, incluyendo OneDrive para la Empresa y los planes educativos.",
+			"En los planes Microsoft 365 Empresa Básico y Empresa Estándar, pero no en los planes personales ni familiares.",
+			"En los planes Microsoft 365 Empresa únicamente si el administrador del tenant de Microsoft 365 lo habilita expresamente desde el centro de administración corporativo."],
+		"correct": "A",
+		"explanation": "El 'Almacén personal' (Personal Vault) es un área protegida por un segundo factor de autenticación estricto que existe exclusivamente en las cuentas y planes comerciales de consumo doméstico/particular (Microsoft 365 Personal y Familia). No está disponible ni se incluye en OneDrive para la Empresa, donde la seguridad de los archivos corporativos se gestiona mediante directivas DLP, cifrado de BitLocker en la nube y directivas de cumplimiento del administrador."
+	},
+	{
+		"id": 204105,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Una persona usuaria de OneDrive necesita dar acceso a un archivo a una persona sin cuenta Microsoft. ¿Es esto posible?",
+		"options": [
+			"No es posible, ya que OneDrive exige que todas las personas destinatarias dispongan de una cuenta Microsoft activa para poder acceder a cualquier archivo compartido.",
+			"No es posible de forma directa, dado que OneDrive solo admite el uso compartido entre personas usuarias que pertenezcan al mismo tenant o inquilino de Microsoft 365.",
+			"Sí es posible, pero la persona destinataria deberá crear obligatoriamente una cuenta Microsoft antes de poder visualizar el archivo compartido.",
+			"Sí es posible, siempre que la persona administradora haya autorizado compartir con personas usuarias externas, que recibirán el acceso mediante un vínculo por correo electrónico como invitadas anónimas."],
+		"correct": "D",
+		"explanation": "OneDrive para la Empresa permite la compartición externa con usuarios que carecen de cuentas Microsoft (siempre que las directivas globales del tenant lo autoricen). Al enviar un vínculo de acceso, el destinatario externo puede validar su identidad introduciendo un código de verificación temporal de un solo uso de 8 dígitos enviado a su correo electrónico, accediendo como invitado."
+	},
+	{
+		"id": 204106,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Una empresa necesita crear un sitio SharePoint para gestionar grandes volúmenes de datos entrantes, configurar reglas que dirijan automáticamente esos archivos a ubicaciones específicas, y administrar modificaciones sobre los datos una vez añadidos al sistema. ¿Qué tipo de sitio SharePoint cubre estas necesidades?",
+		"options": [
+			"Un centro de documentos, ya que está diseñado para la gestión centralizada de documentos de la empresa y permite configurar reglas de enrutamiento para dirigir los archivos a las ubicaciones correspondientes.",
+			"Un centro de datos, ya que permite crear un sitio diseñado para la gestión de datos, configurar tablas de enrutamiento para enviar archivos entrantes a ubicaciones específicas y administrar la eliminación o modificación de datos tras añadirlos al sistema de referencia.",
+			"Un sitio de proyecto, ya que reúne todos los estados y artefactos del proyecto en un entorno único, incluyendo herramientas para gestionar y redirigir los datos entrantes de forma automatizada.",
+			"Un centro de investigación de base, ya que proporciona funciones avanzadas de búsqueda y clasificación de datos, permitiendo además configurar reglas para dirigir automáticamente los archivos a las ubicaciones definidas."],
+		"correct": "A",
+		"explanation": "La plantilla clásica de SharePoint denominada 'Centro de Documentos' (Document Center) está optimizada para crear un almacén corporativo centralizado a gran escala. Incluye de forma nativa la característica de 'Organizador de contenido' (Content Organizer), la cual evalúa metadatos y aplica reglas de enrutamiento automáticas para derivar los archivos entrantes hacia carpetas o bibliotecas específicas."
+	},
+	{
+		"id": 204107,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Varias personas de un equipo necesitan modificar el mismo archivo almacenado en una biblioteca de documentos SharePoint. ¿Qué es preferible hacer para evitar que varias personas usuarias realicen modificaciones simultáneas sobre el mismo archivo?",
+		"options": [
+			"Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones.",
+			"Abrir el archivo directamente desde la biblioteca y activar el modo de edición exclusiva desde las opciones del documento, que bloqueará automáticamente el acceso al resto de personas usuarias mientras esté abierto.",
+			"Crear una copia local del archivo, realizar las modificaciones necesarias y subir la nueva versión a la biblioteca, sobreescribiendo la anterior para que el resto de personas usuarias accedan a la versión actualizada.",
+			"Compartir el archivo con permisos de solo lectura para el resto de personas usuarias mientras una persona del equipo lo edita, y restablecer los permisos de edición una vez finalizados los cambios."],
+		"correct": "A",
+		"explanation": "La función de 'Extraer' (Check-out) en SharePoint bloquea de forma exclusiva un archivo a favor del usuario que lo solicita. Mientras el archivo permanezca extraído, los demás miembros del equipo solo podrán leer la última versión guardada, impidiendo colisiones de edición simultánea hasta que se realice la acción de 'Insertar' o devolver (Check-in)."
+	},
+	{
+		"id": 204108,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Una persona usuaria de SharePoint quiere configurar un sistema de notificaciones para un archivo de la biblioteca de documentos. ¿Qué opciones de notificación tiene disponibles?",
+		"options": [
+			"Puede recibir notificaciones únicamente a través del correo electrónico corporativo asociado a su cuenta de Microsoft 365.",
+			"Puede recibir notificaciones a través de una ventana emergente en el propio sitio SharePoint o mediante una notificación push en la aplicación móvil de Microsoft 365.",
+			"Puede configurar un resumen semanal de todos los cambios realizados en la biblioteca completa, sin posibilidad de filtrar las notificaciones por archivo específico.",
+			"Puede recibir un aviso por correo electrónico o por SMS cada vez que se realice una modificación en dicho archivo, tras crear una alerta sobre el mismo."],
+		"correct": "D",
+		"explanation": "La característica 'Avisarme' (Alert Me) en SharePoint permite a los usuarios suscribirse a flujos de alerta sobre elementos concretos o bibliotecas. El sistema de alertas ofrece de manera nativa la opción de enviar la notificación de manera inmediata, diaria o semanal a través de correo electrónico o mediante mensajes SMS en redes que tengan configurada la mensajería móvil."
+	},
+	{
+		"id": 204109,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Una persona usuaria está gestionando las tareas de un proyecto en SharePoint y observa que algunas tareas aparecen representadas de forma diferente en la escala de tiempo. ¿De qué depende la forma geométrica con la que se representa cada tarea?",
+		"options": [
+			"Depende de la persona usuaria asignada: las tareas con persona responsable asignada se representan con un círculo y las tareas sin asignar se representan con un rectángulo en la escala de tiempo.",
+			"Depende de las fechas introducidas: si se han definido tanto la fecha de inicio como la de vencimiento se representa con un rectángulo, y si solo se ha introducido una de las dos fechas se representa con un rombo en la escala de tiempo.",
+			"Depende de la prioridad asignada a la tarea: las tareas de alta prioridad se representan con un triángulo y las de baja prioridad, con un círculo en la escala de tiempo.",
+			"Depende del estado de la tarea: las tareas completadas se representan con un rombo y las pendientes con un círculo en la escala de tiempo."],
+		"correct": "B",
+		"explanation": "En las listas de tareas con vistas de escala de tiempo en SharePoint, una tarea con una duración acotada en el tiempo (con Fecha de inicio y Fecha de vencimiento completas) se dibuja como una barra o rectángulo horizontal. Si la tarea representa un punto crítico de control o solo tiene registrada una fecha única, el componente visual muta a un rombo para simbolizar un hito (milestone)."
+	},
+	{
+		"id": 204110,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Una persona usuaria acaba de crear un nuevo sitio Wiki en SharePoint y observa que al acceder a él se muestra automáticamente una página por defecto. ¿Cómo se denomina técnicamente esta página y qué características tiene?",
+		"options": [
+			"Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
+			"Se denomina Index.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
+			"Se denomina Index.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
+			"Se denomina Home.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."],
+		"correct": "A",
+		"explanation": "Al instanciar una biblioteca de páginas Wiki en SharePoint, la landing page predeterminada de bienvenida recibe el nombre técnico de 'Home.aspx'. Actúa como la página de inicio predeterminada del sitio. El usuario posee plenos privilegios de autoría para editar sus contenidos, cambiar su nombre, borrarla o designar cualquier otra página Wiki alternativa como la nueva home."
+	},
+	{
+		"id": 204111,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Microsoft Teams es una plataforma de trabajo colaborativo que pone a disposición de sus personas usuarias una serie de herramientas y servicios. ¿Cuál de las siguientes opciones describe correctamente las tareas que pueden realizar las personas de un equipo en Teams?",
+		"options": [
+			"Conversar por mensajería instantánea, gestionar el correo electrónico corporativo, transferir archivos, administrar los permisos de acceso a documentos y planificar reuniones de equipo.",
+			"Acceder a información del equipo, transferir archivos, consultar el historial de conversaciones, crear sitios SharePoint y administrar las suscripciones de Microsoft 365 del equipo.",
+			"Conversar por mensajería instantánea, acceder a información del equipo, transferir archivos personales o compartidos, consultar el historial de conversaciones, planificar reuniones y colaborar en la edición de archivos compartidos.",
+			"Conversar por mensajería instantánea, transferir archivos, consultar el historial de conversaciones, gestionar las licencias de usuario y coeditar historiales compartidos del equipo."],
+		"correct": "C",
+		"explanation": "Microsoft Teams centraliza las capacidades del trabajo asíncrono y síncrono: mensajería instantánea (chats y canales), almacenamiento, persistencia e intercambio de archivos integrados con SharePoint/OneDrive, almacenamiento de historial de hilos de conversación, programación y ejecución de videoconferencias o reuniones, y coedición simultánea en tiempo real de documentos de Office."
+	},
+	{
+		"id": 204112,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "La persona propietaria de un equipo en Microsoft Teams quiere revisar qué aspectos puede gestionar desde la configuración del equipo. ¿Cuál de las siguientes opciones describe correctamente las posibilidades que ofrece dicha configuración?",
+		"options": [
+			"Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las autorizaciones de las personas miembro y configurar las notificaciones de correo electrónico del equipo.",
+			"Administrar las autorizaciones de las personas miembro, gestionar el calendario compartido, configurar los canales privados, gestionar las reuniones programadas del equipo y autorizar el uso de emojis y GIF animados y pegatinas.",
+			"Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las licencias de Microsoft 365 de las personas miembro, activar o desactivar las menciones y gestionar el almacenamiento de archivos del equipo.",
+			"Modificar la imagen asociada al equipo, administrar las autorizaciones de las personas miembro, activar o desactivar las menciones a equipos y canales, y autorizar el uso de emojis, GIF animados y pegatinas."],
+		"correct": "D",
+		"explanation": "En el panel de gestión del propietario de un equipo en Teams, la pestaña 'Configuración' permite ajustar aspectos visuales (imagen del equipo), establecer qué permisos tienen los miembros (crear/eliminar canales o pestañas), regular si se permiten las menciones globales (@equipo o @canal) para evitar el spam, y habilitar/restringir elementos lúdicos (Giphy, stickers y memes)."
+	},
+	{
+		"id": 204113,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Microsoft Teams establece una serie de límites en la gestión de canales dentro de un equipo. ¿Cuál de las siguientes afirmaciones describe correctamente dichos límites?",
+		"options": [
+			"Se puede añadir hasta 200 canales por equipo, sin contar los canales eliminados que se pueden restaurar en un plazo de 30 días.",
+			"Se puede añadir hasta 200 canales por equipo, incluidos los canales eliminados que se pueden restaurar en un plazo de 30 días.",
+			"Se puede añadir hasta 300 canales por equipo, sin contar los canales eliminados que se pueden restaurar en un plazo de 60 días.",
+			"Se puede añadir hasta 300 canales por equipo, incluidos los canales eliminados que se pueden restaurar en un plazo de 60 días."],
+		"correct": "B",
+		"explanation": "Históricamente, las especificaciones y límites de arquitectura de Microsoft Teams determinan un tope de 200 canales estándar por equipo. Este umbral cuantitativo incluye tanto los canales activos como aquellos eliminados por los usuarios mientras permanezcan dentro de la ventana de retención y restauración de 30 días."
+	},
+	{
+		"id": 204114,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según la norma ISO/IEC 17799, ¿cómo se define la Seguridad de la Información?",
+		"options": [
+			"Como un conjunto de herramientas de software para proteger la red.",
+			"Como la preservación de su confidencialidad, su integridad y su disponibilidad.",
+			"Como un proceso de auditoría externa para certificar la calidad de los datos.",
+			"Como la eliminación de todas las amenazas externas que afectan al hardware."],
+		"correct": "B",
+		"explanation": "La norma estándar ISO/IEC 17799 (que posteriormente evolucionó a la ISO/IEC 27002) define formalmente la seguridad de la información como la preservación de la tríada CID: Confidencialidad (garantizar el acceso solo a personas autorizadas), Integridad (salvaguardar la exactitud y completitud de la información) y Disponibilidad (asegurar el acceso cuando sea requerido)."
+	},
+	{
+		"id": 204115,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo define la norma ISO 7498 la Seguridad Informática?",
+		"options": [
+			"Como un sistema de gestión basado en el control de acceso físico.",
+			"Como una metodología para el análisis de riesgos en la administración pública.",
+			"Como una serie de mecanismos que minimizan la vulnerabilidad de bienes y recursos en una organización.",
+			"Como el uso de técnicas criptográficas para garantizar el anonimato de la persona usuaria."],
+		"correct": "C",
+		"explanation": "La norma marco ISO 7498 (en su parte dedicada a la arquitectura de seguridad) conceptualiza la seguridad informática como el conjunto de servicios y mecanismos de protección lógicos y físicos orientados a mitigar de forma activa las vulnerabilidades presentes en los activos, infraestructuras y recursos del sistema de información."
+	},
+	{
+		"id": 204116,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Dentro de los objetivos de seguridad, ¿qué comprende el plano de actuación \"Humano\"?",
+		"options": [
+			"Instalación, configuración y actualización de soluciones de hardware.",
+			"Sensibilización y formación de personas empleadas y personas directivas, definición de funciones y obligaciones del personal.",
+			"Definición e implantación de políticas de seguridad, planes, normas y procedimientos.",
+			"Cumplimiento y adaptación a la legislación vigente como la LOPD y el Código Penal."],
+		"correct": "B",
+		"explanation": "El factor humano es considerado el eslabón más débil en la cadena de custodia de la información. Por tanto, el plano de actuación humano abarca de manera exclusiva las políticas de concienciación frente a la ingeniería social, planes de capacitación técnica en buenas prácticas de seguridad, y la delimitación jurídica y funcional de las responsabilidades del personal."
+	},
+	{
+		"id": 204117,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué garantiza el servicio de \"Confidencialidad\"?",
+		"options": [
+			"Que la identidad de la persona creadora de un mensaje o documento es legítima.",
+			"Que un mensaje o fichero no ha sido modificado desde su creación.",
+			"Que cada mensaje transmitido o almacenado en un sistema informático sólo podrá ser leído por su legítimo destinatario.",
+			"Que el sistema sea lo suficientemente robusto frente a ataques e interferencias."],
+		"correct": "C",
+		"explanation": "La confidencialidad es la dimensión de la seguridad encargada de asegurar que la información y los datos no se pongan a disposición ni se revelen a individuos, entidades o procesos no autorizados, garantizando (generalmente mediante criptografía) que solo los receptores legítimos puedan interpretar el contenido."
+	},
+	{
+		"id": 204118,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué consiste el objeto del servicio de \"No repudiación\"?",
+		"options": [
+			"En implementar un mecanismo probatorio que permita demostrar la autoría y envío de un determinado mensaje.",
+			"En controlar el acceso de las personas usuarias a los distintos equipos y servicios ofrecidos.",
+			"En registrar y monitorizar la utilización de los distintos recursos del sistema.",
+			"En probar que un contenido digital pertenece a una persona titular de derechos de autor."],
+		"correct": "A",
+		"explanation": "El servicio de no repudiación (Non-repudiation) provee evidencias criptográficas irrefutables para evitar que un actor niegue haber participado en una comunicación. Se divide en no repudiación en origen (el emisor no puede negar haber enviado el mensaje) y no repudiación en destino (el receptor no puede negar haberlo recibido)."
+	},
+	{
+		"id": 204119,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se define el principio de \"Defensa en Profundidad\"?",
+		"options": [
+			"Como el uso de un único cortafuegos para proteger el perímetro de la red.",
+			"Como el diseño e implantación de varios niveles de seguridad dentro del sistema informático de la organización.",
+			"Como la actualización diaria de los parches publicados por fabricantes.",
+			"Como el cifrado de todos los datos sensibles transmitidos por Internet."],
+		"correct": "B",
+		"explanation": "La defensa en profundidad (Defense in Depth) es una estrategia de seguridad que postula el despliegue concéntrico de múltiples capas de controles de seguridad (físicos, organizativos, perimetrales, de red, de host, de aplicación y de datos) a fin de que si un atacante vulnera una de las barreras, existan mecanismos defensivos redundantes subsiguientes."
+	},
+	{
+		"id": 204120,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En los niveles de madurez de la gestión, ¿qué caracteriza a la Etapa 1?",
+		"options": [
+			"La certificación de la gestión basada en estándares internacionales como ISO 27001.",
+			"La implantación de medidas básicas de seguridad por “sentido común”.",
+			"La gestión global de la seguridad mediante la definición de políticas y planes.",
+			"La adaptación a los requisitos del marco legal y de las exigencias de los/las clientes."],
+		"correct": "B",
+		"explanation": "En las metodologías de evaluación de madurez de la seguridad corporativa, la Etapa 1 (o nivel inicial/ad-hoc) se caracteriza por la ausencia de procesos formales o políticas escritas. Las organizaciones en este estado aplican salvaguardas reactivas e inconexas basadas meramente en la intuición o 'sentido común' de los técnicos."
+	},
+	{
+		"id": 204121,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Técnicamente, ¿qué es una \"vulnerabilidad\"?",
+		"options": [
+			"Cualquier evento accidental o intencionado que pueda ocasionar algún daño.",
+			"La probabilidad de que una amenaza se materialice sobre un recurso.",
+			"Cualquier debilidad en el sistema informático que pueda permitir a las amenazas causarle daños y producir pérdidas en la organización.",
+			"La medición y valoración del daño que produciría un incidente de seguridad."],
+		"correct": "C",
+		"explanation": "En la gestión y análisis de riesgos, una vulnerabilidad se define estrictamente como una imperfección, fallo o debilidad intrínseca en el diseño, configuración, implementación o controles de un sistema de información que puede ser explotada por una amenaza para causar un impacto negativo en la organización."
+	},
+	{
+		"id": 204122,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se define de forma simplificada un \"Incidente de Seguridad\"?",
+		"options": [
+			"El impacto económico derivado de la falta de medidas preventivas.",
+			"La materialización de una amenaza.",
+			"Una debilidad en los sistemas físicos o lógicos de la empresa.",
+			"Un medio empleado para eliminar o reducir un riesgo identificado."],
+		"correct": "B",
+		"explanation": "Un incidente de seguridad es conceptualmente la concreción o materialización de una amenaza sobre un activo informático. Esto significa que la amenaza ha aprovechado una vulnerabilidad existente, rompiendo alguna de las dimensiones de la seguridad (confidencialidad, integridad o disponibilidad)."
+	},
+	{
+		"id": 204123,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué es una medida de seguridad \"pasiva\"?",
+		"options": [
+			"Aquella utilizada para anular el riesgo antes de que ocurra el incidente.",
+			"Cualquier medida empleada para reducir el impacto cuando se produzca un incidente de seguridad.",
+			"Un procedimiento para detectar un ataque durante su ejecución.",
+			"Una técnica para monitorizar los registros de actividad de los equipos."],
+		"correct": "B",
+		"explanation": "Las medidas de seguridad activas tienen como objetivo prevenir, evitar o detectar los incidentes antes o durante su suceso. Por el contrario, las medidas pasivas actúan de forma reactiva o amortiguadora para minimizar las consecuencias, daños e impactos una vez que el incidente ya ha tenido lugar (ej. copias de seguridad o sistemas de alimentación ininterrumpida)."
+	},
+	{
+		"id": 204124,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la hierarchy de conceptos de seguridad, ¿qué elemento constituye la base de la pirámide y sirve para dejar constancia de las tareas realizadas?",
+		"options": [
+			"Procedimientos de Seguridad.",
+			"Planes de Contingencia.",
+			"Registros / Evidencias.",
+			"Políticas de Seguridad."],
+		"correct": "C",
+		"explanation": "En la pirámide documental de un Sistema de Gestión de Seguridad de la Información (SGSI), las políticas están en la cúspide (estrategia). Debajo están las normas y procedimientos (operación). En la base se sitúan los registros y evidencias, que son los artefactos técnicos y logs que demuestran empíricamente que las directivas y controles se están ejecutando formalmente."
+	},
+	{
+		"id": 204125,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué principio establece que las personas usuarias deben tener asignadas solo los servicios y aplicaciones estrictamente necesarios para sus tareas?",
+		"options": [
+			"Principio de Configuración Robusta y Segura.",
+			"Defensa en Profundidad (Layered Security).",
+			"Asignación de los mínimos privilegios.",
+			"Control de Acceso Discrecional por Propietario/a."],
+		"correct": "C",
+		"explanation": "El principio de mínimo privilegio (Principle of Least Privilege) dicta que a los usuarios y procesos solo se les deben conceder los derechos de acceso, ejecución e información indispensables para el desempeño estricto de sus funciones laborales, reduciendo drásticamente la superficie de ataque ante un posible compromiso de la cuenta."
+	},
+	{
+		"id": 204126,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se define el nivel RAID 0 en cuanto a su tolerancia a fallos?",
+		"options": [
+			"Ofrece una alta disponibilidad mediante el uso de espejado.",
+			"Utiliza códigos Hamming para la correction de errores en tiempo real.",
+			"Este nivel no ofrece tolerancia a fallos.",
+			"Requiere un disco dedicado exclusivamente para el almacenamiento de paridad."],
+		"correct": "C",
+		"explanation": "RAID 0, también conocido como particionamiento en bandas o striping, distribuye los datos equitativamente entre dos o más discos para maximizar la velocidad de lectura y escritura. Sin embargo, carece por completo de cualquier redundancia o cálculo de paridad; si una sola de las unidades físicas falla, se destruye la integridad de todo el volumen."
+	},
+	{
+		"id": 204127,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué nivel de RAID se destaca por ofrecer actualmente la mejor \"relación rendimiento-coste\" para aplicaciones empresariales?",
+		"options": [
+			"RAID 0+1 / RAID 10",
+			"RAID 6 (Acceso independiente con doble paridad)",
+			"RAID 2 (Acceso síncrono con código de errores)",
+			"RAID 5"],
+		"correct": "D",
+		"explanation": "RAID 5 es ampliamente valorado en entornos corporativos por su equilibrio óptimo entre coste y rendimiento. Al distribuir la paridad a lo largo de todos los discos del conjunto, solo sacrifica la capacidad equivalente a un único disco para proporcionar tolerancia a fallos, ofreciendo al mismo tiempo altas velocidades de lectura."
+	},
+	{
+		"id": 204128,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué acción debe realizarse de forma inmediata en el sistema cuando un/una empleado/a causa baja en la organización?",
+		"options": [
+			"Auditoría de las últimas sesiones de acceso de la persona usuaria.",
+			"Transferencia de sus ficheros personales a un soporte desmagnetizado.",
+			"Cancelación o bloqueo inmediato de las cuentas de una persona usuaria.",
+			"Cambio de contraseña de acceso al BIOS de su estación de trabajo."],
+		"correct": "C",
+		"explanation": "En las políticas operativas de control de accesos y ciclo de vida de identidades, la revocación o el bloqueo fulminante de todas las credenciales de un empleado en el momento de su baja es la medida de seguridad prioritaria para neutralizar el riesgo de intrusiones internas o accesos no autorizados por despecho."
+	},
+	{
+		"id": 204129,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de \"Lo que se sabe\"?",
+		"options": [
+			"Tarjeta inteligente (smartcard) o token USB.",
+			"Características biométricas como el iris o la voz.",
+			"Firma manuscrita.",
+			"Contraseñas (passwords) y PINs."],
+		"correct": "D",
+		"explanation": "Los factores de autenticación se dividen tradicionalmente en tres categorías: algo que posees (tokens, tarjetas), algo que eres (biometría) y algo que sabes. Las contraseñas, los códigos PIN y las preguntas secretas pertenecen exclusivamente al factor de conocimiento ('algo que sabes')."
+	},
+	{
+		"id": 204130,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se clasifica la información cuya divulgación podría ocasionar \"daños significativos\" para la organización?",
+		"options": [
+			"Información de uso interno.",
+			"Información secreta o reservada.",
+			"Información desclasificada.",
+			"Información confidencial."],
+		"correct": "D",
+		"explanation": "De acuerdo con los estándares y esquemas clásicos de clasificación de activos de información en la empresa privada y administración pública, el nivel de 'Confidencial' se asigna típicamente a aquellos datos cuya revelación o fuga no autorizada causaría un perjuicio financiero, reputacional o funcional significativo a la entidad."
+	},
+	{
+		"id": 204131,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En las conexiones VPN, ¿qué propiedades se garantizan mediante el uso de algoritmos criptográficos?",
+		"options": [
+			"Escalabilidad, disponibilidad y redundancia de la red.",
+			"Confidencialidad, autenticidad e integridad de los datos.",
+			"Mayor ancho de banda y menor latencia en conexiones remotas.",
+			"Encapsulamiento de protocolos no enrutables mediante túneles."],
+		"correct": "B",
+		"explanation": "Una Red Privada Virtual (VPN) robusta implementa protocolos de cifrado (como IPsec o TLS) para constituir un canal seguro sobre una red insegura como Internet. Esto garantiza que los datos viajen cifrados (Confidencialidad), que no sean alterados (Integridad) y que los extremos sean quienes dicen ser (Autenticidad)."
+	},
+	{
+		"id": 204132,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se denomina al intervalo de tiempo transcurrido desde que se hace pública una vulnerabilidad hasta que se presenta la correspondiente actualización o parche de seguridad?",
+		"options": [
+			"Días de riesgo.",
+			"Periodo de exposición.",
+			"Ventana de vulnerabilidad.",
+			"Tiempo de respuesta técnica."],
+		"correct": "C",
+		"explanation": "La 'ventana de vulnerabilidad' es el lapso temporal crítico durante el cual un sistema informático está expuesto a ataques potenciales. Comienza en el instante en que el fallo de seguridad se divulga públicamente y concluye cuando los administradores aplican el parche correctivo desarrollado por el fabricante."
+	},
+	{
+		"id": 204133,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué técnica de espionaje empresarial consiste en la búsqueda de información sensible en copias generadas en papel que han sido descartadas?",
+		"options": [
+			"Trash scanning.",
+			"Paper tracking.",
+			"Dumpster diving.",
+			"Scraping físico."],
+		"correct": "C",
+		"explanation": "El término 'Dumpster diving' (o rebuscar en la basura) define en ingeniería social e intrusión física la práctica de recolectar documentos, listados de contraseñas, manuales o soportes magnéticos desechados indebidamente en los contenedores de desperdicios de una organización con la meta de obtener inteligencia útil para un ataque."
+	},
+	{
+		"id": 204134,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según la Ley General de Telecomunicaciones de España (32/2003), ¿qué obligación puede imponer el Estado a los organismos públicos o fabricantes en relación con el cifrado?",
+		"options": [
+			"Entregar copias de seguridad de todas las claves privadas.",
+			"Utilizar exclusivamente algoritmos de cifrado de flujo.",
+			"Prohibir el uso de longitudes de clave superiores a 128 bits.",
+			"Facilitar sin coste alguno los aparatos de cifrado a efectos de su control."],
+		"correct": "D",
+		"explanation": "En el marco histórico de la legislación española sobre telecomunicaciones (Ley 32/2003), el Gobierno se reservaba la facultad de exigir a las entidades o fabricantes que emplearan herramientas criptográficas la aportación gratuita de los equipos de cifrado o algoritmos correspondientes para poder llevar a cabo la inspección y el control técnico pertinente."
+	},
+	{
+		"id": 204135,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué fase del ciclo de vida de un sistema es más común la introducción accidental de puertas traseras?",
+		"options": [
+			"Durante las fases de desarrollo.",
+			"Durante la auditoría de certificación.",
+			"Durante la fase de despliegue en producción.",
+			"Durante el mantenimiento correctivo."],
+		"correct": "A",
+		"explanation": "Las puertas traseras (backdoors) suelen introducirse de forma involuntaria o maliciosa en la fase de desarrollo de software. Los programadores a menudo implementan accesos rápidos desprotegidos para realizar pruebas técnicas y depuración, olvidando posteriormente retirar dichos mecanismos en la versión final de producción."
+	},
+	{
+		"id": 204136,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cómo se conoce al fenómeno de acceso y control remoto de teléfonos móviles y agendas electrónicas a través de la tecnología Bluetooth?",
+		"options": [
+			"Bluejacking masivo.",
+			"Snarfing o Bluesnarfing.",
+			"Bluetooth capturing.",
+			"Remote cell control."],
+		"correct": "B",
+		"explanation": "El Bluesnarfing es el ataque informático que consiste en el acceso no autorizado a la información almacenada en un terminal inalámbrico (contactos, mensajes, imágenes) aprovechando fallos de seguridad en el protocolo de conexión Bluetooth. El Bluejacking, por su parte, se limita a enviar mensajes no solicitados al terminal."
+	},
+	{
+		"id": 204137,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué estándar se define como un manual con una serie de secciones compuestas por módulos que incluyen las distintas pruebas para realizar una auditoría técnica de seguridad?",
+		"options": [
+			"OSSTMM.",
+			"Owasp",
+			"NIST SP 800-42",
+			"EISPP."],
+		"correct": "A",
+		"explanation": "OSSTMM (Open Source Security Testing Methodology Manual) es uno de los estándares internacionales más reconocidos y rigurosos para la ejecución de auditorías técnicas de seguridad y pruebas de penetración (pentesting). Estructura los análisis a través de módulos operativos métricos y verificables."
+	},
+	{
+		"id": 204138,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿A qué qué tipo de tratamiento de datos personales resultará de aplicación el Reglamento (UE) 2016/679 relativo a la protección de las personas físicas?",
+		"options": [
+			"Nessus Scripting Tool (NST).",
+			"NASL (Nessus Attack Scripting Language).",
+			"Vulnerability Definition Language (VDL).",
+			"Nessus Core Script."],
+		"correct": "B",
+		"explanation": "Nessus, el popular software de escaneo de vulnerabilidades de red, utiliza un lenguaje de programación interpretado propio denominado NASL (Nessus Attack Scripting Language). Este lenguaje permite a los ingenieros de seguridad escribir y personalizar sus propios scripts de exploits y pruebas de detección."
+	},
+	{
+		"id": 204139,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿A qué tipo de tratamiento de datos personales resultará de aplicación el Reglamento (UE) 2016/679 relativo a la protección de las personas físicas?",
+		"options": [
+			"Al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
+			"Al tratamiento realizado en el ejercicio de una actividad no comprendida en el ámbito de aplicación del Derecho de la Unión.",
+			"Al tratamiento efectuado por parte de las autoridades competentes con fines de prevención, investigación, detección o enjuiciamiento de infracciones penales, o de ejecución de sanciones penales, incluida la de protección frente a amenazas a la seguridad pública y su prevención.",
+			"Al tratamiento efectuado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas."],
+		"correct": "A",
+		"explanation": "El artículo 2 del Reglamento General de Protección de Datos (RGPD) explicita taxativamente su ámbito de aplicación material, indicando que cubre tanto el tratamiento informático (total o parcialmente automatizado) como los registros en soporte papel clásico (tratamiento no automatizado estructurado en ficheros). Las opciones B, C y D constituyen exclusiones expresas de la norma."
+	},
+	{
+		"id": 204140,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué exige el principio de «integridad y confidencialidad» respecto al tratamiento de datos personales según el Reglamento (UE) 2016/679?",
+		"options": [
+			"Que los datos sean exactos y, si fuera necesario, se mantengan actualizados, adoptando todas las medidas razonables para que se supriman o rectifiquen sin dilación los datos personales que sean inexactos con respecto a los fines para los que se tratan.",
+			"Que los datos sean tratados de tal manera que se garantice una seguridad adecuada, incluida la protección contra el tratamiento no autorizado o ilícito y contra su pérdida, destrucción o daño accidental, mediante la aplicación de medidas técnicas u organizativas apropiadas.",
+			"Que los datos sean mantenidos de forma que se permita la identificación de las personas interesadas durante un plazo indefinido, sin atender a la necesidad del tratamiento de los datos personales ni a las medidas técnicas y organizativas que impone el presente Reglamento.",
+			"Que los datos sean recogidos con fines determinados, explícitos y legítimos, y no sean tratados ulteriormente de manera incompatible con dichos fines, salvo que se traten con fines de archivo en interés público, de investigación científica o histórica."],
+		"correct": "B",
+		"explanation": "El artículo 5.1.f) del RGPD regula el principio de integridad y confidencialidad de los datos (la seguridad del tratamiento), exigiendo la implantación obligatoria de barreras y medidas técnicas y organizativas razonables para evitar el robo de información, alteraciones fraudulentas, accesos indebidos o la pérdida accidental."
+	},
+	{
+		"id": 204141,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Bajo el Reglamento (UE) 2016/679, ¿qué condición debe cumplirse para que el tratamiento de datos de un niño o niña sea lícito en relación con la oferta directa de servicios de la sociedad de la información?",
+		"options": [
+			"Que la niña o el niño tenga como mínimo 14 años, sin que los Estados miembros puedan establecer por ley una edad inferior a tales fines.",
+			"El servicio sea gratuito y no implique la elaboración de perfiles comerciales.",
+			"Que el niño o la niña haya leído y aceptado las condiciones de privacidad de forma autónoma, siempre que tenga como mínimo 14 años de edad.",
+			"Que la niña o el niño tenga como mínimo 16 años, o si es menor a dicha edad, que el consentimiento lo diera o autorizara el titular de la patria potestad o tutela."],
+		"correct": "D",
+		"explanation": "El artículo 8 del RGPD estipula que en la oferta directa de servicios de la sociedad de la información a niños, el tratamiento es lícito si el menor tiene al menos 16 años. Si es menor, el tratamiento solo es lícito si el consentimiento lo otorga el titular de la patria potestad o tutela. El reglamento permite a los Estados miembros rebajar esta edad por ley hasta un mínimo de 13 años (en España se fijó en 14 años)."
+	},
+	{
+		"id": 204142,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué información debe facilitar, entre otras, la persona responsable del tratamiento en el momento en que obtenga datos personales directamente del interesado, conforme al Reglamento (UE) 2016/679?",
+		"options": [
+			"La fuente de la que proceden los datos personales y si estos proceden de fuentes de acceso público.",
+			"Los fines del tratamiento a que se destinan los datos personales y la base jurídica del tratamiento.",
+			"Las categorías de datos personales de que se trate y el historial de tratamientos anteriores de la persona interesada.",
+			"La descripción general de las medidas técnicas y organizativas de seguridad adoptadas para garantizar la resiliencia de los sistemas de tratamiento de datos."],
+		"correct": "B",
+		"explanation": "El artículo 13 del RGPD detalla la información que debe facilitarse cuando los datos se obtienen directamente del interesado. Entre estos datos obligatorios de transparencia se encuentran la identidad del responsable, los fines específicos del tratamiento a que se destinan y la base jurídica que legitima dicho tratamiento."
+	},
+	{
+		"id": 204143,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué información específica, entre otras, tiene derecho a obtener la persona interesada del responsable del tratamiento cuando ejerce su derecho de acceso al amparo del Reglamento (UE) 2016/679?",
+		"options": [
+			"Las personas destinatarias o las categorías de personas destinatarias a las que se comunicaron o serán comunicados los datos personales, en particular personas destinatarias en terceros u organizaciones internacionales.",
+			"Cuando los datos personales no se hayan obtenido de la persona interesada, los datos personales de la persona representante de la persona destinataria.",
+			"La identificación pormenorizada de la ubicación física de los servidores y la dirección del centro de procesamiento de datos donde se encuentran alojados sus datos personales.",
+			"La descripción técnica del estándar de seguridad y el algoritmo de cifrado específico aplicado para garantizar la resiliencia de sus datos personales."],
+		"correct": "A",
+		"explanation": "Conforme al artículo 15.1.c) del RGPD, el derecho de acceso faculta al interesado a obtener del responsable confirmación de si se están tratando sus datos y, en tal caso, acceso a los mismos y a conocer los destinatarios o las categorías de destinatarios a los que se comunicaron o serán comunicados los datos personales."
+	},
+	{
+		"id": 204144,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el marco del Reglamento (UE) 2016/679, ¿en qué supuesto NO será de aplicación el derecho de supresión («el derecho al olvido») por ser el tratamiento de los datos necesario?",
+		"options": [
+			"Cuando los datos personales hayan sido tratados ilícitamente.",
+			"Cuando el tratamiento sea necesario para la formulación, el ejercicio o la defensa de reclamaciones.",
+			"Cuando los datos personales deban suprimirse para el cumplimiento de una obligación legal establecida en el Derecho de la Unión o de los Estados miembros que se aplique al responsable del tratamiento.",
+			"Cuando los datos personales ya no sean necesarios en relación con los fines para los que fueron recogidos o tratados de otro modo."],
+		"correct": "B",
+		"explanation": "El artículo 17.3.e) del RGPD establece las excepciones al derecho de supresión. El derecho al olvido queda explícitamente excluido cuando el tratamiento de los datos sea estrictamente necesario para la formulación, el ejercicio o la defensa de reclamaciones legales e intereses judiciales."
+	},
+	{
+		"id": 204145,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con el texto del Reglamento (UE) 2016/679, ¿en qué formato tendrá derecho a recibir la persona interesada sus datos personales al ejercer el derecho a la portabilidad?",
+		"options": [
+			"En cualquier formato que el responsable considere oportuno, siempre que sea legible por el interesado.",
+			"Únicamente en formato papel certificado y compulsado para garantizar su autenticidad.",
+			"En un formato de uso común, de lectura mecánica y estructurado.",
+			"En un formato cifrado que solo pueda ser abierto por autoridades de control."],
+		"correct": "C",
+		"explanation": "El artículo 20.1 del RGPD define el derecho a la portabilidad indicando expresamente que el interesado tendrá derecho a recibir los datos personales que le incumban en un formato estructurado, de uso común y lectura mecánica, con el fin de poder transmitirlos a otro responsable sin impedimentos."
+	},
+	{
+		"id": 204146,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Conforme al Reglamento (UE) 2016/679, ¿cuál es el contenido mínimo que debe incluir la notificación de una violación de la seguridad de los datos personales a la autoridad de control competente?",
+		"options": [
+			"La identificación nominal y el documento de identidad de cada una de las personas interesadas afectadas, así como la ubicación física exacta de los servidores vulnerados.",
+			"La naturaleza de la violación, los datos de contacto de la persona delegada de protección de datos, las posibles consecuencias y las medidas adoptadas o propuestas por el o la responsable para poner remedio a la violación.",
+			"Una copia íntegra del registro de actividades de tratamiento y la descripción técnica detallada de los algoritmos de cifrado que fallaron durante el incidente.",
+			"El dictamen vinculante del Comité Europeo de Protección de Datos sobre la gravedad de la infracción y la propuesta de sanción administrativa correspondiente."],
+		"correct": "B",
+		"explanation": "El artículo 33.3 del RGPD especifica el contenido mínimo que debe facilitar el responsable en la notificación a la autoridad: describir la naturaleza de la violación de seguridad, indicar el nombre y datos del DPD o punto de contacto, describir las posibles consecuencias y detallar las medidas correctoras implementadas o propuestas."
+	},
+	{
+		"id": 204147,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el marco del Reglamento (UE) 2016/679, ¿en qué circunstancia NO resulta obligatoria la comunicación individual de una violación de la seguridad de los datos personales a la persona interesada, a pesar de que sea probable que dicha violación entrañe un alto riesgo para sus derechos y libertades?",
+		"options": [
+			"Cuando la persona responsable demuestre haber aplicado medidas de protección técnicas y organizativas, en particular las que hagan los datos personales ininteligibles para cualquier persona no autorizada a su acceso, como el cifrado.",
+			"Siempre que la persona responsable haya procedido a la notificación obligatoria a la autoridad de control competente en el plazo máximo de 72 horas.",
+			"Cuando la violación afecte exclusivamente a datos personales que hayan sido objeto de un tratamiento de seudonimización previo al incidente.",
+			"Cuando el tratamiento de los datos personales afectados se encuentre amparado por una obligación legal o una misión de interés público."],
+		"correct": "A",
+		"explanation": "El artículo 34.3.a) del RGPD exonera de la obligación de comunicar de forma individual la brecha de seguridad al afectado si el responsable había adoptado medidas preventivas adecuadas antes del incidente, en particular aquellas que hagan los datos ininteligibles para terceros, como un cifrado criptográfico robusto."
+	},
+	{
+		"id": 204148,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con el Reglamento (UE) 2016/679, ¿cuál de las siguientes funciones debe desempeñar la persona delegada de protección de datos como parte de sus cometidos mínimos?",
+		"options": [
+			"Asumir la representación legal y la responsabilidad jurídica de la persona responsable del tratamiento ante cualquier reclamación judicial interpuesta por las personas interesadas.",
+			"Ofrecer el asesoramiento que se le solicite acerca de la evaluación de impacto relativa a la protección de datos y supervisar su aplicación.",
+			"Realizar de forma autónoma la evaluación de impacto relativa a la protección de datos en lugar de la persona responsable del tratamiento.",
+			"Validar técnicamente las aplicaciones y auditar el estándar de cifrado específico aplicado a las bases de datos de la persona responsable."],
+		"correct": "B",
+		"explanation": "El artículo 39.1.c) del RGPD establece que entre las funciones mínimas del Delegado de Protección de Datos (DPD) se encuentra la de ofrecer el asesoramiento que se le solicite acerca de la evaluación de impacto relativa a la protección de datos (EIPD) y supervisar su aplicación de conformidad con el artículo 35."
+	},
+	{
+		"id": 204149,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué lugar tiene derecho a presentar una reclamación ante una autoridad de control una persona interesada que considere que el tratamiento de sus datos personales infringe el Reglamento (UE) 2016/679?",
+		"options": [
+			"Exclusivamente en el Estado miembro donde la persona responsable del tratamiento tenga su administración central o su establecimiento principal.",
+			"En el Estado miembro de su residencia habitual, lugar de trabajo o lugar de la supuesta infracción.",
+			"Únicamente en el Estado miembro donde se haya designado a la persona representante de quien es responsable del tratamiento no establecido en la Unión.",
+			"Ante la autoridad de control del Estado miembro donde se localice el servidor físico que aloja los datos personales objeto de la controversia."],
+		"correct": "B",
+		"explanation": "El artículo 77.1 del RGPD reconoce el derecho de los interesados a presentar una reclamación ante una autoridad de control facultándoles expresamente a elegir libremente si lo hacen en el Estado miembro de su residencia habitual, de su lugar de trabajo o del lugar de la supuesta infracción legislativa."
+	},
+	{
+		"id": 204150,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿de quién tiene derecho a recibir una indemnización toda persona que haya sufrido daños y perjuicios materiales o inmateriales como consecuencia de una infracción de dicho Reglamento?",
+		"options": [
+			"De la Persona Delegada de Protección de Datos.",
+			"De la Agencia Española de Protección de Datos.",
+			"De la persona responsable o encargada del tratamiento.",
+			"Del Comité Europeo de Protección de Datos."],
+		"correct": "C",
+		"explanation": "El artículo 82.1 del RGPD (y en consonancia con el marco general de la LOPDGDD 3/2018) estipula que toda persona que haya sufrido daños y perjuicios materiales o inmateriales como consecuencia de una infracción del Reglamento tendrá derecho a recibir del responsable o del encargado del tratamiento una indemnización por los daños sufridos."
+	},
+	{
+		"id": 204151,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, en lo relativo al ejercicio de derechos sobre los datos personales de personas fallecidas, ¿qué regla prevalece en caso de existir una prohibición expresa del o de la causante para el acceso a su información?",
+		"options": [
+			"La prohibición es absoluta y vinculante para todas las personas legitimadas, incluidas las personas herederas, ya que el derecho fundamental a la protección de datos exige el respeto íntegro a la voluntad de control sobre la propia información incluso tras el fallecimiento.",
+			"La prohibición impide el acceso, rectificación o supresión con carácter general, pero no puede afectar al derecho de las personas herederas a acceder a los datos de carácter patrimonial del o de la causante.",
+			"El ejercicio de los derechos de acceso y supresión decae únicamente si la prohibición ha sido inscrita en el registro de mandatos e instrucciones previsto por la Ley, siendo ineficaz cualquier otra manifestación de voluntad que no conste en documento público.",
+			"En caso de fallecimiento de personas con discapacidad, la prohibición expresa del o de la causante podrá ser siempre revocada por el Ministerio Fiscal de oficio si considera que el acceso a los datos beneficia el interés superior de las personas herederas."],
+		"correct": "B",
+		"explanation": "El artículo 3.1 de la LOPDGDD establece que las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos, podrán solicitar el acceso, rectificación o supresión. No obstante, el artículo 3.2 aclara que no podrán acceder si el fallecido lo hubiese prohibido expresamente, pero dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial."
+	},
+	{
+		"id": 204152,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿quién tiene la potestad legal para ejercer los derechos de acceso, rectificación, cancelación u oposición en nombre de un o una menor de catorce años?",
+		"options": [
+			"Las personas titulares de la patria potestad, quienes podrán ejercitar tales derechos en nombre y representación del o de la menor, así como cualquier otra persona que pudiera corresponderle en el contexto de la normativa de protección de datos.",
+			"El Ministerio Fiscal, con carácter exclusivo y de oficio, para garantizar la neutralidad y la protección del interés superior de la o del menor frente a posibles usos comerciales de sus datos por parte de sus representantes legales.",
+			"El o la propia menor de edad de forma autónoma, siempre que la persona responsable del tratamiento implemente mecanismos de verificación de madurez que demuestre que la persona afectada comprende las consecuencias del tratamiento de su información.",
+			"Únicamente la persona Delegada de Protección de Datos de la institución educativa o entidad donde se traten los datos, actuando como tutora o tutor digital para evitar conflictos de intereses entre el o la menor y sus progenitores."],
+		"correct": "A",
+		"explanation": "El artículo 7.2 de la LOPDGDD estipula con claridad que el ejercicio de los derechos de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición de los menores de catorce años se realizará por quienes ejerzan la patria potestad o tutela de estos en su nombre y representación legal."
+	},
+	{
+		"id": 204153,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con los tratamientos con fines de videovigilancia, ¿quiénes podrán llevar a cabo el tratamiento de imágenes a través de sistemas de cámaras o videocámaras con la finalidad de preservar la seguridad de las personas y bienes, así como de sus instalaciones?",
+		"options": [
+			"Tanto las personas físicas o jurídicas como las públicas o privadas.",
+			"Únicamente personas físicas o jurídicas.",
+			"Únicamente personas públicas o privadas.",
+			"Únicamente las asociaciones y organismos que creen sistemas de información generales o sectoriales."],
+		"correct": "A",
+		"explanation": "El artículo 22.1 de la LOPDGDD indica explícitamente que las personas físicas o jurídicas, públicas o privadas, podrán llevar a cabo el tratamiento de imágenes a través de sistemas de cámaras o videocámaras con la finalidad de preservar la seguridad de las personas y bienes, así como de sus instalaciones."
+	},
+	{
+		"id": 204154,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes afirmaciones es válida en relación con el bloqueo de los datos?",
+		"options": [
+			"El bloqueo es una medida facultativa que permite a la persona responsable del tratamiento seguir utilizando la información para fines estadísticos o de investigación interna, siempre que los datos se mantengan en un servidor independiente del principal.",
+			"Los datos bloqueados deben ser objeto de una eliminación física inmediata e irreversible de todos los soportes lógicos, debiendo el responsable emitir un certificado de destrucción para su remisión obligatoria a la Agencia Española de Protección de Datos.",
+			"Consiste en la identificación y reserva de los datos para impedir su tratamiento y visualización, excepto para ponerlos a disposición de jueces y tribunales, el Ministerio Fiscal o las Administraciones Públicas competentes para la exigencia de posibles responsabilidades durante el plazo de prescripción.",
+			"El bloqueo implica una suspensión temporal del acceso a los datos durante un plazo fijo de un año, transcurrido el cual, si la persona afectada no ha reiterado su solicitud de supresión, los datos volverán a estar activos para el tratamiento original."],
+		"correct": "C",
+		"explanation": "El artículo 32 de la LOPDGDD regula la obligación de bloqueo de los datos rectificados o suprimidos. Define el bloqueo como la identificación y reserva de los datos, adoptando medidas técnicas y organizativas para impedir su tratamiento, incluida su visualización, excepto para su puesta a disposición de los órganos judiciales, el Ministerio Fiscal o las Administraciones Públicas competentes para la exigencia de posibles responsabilidades derivadas del tratamiento."
+	},
+	{
+		"id": 204155,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿a través de qué departamento ministerial se relaciona la Agencia Española de Protección de Datos (AEPD) con el Gobierno?",
+		"options": [
+			"El Ministerio del Interior.",
+			"El Ministerio de la Presidencia.",
+			"El Ministerio de Justicia.",
+			"El Ministerio de Economía y Empresa."],
+		"correct": "C",
+		"explanation": "El artículo 44.2 de la LOPDGDD dispone que la Agencia Española de Protección de Datos (AEPD) es un ente de derecho público dotado de personalidad jurídica propia y plena independencia, que se relaciona con el Gobierno de la Nación de forma institucional a través del Ministerio de Justicia."
+	},
+	{
+		"id": 204156,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿sobre qué tipos de tratamientos pueden ejercer sus funciones y potestades las autoridades autonómicas de protección de datos?",
+		"options": [
+			"Sobre cualquier tratamiento de datos personales realizado por empresas privadas siempre que su domicilio social o su actividad principal se desarrolle dentro del territorio de la respectiva Comunidad Autónoma.",
+			"Sobre los tratamientos de datos de personas físicas realizados en el ejercicio de actividades exclusivamente personales o domésticas dentro del ámbito geográfico de la autonomía.",
+			"Sobre tratamientos llevados a cabo por personas físicas o jurídicas para el ejercicio de las funciones públicas en materias que sean competencia de la correspondiente Administración Autonómica o Local.",
+			"Exclusivamente como órganos de consulta y asesoramiento del Gobierno autonómico, careciendo de potestad para dictar circulares o ejercer las funciones de inspección y sanción previstas en el Reglamento (UE) 2016/679."],
+		"correct": "C",
+		"explanation": "El artículo 41.2 de la LOPDGDD delimita las competencias de las autoridades de protección de datos de ámbito autonómico, indicando que ejercen sus funciones y potestades sobre tratamientos de los que sean responsables las entidades del sector público de dicha Comunidad Autónoma o de las Entidades Locales de su territorio, o cuando sean efectuados por personas físicas o jurídicas para el ejercicio de funciones públicas en materias de su competencia."
+	},
+	{
+		"id": 204157,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿en qué supuestos debe la Agencia Española de Protección de Datos (AEPD) acordar obligatoriamente la inadmisión a trámite de una reclamación presentada por una o un ciudadano?",
+		"options": [
+			"Únicamente cuando la reclamante sea una persona jurídica, dado que el derecho fundamental a la protección de datos ampara exclusivamente a las personas físicas y no a las organizaciones o empresas.",
+			"Cuando la crítica se presente de forma presencial en papel y la persona interesada sea una persona obligada a relacionarse electrónicamente con las Administraciones Públicas, de acuerdo con la Ley 39/2015.",
+			"Cuando el objeto de la queja sea una infracción cuya sanción económica prevista sea inferior a 3.000 euros, considerándose en tal caso que no existe un interés público relevante para iniciar el procedimiento.",
+			"Cuando las reclamaciones presentadas no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abusivas o no aporten indicios racionales de la existencia de una infracción."],
+		"correct": "D",
+		"explanation": "El artículo 65.2 de la LOPDGDD estipula las causas tasadas por las cuales la AEPD podrá inadmitir a trámite las reclamaciones presentadas, indicando expresamente supuestos como cuando no versen sobre protección de datos, carezcan manifiestamente de fundamento, sean abusivas o no aporten indicios racionales de infracción."
+	},
+	{
+		"id": 204158,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes conductas es tipificada como una infracción muy grave?",
+		"options": [
+			"La exigencia del pago de un canon para atender las solicitudes de ejercicio de derechos de las personas afectadas cuando el ejercicio sea repetitivo, si la cuantía cobrada excede el importe de los costes de facilitar la información.",
+			"El quebrantamiento, como consecuencia de la falta de la debida diligencia, de las medidas técnicas y organizativas de seguridad que la persona responsable hubiese implantado conforme a lo exigido por el artículo 32.1 del Reglamento (UE) 2016/679.",
+			"El tratamiento de datos personales relacionados con infracciones y sanciones administrativas fuera de los supuestos permitidos por el artículo 27 de esta ley orgánica.",
+			"No poner a disposición de la autoridad de protección de datos el registro de actividades de tratamiento cuando éste sea solicitado en el marco de una investigación."],
+		"correct": "C",
+		"explanation": "El artículo 72.1.c) de la LOPDGDD clasifica explícitamente como infracción muy grave (por vulnerar sustancialmente los principios generales del tratamiento del RGPD) el tratamiento de datos personales relacionados con infracciones y sanciones administrativas fuera de los supuestos permitidos por el artículo 27 de la propia ley orgánica. Las opciones A, B y D se tipifican como graves."
+	},
+	{
+		"id": 204159,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, ¿durante cuánto tiempo debe estar paralizado el expediente sancionador por causas no imputables a la presunta persona infractora para que se reinicie el plazo de prescripción de la infracción?",
+		"options": [
+			"Durante más de 1 mes.",
+			"Durante más de 12 meses.",
+			"Durante más de 3 meses.",
+			"Durante más de 6 meses."],
+		"correct": "C",
+		"explanation": "De acuerdo con el régimen común de prescripción y caducidad, y lo recogido de manera general en el ordenamiento administrativo e interpretado por la doctrina de la AEPD, la paralización del procedimiento sancionador por causas no imputables al presunto infractor durante más de 3 meses interrumpe la paralización de la prescripción, volviendo a correr el plazo original."
+	},
+	{
+		"id": 204160,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes afirmaciones NO se corresponde lo dispuesto para garantizar el derecho de acceso universal a Internet?",
+		"options": [
+			"El acceso a Internet de hombres y mujeres procurará la superación de la brecha de género tanto en el ámbito personal como laboral.",
+			"Se garantizará un acceso universal, asequible, de calidad y no discriminatorio para toda la población.",
+			"Se procurará la superación de la brecha generacional mediante acciones dirigidas a la formación y el acceso de las personas mayores.",
+			"El derecho de acceso universal implica la obligación de las personas proveedoras de red de suministrar conexión gratuita de banda ancha a toda la ciudadanía residente en entornos rurales con baja densidad demográfica."],
+		"correct": "D",
+		"explanation": "El artículo 81 de la LOPDGDD regula el derecho de acceso universal a Internet exigiendo que sea asequible, no discriminatorio y de calidad, prestando especial atención a corregir las brechas de género y generacionales. Sin embargo, la ley no impone en absoluto a los proveedores la obligación de suministrar de forma gratuita el servicio de banda ancha en entornos rurales."
+	},
+	{
+		"id": 204161,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, ¿cuál de las siguientes afirmaciones se corresponde con lo dispuesto en relación con el derecho a la desconexión digital en el ámbito laboral?",
+		"options": [
+			"El derecho a la desconexión faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnológicas durante la jornada laboral efectiva, siempre que se acredite un riesgo de fatiga informática conforme a la normativa de prevención de riesgos laborales.",
+			"La persona empleadora, previa audiencia de los y las representantes de las personas trabajadoras, debe elaborar una política interna que defina las modalidades de ejercicio de este derecho y las acciones de formación y sensibilización sobre un uso razonable de las herramientas tecnológicas.",
+			"Dada la naturaleza de este derecho, su obligatoriedad y el deber empresarial de definir protocolos de desconexión se circunscriben exclusivamente a las personas trabajadoras que prestan servicios a distancia o mediante teletrabajo.",
+			"En defecto de previsiones específicas en la negociación colectiva, la persona empresaria podrá establecer de forma unilateral las condiciones de la desconexión digital, siendo suficiente la notificación informativa a los y las representantes de las personas trabajadoras para su validez."],
+		"correct": "B",
+		"explanation": "El artículo 88 de la LOPDGDD regula el derecho a la desconexión digital en el ámbito laboral, determinando explícitamente en su apartado 3 que el empleador, tras audiencia de los representantes de los trabajadores, elaborará una política interna dirigida a los trabajadores (incluidos los de puestos directivos) en la que se definan las modalidades de ejercicio del derecho y las acciones de formación y de sensibilización de los trabajadores sobre un uso razonable de las herramientas informáticas."
+	},
+	{
+		"id": 204162,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con la protección de menores en Internet, ¿qué deben cumplir los centros educativos o entidades que desarrollen actividades con menores para publicar o difundir datos personales de estos en redes sociales?",
+		"options": [
+			"Due to the public interest mission performed by schools, they are empowered to disseminate images of school activities without consent, provided that the minor is not identified with first and last names.",
+			"La difusión o publicación de dichos datos en redes sociales o servicios equivalentes requiere obligatoriamente el consentimiento del o de la propia menor o de sus representantes legales, según lo dispuesto en las reglas generales de la Ley sobre consentimiento de menores.",
+			"Para garantizar la seguridad de la o del menor, la normativa prohíbe taxativamente a los centros educativos el uso de redes sociales abiertas, permitiendo la difusión de datos únicamente a través de plataformas educativas cerradas y de acceso restringido a las familias.",
+			"El centro educativo podrá publicar la información basándose en el \"interés superior de la o del menor\", bastando con informar previamente a sus tutores legales y dándoles un plazo de diez días para que manifiesten su oposición expresa antes de la subida del contenido."],
+		"correct": "B",
+		"explanation": "El artículo 84.2 de la LOPDGDD estipula de forma nítida que la publicación o difusión de datos personales de menores en servicios de redes sociales o equivalentes requerirá el consentimiento del propio menor si tiene 14 años o más, o de los titulares de la patria potestad o tutela si es menor de esa edad, con el fin de proteger de forma estricta el interés del menor."
+	},
+	{
+		"id": 204163,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con el ejercicio del derecho al olvido en servicios de redes sociales y servicios equivalentes, ¿cuál de las siguientes afirmaciones es correcta respecto a la supresión de datos facilitados durante la minoría de edad?",
+		"options": [
+			"El prestador del servicio sólo está obligado a suprimir los datos si la persona afectada demuestra que la información es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderación aplicables a los datos facilitados por terceras personas en la edad adulta.",
+			"El derecho de supresión sobre contenidos de la etapa de minoría de edad decae automáticamente si la persona afectada, una vez alcanzada la mayoría de edad, realiza nuevas publicaciones en el mismo servicio, entendiéndose como una validación tácita de su historial previo.",
+			"En caso de que el derecho se ejercitase por una persona afectada respecto de datos que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su minoría de edad, la persona prestadora del servicio deberá proceder sin dilación a su supresión por su simple solicitud, sin necesidad de que concurran otras circunstancias.",
+			"Las personas prestadoras de servicios de redes sociales están exentas de suprimir datos de menores si acreditan que dicha información se utiliza únicamente para fines estadísticos."],
+		"correct": "C",
+		"explanation": "El artículo 94.1 de la LOPDGDD otorga una protección reforzada a los contenidos publicados durante la minoría de edad. Determina que, a simple solicitud del interesado, los prestadores de servicios de redes sociales deben eliminar sin dilación los datos personales facilitados (por el menor o por terceros) durante su etapa menor de edad, sin exigir justificaciones complejas adicionales."
+	},
+	{
+		"id": 204164,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es el objeto de la Ley 6/2020?",
+		"options": [
+			"Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679 del Parlamento Europeo y el Consejo.",
+			"Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.4 de la Constitución.",
+			"Regular determinados aspectos de los servicios electrónicos de confianza.",
+			"El derecho fundamental de las personas físicas a la protección de datos personales amparado por el artículo 18.4 de la Constitución."],
+		"correct": "C",
+		"explanation": "El artículo 1 de la Ley 6/2020, de 11 de noviembre, explicita con claridad que su objeto es regular determinados aspectos de los servicios electrónicos de confianza, sirviendo como complemento a nivel nacional del Reglamento (UE) 910/2014 del Parlamento Europeo y del Consejo (Reglamento eIDAS)."
+	},
+	{
+		"id": 204165,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿A qué personas prestadoras establecidas fuera de España les resulta de aplicación la Ley 6/2020?",
+		"options": [
+			"A todas las personas prestadoras residentes o domiciliadas en otro Estado que operen en España, independientemente de su supervisión.",
+			"A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios no estén supervisados por la autoridad competente de otro país de la UE.",
+			"A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
+			"A las personas prestadoras públicas y privadas de servicios electrónicos de confianza establecidos en España."],
+		"correct": "B",
+		"explanation": "El artículo 2 de la Ley 6/2020 determina su ámbito de aplicación. Incluye a los prestadores establecidos en España y a aquellos residentes en otros Estados con establecimiento permanente en España, siempre y cuando sus servicios no se encuentren ya bajo la supervisión de la autoridad competente de otro Estado miembro de la Unión Europea."
+	},
+	{
+		"id": 204166,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según la Ley 6/2020, ¿qué valor y eficacia jurídica tienen los documentos electrónicos?",
+		"options": [
+			"Los documentos electrónicos públicos, administrativos y privados, tienen el valor y la eficacia jurídica que corresponda a su respectiva naturaleza, de conformidad con la legislación que les resulte aplicable.",
+			"Los documentos electrónicos públicos y administrativos, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679.",
+			"Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que corresponda a su copia no cualificada según el artículo 3 y la disposición segunda del Reglamento.",
+			"Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679."],
+		"correct": "A",
+		"explanation": "El artículo 3 de la Ley 6/2020 consagra el principio de equivalencia jurídica del documento electrónico señalando que los documentos electrónicos públicos, administrativos y privados tienen el valor y la eficacia jurídica que corresponda a su respectiva naturaleza, de conformidad con la legislación estatal aplicable."
+	},
+	{
+		"id": 204167,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Conforme a la Ley 6/2020, ¿cuál es el período máximo de vigencia de un certificado electrónico cualificado?",
+		"options": [
+			"2 años.",
+			"4 años.",
+			"5 años.",
+			"6 años."],
+		"correct": "C",
+		"explanation": "El artículo 5 de la Ley 6/2020 establece de forma literal que el período de vigencia de los certificados electrónicos cualificados no podrá ser superior a cinco años, obligando al vencimiento de dicho plazo a renovar la verificación de las condiciones de identidad del firmante."
+	},
+	{
+		"id": 204168,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "De acuerdo con la Ley 6/2020, ¿qué ocurre si se viola o pone en peligro el secreto de los datos de creación de firma o de sello?",
+		"options": [
+			"Que se le pondrá una multa a la persona responsable de haber puesto en peligro dichos datos.",
+			"Que se renovará el certificado electrónico con otro firmante.",
+			"Que se modificará la identidad de la persona titular del certificado electrónico.",
+			"Que se revocará el certificado electrónico."],
+		"correct": "D",
+		"explanation": "La Ley 6/2020 estipula en sus artículos relativos al ciclo de vida de los certificados que cualquier circunstancia que ponga en compromiso la custodia exclusiva del firmante sobre los datos de creación de firma (clave privada), como su pérdida, filtración o violación de secreto, constituye una causa de revocación inmediata para evitar fraudes."
+	},
+	{
+		"id": 204169,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Con arreglo a la Ley 6/2020, ¿qué información debe incluir la persona prestadora de servicios electrónicos de confianza en la comunicación a la persona titular cuando revoca o suspende un certificado electrónico?",
+		"options": [
+			"Únicamente la fecha en la que el certificado quedará sin efecto, sin necesidad de justificación adicional.",
+			"Los motivos, la fecha y la hora en los que el certificado quedará sin efecto.",
+			"El procedimiento para recurrir la revocación y el plazo máximo para hacerlo.",
+			"La identidad de la autoridad competente que ha ordenado la revocación o suspensión."],
+		"correct": "B",
+		"explanation": "En el marco de las obligaciones de transparencia reguladas en la Ley 6/2020, cuando se altera la validez de un certificado, el prestador de servicios de confianza debe notificar con precisión al titular los motivos específicos de la suspensión o extinción, indicando la fecha y hora exactas a partir de las cuales deja de tener validez operacional."
+	},
+	{
+		"id": 204170,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el supuesto de certificados cualificados de firma electrónica expedidos a personas físicas, ¿cómo se consigna la identidad del titular según lo previsto en la Ley 6/2020?",
+		"options": [
+			"Por su nombre y apellidos y su número de Documento Nacional de Identidad, número de identidad de extranjero o número de identificación fiscal, o a través de un pseudónimo que conste como tal de manera inequívoca.",
+			"Por su nombre y apellidos junto con su dirección postal y fecha de nacimiento y/o mediante un pseudónimo.",
+			"Por su denominación o razón social y su número de identificación fiscal.",
+			"Por su Documento Nacional de Identidad, número de identidad de extranjero o número de identificación fiscal, o denominación o razón social y su número de identificación fiscal."],
+		"correct": "A",
+		"explanation": "El artículo 6.1 de la Ley 6/2020 regula la indicación de la identidad en los certificados cualificados de personas físicas, mandando que se incluyan obligatoriamente el nombre, los apellidos y el DNI/NIE/NIF, o en su defecto, admite el empleo de un pseudónimo siempre que conste su condición de tal de manera indudable."
+	},
+	{
+		"id": 204171,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿En qué caso puede prescindirse de la personación física ante las personas encargadas de verificar la identidad de un solicitante de un certificado cualificado con arreglo a la Ley 6/2020?",
+		"options": [
+			"Cuando la persona solicitante aporte una copia compulsada de su Documento Nacional de Identidad junto con una declaración responsable.",
+			"Cuando la firma de la persona solicitante en la solicitud de expedición del certificado cualificado haya sido legitimada en presencia notarial.",
+			"Cuando la persona solicitante haya obtenido previamente otro certificado cualificado en vigor expedido por el mismo prestador.",
+			"Cuando un representante legal acuda en su nombre con el certificado cualificado compulsado por el departamento competente."],
+		"correct": "B",
+		"explanation": "El artículo 7.1 de la Ley 6/2020 dictamina que para comprobar la identidad del solicitante se requiere su presencia física. No obstante, se admite como excepción legítima que la firma en la solicitud de expedición del certificado cualificado haya sido legalizada o legitimada mediante presencia notarial."
+	},
+	{
+		"id": 204172,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según lo previsto en la Ley 6/2020, ¿puede utilizarse la videoconferencia como método de identificación para solicitar un certificado cualificado y, en caso afirmativo, bajo qué condición?",
+		"options": [
+			"No, la videoconferencia nunca está permitida ya que la identificación a distancia no garantiza la fiabilidad exigida para los certificados cualificados.",
+			"Sí, pero únicamente cuando la persona solicitante resida en el extranjero y no pueda desplazarse a territorio español y se haga en la Embajada Española correspondiente al país en el que reside.",
+			"No, únicamente se admite la personación física o la legitimación notarial de la firma, sin que se pueda usar ningún método de identificación a distancia.",
+			"Sí, siempre que aporte una seguridad equivalente en términos de fiabilidad a la presencia física, según evaluación de un organismo de evaluación de la conformidad, y bajo las condiciones técnicas fijadas por Orden Ministerial."],
+		"correct": "D",
+		"explanation": "El artículo 7.1.c) de la Ley 6/2020 abre la vía a métodos de identificación remota avanzados como la videoconferencia. Su legalidad queda condicionada a que el procedimiento aporte una seguridad equivalente en fiabilidad a la personación física, avalada por un organismo de evaluación de la conformidad (OEC) y de acuerdo con los requisitos técnicos dictados por el Ministerio de Transformación Digital."
+	},
+	{
+		"id": 204173,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Con arreglo a la Ley 6/2020, ¿qué obligación tienen los prestadores de servicios electrónicos de confianza cuando consignan un pseudónimo en un certificado electrónico?",
+		"options": [
+			"Comunicar el pseudónimo utilizado a la autoridad competente para su registro y validación previa.",
+			"Garantizar que el pseudónimo no coincida con el de ningún otro certificado expedido por el mismo prestador.",
+			"Constatar la verdadera identidad del titular del certificado y conservar la documentación que la acredite.",
+			"No es posible usar pseudónimo en este tipo de certificados electrónicos."],
+		"correct": "C",
+		"explanation": "El artículo 6.3 de la Ley 6/2020 dictamina que aunque se permite el uso de pseudónimos en la firma o sello para proteger el anonimato frente a terceros, el prestador del servicio de confianza está legalmente obligado a verificar y constatar internamente la identidad real del titular, debiendo archivar y custodiar dicha información."
+	},
+	{
+		"id": 204174,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según lo previsto en la Ley 6/2020, ¿cuál es el importe mínimo del seguro de responsabilidad civil que deben constituir los prestadores cualificados de servicios electrónicos de confianza?",
+		"options": [
+			"1.000.000 de euros, incrementándose en 250.000 euros por cada servicio cualificado adicional que se preste.",
+			"1.500.000 euros, salvo para los prestadores del sector público, añadiéndose 500.000 euros más por cada tipo de servicio cualificado adicional.",
+			"1.500.000 euros para cualquier prestador, pudiéndose reducir 500.000 euros si se presta un único servicio cualificado en el sector privado.",
+			"2.000.000 de euros como importe base, con independencia del número de servicios cualificados que se presten."],
+		"correct": "B",
+		"explanation": "El artículo 10.1 de la Ley 6/2020 determina las garantías financieras exigibles. Los prestadores cualificados deben constituir una garantía mediante un seguro de responsabilidad civil (o aval) por una cuantía mínima de 1.500.000 euros, importe que se elevará en 500.000 euros por cada servicio cualificado adicional del catálogo. Las entidades del sector público están exentas."
+	},
+	{
+		"id": 204175,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En virtud de la Ley 6/2020, ¿qué tipo de infracción comete un prestador que no adopta medidas suficientes para resolver incidentes de seguridad en sus productos, redes y sistemas de información?",
+		"options": [
+			"Infracción muy grave, si no se resuelve en el plazo de cinco días desde que se produjeron.",
+			"Infracción grave, si no se resuelve en el plazo de veinte días desde que se produjeron.",
+			"Infracción grave, si no se resuelve en el plazo de diez días desde que se produjeron.",
+			"Infracción leve, si no se resuelve en el plazo de diez días desde que se produjeron."],
+		"correct": "C",
+		"explanation": "En el régimen sancionador de la Ley 6/2020 (artículo 20), se tipifica como infracción grave la falta de adopción de las medidas correctoras necesarias para subsanar deficiencias o resolver incidentes de seguridad detectados en sus sistemas de información dentro del plazo de diez días a contar desde que se manifestaron."
+	},
+	{
+		"id": 204176,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la Gestión de cambios de la tecnología ITIL4, un cambio abarca: Una modificación de uno o más elementos de configuración que componen el sistema de información…",
+		"options": [
+			"o de uno o más servicios proporcionados por este sistema de información.",
+			"pero no de servicios proporcionados por este sistema de información.",
+			"siempre y cuando tenga un impacto en un proceso de negocio.",
+			"o de la modificación de un dato."],
+		"correct": "A",
+		"explanation": "En el marco de trabajo ITIL 4, la práctica de control o gestión de cambios (Change Enablement) define formalmente un cambio como cualquier adición, modificación o eliminación que afecte directamente a uno o más elementos de configuración (CIs) o bien a los servicios de TI vinculados, buscando mitigar riesgos colaterales."
+	},
+	{
+		"id": 204177,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la metodología ITIL 4 el tipo de cambio estándar:",
+		"options": [
+			"Requiere una evaluación completa y una autorización antes de llevarse a cabo.",
+			"Concierne a los cambios autorizados con antelación, que seguirán procedimientos predefinidos.",
+			"Requiere una reacción más rápida de lo previsto para limitar el impacto en la actividad empresarial.",
+			"Concierne a los cambios autorizados con antelación, que requerirán una evaluación completa."],
+		"correct": "B",
+		"explanation": "ITIL 4 clasifica los cambios en tres categorías (Estándar, Normal y de Emergencia). Los cambios estándar son modificaciones comunes, de bajo riesgo, bien documentadas, comprendidas e implementadas con recurrencia, por lo que se aprueban previamente (pre-authorized) y siguen un procedimiento preestablecido fijo."
+	},
+	{
+		"id": 204178,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la metodología ITIL 4 el gestor de cambios: Indica la afirmación que NO es correcta.",
+		"options": [
+			"Es el actor principal en la práctica Gestión de cambios.",
+			"Actúa como secretario del CAB.",
+			"Es mejor que sea una persona desconocida en la empresa.",
+			"Debe tener la posibilidad de decir NO a un cambio."],
+		"correct": "C",
+		"explanation": "El gestor de cambios (Change Manager) lidera la práctica operativa, actúa como eje de coordinación en las reuniones del comité asesor de cambios (CAB) y ostenta autoridad técnica para denegar ('decir NO') despliegues con riesgos graves. La opción C es falsa e incorrecta porque es de vital importancia que sea un perfil reconocido con habilidades de negociación dentro de la empresa."
+	},
+	{
+		"id": 204179,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la gestión de cambios de la metodología ITIL 4, los miembros permanentes del CAB (Change Advisory Board) son:",
+		"options": [
+			"Un gestor de cambios y una persona representante de cada departamento.",
+			"Un gestor de cambios, la persona propietaria del servicio concernido y una única persona representante entre los diferentes departamentos de la entidad.",
+			"La persona propietaria del servicio concernido, expertos técnicos/as y subcontratistas.",
+			"Un gestor de cambios, el propietario del servicio concernido y un/una representante de la práctica Gestión de lanzamiento."],
+		"correct": "D",
+		"explanation": "El Comité Asesor de Cambios (CAB) evalúa los cambios normales de impacto medio/alto. Aunque su estructura es flexible, sus pilares organizativos permanentes clave para salvaguardar la coherencia técnica y mitigar los riesgos de implantación son el gestor de cambios, el dueño del servicio (Service Owner) y el enlace técnico de la práctica de lanzamiento (Release Management)."
+	},
+	{
+		"id": 204180,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la metodología ITIL 4, los objetivos de la práctica Gestión de incidentes son:",
+		"options": [
+			"Restablecer el servicio.",
+			"Restablecer el servicio, minimizar el impacto y encontrar la causa.",
+			"Restablecer el servicio y minimizar el impacto.",
+			"Restablecer el servicio y encontrar la causa."],
+		"correct": "C",
+		"explanation": "El propósito fundamental de la gestión de incidentes (Incident Management) en ITIL 4 consiste de forma exclusiva en restaurar la operación normal del servicio de TI lo antes posible, mitigando al máximo su impacto negativo en el negocio. Investigar e identificar la causa raíz subyacente es responsabilidad exclusiva de otra práctica diferente: la Gestión de Problemas (Problem Management)."
+	},
+	{
+		"id": 204181,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la metodología ITIL 4, para codificar un incidente se deberá determinar la prioridad. Para ello deberemos identificar:",
+		"options": [
+			"La urgencia y la gravedad.",
+			"El impacto y la urgencia.",
+			"La gravedad y el impacto.",
+			"Para codificar un incidente NO es necesario determinar la prioridad."],
+		"correct": "B",
+		"explanation": "En el marco de trabajo de ITIL 4, la prioridad de un incidente (que determina la velocidad y asignación de recursos para su resolución) se calcula de manera matricial combinando dos factores fundamentales: el impacto (grado de daño o alteración al negocio) y la urgencia (velocidad con la que el negocio necesita la resolución del fallo)."
+	},
+	{
+		"id": 204182,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "La diferencia entre los estados normal (o estándar) y degradado, de un servicio en la metodología ITIL 4 son:",
+		"options": [
+			"El normal funciona tal y como fue concebido y el degradado no.",
+			"El normal funciona según el acuerdo de servicio (SLA) y el degradado no.",
+			"El normal funciona tal y como fue concebido y el degradado funciona con un nivel de calidad inferior.",
+			"El normal funciona según el acuerdo de servicio (SLA) y el degradado funciona con un nivel de calidad inferior."],
+		"correct": "C",
+		"explanation": "Un servicio se encuentra en estado normal cuando opera al 100% de las especificaciones y características de diseño con las que fue concebido originalmente. Por el contrario, un servicio degradado sigue estando operacional y disponible, pero su rendimiento, velocidad o funcionalidades se experimentan con un nivel de calidad significativamente inferior al óptimo."
+	},
+	{
+		"id": 204183,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En las mejores prácticas de la metodología ITIL 4, se han identificado dos tipos de escalada:",
+		"options": [
+			"Escalada funcional y escalada vertical.",
+			"Escalada vertical y escalada orgánica.",
+			"Escalada orgánica y escalada jerárquica.",
+			"Escalada funcional y escalada jerárquica."],
+		"correct": "D",
+		"explanation": "ITIL define tradicionalmente dos dimensiones de escalado para incidentes. La escalada funcional consiste en transferir el ticket de manera horizontal hacia un equipo técnico con mayores conocimientos especializados. La escalada jerárquica consiste en mover la incidencia hacia arriba en la línea de mando o directiva debido a su alta prioridad o necesidad de asignación de recursos extraordinarios."
+	},
+	{
+		"id": 204184,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Entre las tareas de la práctica Gestión de cambios en la metodología ITIL 4 encontramos:",
+		"options": [
+			"Asegurarse de que los procedimientos y métodos utilizados para procesar los cambios sean eficaces.",
+			"Asegurarse de que los cambios realizados en los elementos de configuración durante una modificación se registren en la base de datos apropiada.",
+			"Mantener un plan de trabajo completo de todos los cambios actuales y futuros.",
+			"Todas las anteriores son correctas."],
+		"correct": "D",
+		"explanation": "La práctica de Gestión de cambios (Change Enablement) persigue objetivos transversales: optimizar los flujos y métodos para que las modificaciones sean eficaces (A), integrarse con la CMDB para registrar con precisión los elementos de configuración alterados (B) y consolidar el 'Calendario de cambios' para programar de forma coordinada las intervenciones futuras (C)."
+	},
+	{
+		"id": 204185,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la metodología ITIL 4:",
+		"options": [
+			"La práctica Gestión de incidentes se ocupa de las causas de las situaciones a posteriori.",
+			"La práctica Gestión de incidentes se ocupa de las situaciones en tiempo real.",
+			"La práctica Gestión de problemas se ocupa de las situaciones en tiempo real.",
+			"NINGUNA de las anteriores es correcta."],
+		"correct": "B",
+		"explanation": "La Gestión de Incidentes es eminentemente táctica y reactiva en tiempo real; su foco inmediato es la restitución del servicio afectado lo antes posible para mitigar el impacto operativo. En contraste, la Gestión de Problemas actúa generalmente a posteriori analizando tendencias y registros para aislar y resolver las causas raíz subyacentes."
+	},
+	{
+		"id": 204186,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Cuál de las siguientes tareas NO pertenece a la práctica Gestión de problemas en la metodología ITIL 4:",
+		"options": [
+			"Analizar situaciones de incidentes que pueden convertirse en problemas.",
+			"Detectar situaciones ya registradas como problemas.",
+			"Descartar errores conocidos.",
+			"Gestionar incidentes graves que se transformaron en problemas."],
+		"correct": "C",
+		"explanation": "La gestión de problemas no busca 'descartar' o ignorar los errores conocidos (Known Errors), sino todo lo contrario: su responsabilidad primordial es identificarlos, registrarlos formalmente en la base de datos de errores conocidos (KEDB) y documentar soluciones temporales (workarounds) o definitivas para los equipos de soporte."
+	},
+	{
+		"id": 204187,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En la metodología ITIL 4, proporcionar un canal privilegiado para que las personas usuarias emitan y tramiten sus pedidos a la informática, es un objetivo:",
+		"options": [
+			"De la práctica gestión de incidentes.",
+			"De la gestión de escalada de incidentes.",
+			"De la separación de roles.",
+			"De la práctica Gestión de solicitudes de servicio."],
+		"correct": "D",
+		"explanation": "El propósito explícito de la práctica de Gestión de Solicitudes de Servicio (Service Request Management) es apoyar la calidad acordada de un servicio mediante el manejo eficiente, amigable y estructurado de todas las peticiones predefinidas iniciadas por los usuarios (como accesos, información o entrega de activos)."
+	},
+	{
+		"id": 204188,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Uno de los objetivos de la práctica Gestión de solicitudes de servicio en la metodología ITIL 4 es:",
+		"options": [
+			"Proporcionar un canal para escalar las quejas de las personas usuarias a la Dirección de informática.",
+			"Restablecer el servicio en el plazo contractual.",
+			"Minimizar el impacto del incidente.",
+			"Asignar y asegurar el presupuesto para la mejora continua."],
+		"correct": "A",
+		"explanation": "Además de tramitar peticiones rutinarias de servicios estándar, la Gestión de Solicitudes actúa como un punto de contacto e interfaz estructurada que centraliza y formaliza las vías de escalado para reclamaciones, quejas o comentarios insatisfactorios de los usuarios hacia instancias directivas de TI."
+	},
+	{
+		"id": 204189,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Cuál es el objeto principal del Esquema Nacional de Seguridad (ENS)?",
+		"options": [
+			"Regular exclusivamente la protección de datos de carácter personal en el sector público.",
+			"Establecer los principios básicos y requisitos mínimos para una protección adecuada de la información tratada y los servicios prestados.",
+			"Sustituir la Ley de Procedimiento Administrativo Común en materia de administración digital.",
+			"Definir los estándares técnicos de interoperabilidad entre administraciones europeas."],
+		"correct": "B",
+		"explanation": "Regulado actualmente por el Real Decreto 311/2022, el objeto principal del ENS es establecer la política de seguridad en la utilización de medios electrónicos en su ámbito de aplicación, constituida por los principios básicos y los requisitos mínimos que garanticen adecuadamente la seguridad de la información tratada y los servicios prestados."
+	},
+	{
+		"id": 204190,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿A qué entidades del sector privado les es de aplicación el cumplimiento del Esquema Nacional de Seguridad (ENS)?",
+		"options": [
+			"A todas las entidades tecnológicas que operen en territorio español.",
+			"Únicamente a aquellas entidades que traten datos de nivel alto según el RGPD.",
+			"A las que presten servicios a entidades del sector público para el ejercicio de sus competencias y potestades administrativas.",
+			"A NINGUNA entidad del sector privado, ya que el ENS solo vincula a la Administración Pública."],
+		"correct": "C",
+		"explanation": "El artículo 2 del Real Decreto 311/2022 determina que el ENS se aplica a las entidades del sector público y también de forma expresa a las entidades del sector privado cuando, en virtud de un contrato, concesión u otra relación jurídica, presten servicios o desarrollen soluciones para las entidades públicas de cara al ejercicio de sus competencias."
+	},
+	{
+		"id": 204191,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Indica cuál de los siguientes NO es un principio básico del Esquema de Seguridad Nacional:",
+		"options": [
+			"Seguridad integral.",
+			"Gestión de la seguridad basada en los riesgos.",
+			"Externalización obligatoria de servicios de auditoría.",
+			"Vigilancia continua y reevaluación periódica."],
+		"correct": "C",
+		"explanation": "El Capítulo II del ENS detalla los principios básicos: seguridad integral, gestión basada en los riesgos, prevención, detección, respuesta y conservación, existencia de líneas de defensa, vigilancia continua y reevaluación periódica. La externalización de auditorías no es un principio básico, de hecho, las auditorías pueden realizarse internamente si se garantiza la independencia."
+	},
+	{
+		"id": 204192,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "¿Qué contenido mínimo debe incluir el instrumento que apruebe la política de seguridad en el Esquema de Seguridad Nacional?",
+		"options": [
+			"Los roles o funciones de seguridad y la definición de sus deberes y responsabilidades.",
+			"El inventario completo de todos los activos de hardware de la organización.",
+			"El presupuesto detallado anual para ciberseguridad.",
+			"La lista nominativa de todas las personas usuarias con acceso a datos de la organización."],
+		"correct": "A",
+		"explanation": "El artículo 12 del Real Decreto 311/2022 estipula que la política de seguridad de cada organización debe ser aprobada por el órgano superior correspondiente, y su contenido mínimo incluirá los objetivos o directrices, el marco regulatorio, la estructura organizativa (definiendo los roles con sus deberes) y los mecanismos de coordinación."
+	},
+	{
+		"id": 204193,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el Esquema de Seguridad Nacional, ¿qué implica el requisito mínimo de \"Mínimo privilegio\"?",
+		"options": [
+			"Que las funciones de operación, administración y registro de actividad serán las de por defecto, sin restricciones de horario ni puntos de acceso facultados.",
+			"Reducir el número de administradores del sistema a uno solo por cada departamento.",
+			"Que solo el personal con rango de directivo puede acceder a la configuración del sistema.",
+			"Que los sistemas proporcionen la funcionalidad imprescindible para alcanzar los objetivos de la organización."],
+		"correct": "D",
+		"explanation": "El artículo 16 del ENS define el requisito de 'Mínimo privilegio', estableciendo que el sistema debe restringir los accesos y proporcionar solo las funcionalidades, privilegios y recursos estrictamente imprescindibles para que los usuarios y procesos lleven a cabo sus cometidos organizativos, minimizando la superficie de exposición."
+	},
+	{
+		"id": 204194,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Para dar cumplimiento a los requisitos mínimos establecidos en el Esquema de Seguridad Nacional, las entidades comprendidas en su ámbito de aplicación adoptarán las medidas y refuerzos de seguridad correspondientes. ¿En qué documento se debe formalizar la relación de medidas de seguridad seleccionadas para un sistema?",
+		"options": [
+			"En el Informe Nacional del Estado de la Seguridad (INES).",
+			"En el Manual de Personas Usuarias del sistema de información.",
+			"En el pliego de prescripciones técnicas del contrato.",
+			"En la Declaración de Aplicabilidad."],
+		"correct": "D",
+		"explanation": "El artículo 28 del Real Decreto 311/2022 estipula que las medidas de seguridad seleccionadas de entre las previstas en el Anexo II del ENS, justificadas en base al análisis de riesgos previo, se formalizarán y reflejarán en un documento específico del sistema de información denominado Declaración de Aplicabilidad."
+	},
+	{
+		"id": 204195,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el Esquema de Seguridad Nacional, ¿con qué periodicidad mínima debe realizarse una auditoría regular ordinaria de seguridad?",
+		"options": [
+			"Al menos cada dos años.",
+			"Anualmente.",
+			"Cada cuatro años, coincidiendo con la renovación de cargos.",
+			"Solo cuando se detecte un incidente de seguridad grave."],
+		"correct": "A",
+		"explanation": "El artículo 34 del Real Decreto 311/2022 dicta de manera expresa que los sistemas de información de categoría Media o Alta se someterán a una auditoría regular ordinaria de seguridad, con carácter obligatorio, que verifique el cumplimiento del ENS al menos cada dos años (bienal)."
+	},
+	{
+		"id": 204196,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Los sistemas de información competentes serán objeto de un proceso para determinar su conformidad con el Esquema de Seguridad Nacional. En este ámbito, ¿qué requiere un sistema de categoría básica?",
+		"options": [
+			"Un informe favorable emitido directamente por el Centro Criptológico Nacional.",
+			"Únicamente una autoevaluación para su declaración de conformidad.",
+			"Una auditoría de certificación obligatoria por una entidad acreditada.",
+			"No requiere NINGÚN procedimiento de determinación de conformidad."],
+		"correct": "B",
+		"explanation": "El artículo 35 del ENS matiza los procedimientos de conformidad. Mientras que los sistemas de categoría Media o Alta exigen una auditoría de certificación realizada por entidades independientes, los de categoría Básica pueden someterse a una autoevaluación guiada interna que resulte en una declaración de conformidad firmada por el responsable."
+	},
+	{
+		"id": 204197,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el Esquema de Seguridad Nacional, ¿quién es el órgano competente para validar y publicar los \"perfiles de cumplimiento específicos\"?",
+		"options": [
+			"La Agencia Española de Protección de Datos (AEPD).",
+			"El Centro Criptológico Nacional (CCN).",
+			"El Ministerio de Hacienda y Función Pública.",
+			"La Secretaría de Estado de Digitalización e Inteligencia Artificial."],
+		"correct": "B",
+		"explanation": "El artículo 31 del Real Decreto 311/2022 faculta formalmente al Centro Criptológico Nacional (CCN) para elaborar, validar y publicar las guías de seguridad CCN-STIC que contengan los perfiles de cumplimiento específicos para entornos tecnológicos comunes, simplificando la implantación del ENS."
+	},
+	{
+		"id": 204198,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "En el Esquema de Seguridad Nacional a fin de determinar el impacto que tendría sobre la organización un incidente que afectara a la seguridad de la información, ¿qué dimensiones de la seguridad se tendrán en cuenta?",
+		"options": [
+			"Solo la confidencialidad y la disponibilidad.",
+			"Costo de reposición, tiempo de recuperación, hardware afectado y software afectado.",
+			"Disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad.",
+			"Solo costo de reposición y tiempo de recuperación."],
+		"correct": "C",
+		"explanation": "El Anexo I del Real Decreto 311/2022 estipula de forma explícita que la valoración del impacto de los incidentes sobre los sistemas y la información se medirá considerando pormenorizadamente cinco dimensiones básicas de seguridad: disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad."
+	},
+	{
+		"id": 204199,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según el Esquema de Seguridad Nacional, ¿cuáles son los grupos en los que se estructuran las medidas de seguridad?",
+		"options": [
+			"Marco organizativo, Marco operacional y Medidas de protección.",
+			"Físicas, Lógicas y Organizativas.",
+			"Prevención, Detección y Respuesta.",
+			"Básicas, Medias y Altas."],
+		"correct": "A",
+		"explanation": "El Anexo II del ENS organiza el catálogo exhaustivo de controles y salvaguardas estructurándolo rigurosamente en tres grandes bloques jerárquicos bien diferenciados: el Marco Organizativo (org), el Marco Operacional (op) y las Medidas de Protección específicas (mp)."
+	},
+	{
+		"id": 204200,
+		"rama": "informatica",
+		"temario": "especifico",
+		"text": "Según el Esquema de Seguridad Nacional, ¿qué facultad tiene el CCN-CERT para el cumplimiento de sus funciones de soporte y coordinación en la resolución de incidentes?",
+		"options": [
+			"Puede sancionar económicamente a las entidades que no hayan aplicado las medidas de seguridad preventivas.",
+			"Tiene la potestad de sustituir al personal técnico de la entidad afectada hasta que el incidente esté resuelto.",
+			"Puede recabar informes, registros de auditoría, configuraciones de los sistemas afectados y cualquier otra información o soporte necesario para la investigación.",
+			"Todas las anteriores son correctas."],
+		"correct": "C",
+		"explanation": "El artículo 38 del Real Decreto 311/2022 regula la cooperación en la gestión de ciberincidentes y otorga al CCN-CERT la facultad de solicitar y obtener de los organismos integrados toda la información técnica que resulte necesaria para la investigación (como logs, configuraciones e informes), careciendo de potestad sancionadora directa o de sustitución forzosa del personal."
 	}
-]
